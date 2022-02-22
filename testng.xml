@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.ERA.listeners.ERAListener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  
+        <!-- emulator parameter 
+     <parameter name ="deviceName" value="emulator-5554"></parameter> 
+   <parameter name ="platformVersion" value="9"></parameter> -->
+    <parameter name ="platformName" value="Android"></parameter>  
+  <parameter name ="skipServerInstallationpro" value="true"></parameter>
+  <parameter name ="noSignpro" value="true"></parameter>
+  <!-- device parameter  -->
+  
+ <parameter name ="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter>
+  <parameter name ="platformVersion" value="11"></parameter>
+  <parameter name ="deviceName" value="OPPO Reno2 F"></parameter> 
+  <classes>
+ <!--  <class name="com.ERA.utils.TestUtil"></class>-->
+  
+  <class name="com.ERA.testcases.SkipupdateTest"></class>
+ <!-- <class name="com.ERA.testcases.allowLocationPermissionTest"></class>-->
+  <class name="com.ERA.testcases.GetOtpTest"></class>
+  <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
+  </classes>
+  </test> 
+
+</suite> <!-- Suite -->

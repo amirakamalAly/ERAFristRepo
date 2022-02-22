@@ -1,0 +1,18 @@
+package com.ERA.screens;
+import com.ERA.base.Base;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class allowLocationPermission extends Base{
+	@AndroidFindBy (id="com.android.packageinstaller:id/permission_allow_button")
+	private MobileElement allowLocation;
+
+     public void ClickallowLocation()
+{
+	   allowLocation.click();	
+
+}
+
+
+}
