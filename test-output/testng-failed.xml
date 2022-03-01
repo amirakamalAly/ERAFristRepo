@@ -5,19 +5,18 @@
     <listener class-name="com.ERA.listeners.ERAListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="udiddevice" value="TGKVHUK7LVOZS8E6"/>
     <parameter name="noSignpro" value="true"/>
     <parameter name="skipServerInstallationpro" value="true"/>
-    <parameter name="platformVersion" value="11"/>
+    <parameter name="platformVersion" value="9"/>
     <parameter name="platformName" value="Android"/>
-    <parameter name="deviceName" value="OPPO Reno2 F"/>
+    <parameter name="deviceName" value="emulator-5554"/>
     <classes>
       <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
         <methods>
-          <include name="clcikLogin"/>
+          <include name="getotp" invocation-numbers="0"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
           <include name="afterSuite"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>

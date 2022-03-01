@@ -1,9 +1,7 @@
 package com.ERA.testcases;
 
-import static org.testng.Assert.fail;
-
-import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -14,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 public class GetOtpTest {
 
 	@Test
-	 public String  getotp(String number) 
+	 public String  getotp(String Name,String number) 
 	{  
 		String mkjf="%2B"+number;
 		

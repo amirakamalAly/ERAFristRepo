@@ -1,5 +1,7 @@
 package com.ERA.testcases;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.Test;
 import com.ERA.base.Base;
 import com.ERA.screens.AddMobileNumberScreen;
@@ -54,13 +56,13 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 
 	}
 
-	@Test(priority = 7,dataProvider = "getLoginData") 
+	@Test(dataProvider ="loginUsers",priority = 7)
 	
-	public void getTestData(String Name,String MobileNumber1)
+	public void addMobileNumber(String Name,String MobileNumber)
 
 	{
-		AddMobileNumberScreen MobileNumber = new AddMobileNumberScreen();
-		MobileNumber.addMobile(Name,MobileNumber1);
+		AddMobileNumberScreen MobileNumberq = new AddMobileNumberScreen();
+		MobileNumberq.AddMobileNumberScreen(Name,MobileNumber);
 
 	}
 
@@ -73,13 +75,14 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 
 	}
 	
-	@Test(priority = 9)
-public void getotp() 
+	@Test(dataProvider ="loginUsers",priority = 9)
+public void getotp(String Name,String MobileNumber) 
 	
 {
 	
-		String numberr = "20"+"1021132355";
-		String getotp=(String) new GetOtpTest().getotp(numberr);
+		String numberr = "20"+MobileNumber;
+		System.out.println("otpmobile number"+numberr);
+		String getotp=(String) new GetOtpTest().getotp(Name, numberr);
 		System.out.print("this call otp "+getotp);
 		
         int number1 = Integer.parseInt(getotp);

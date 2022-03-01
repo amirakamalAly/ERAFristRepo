@@ -23,6 +23,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/jtransc-annotations-0.6.8.jar"/>
+	<classpathentry kind="lib" path="D:/jtransc-rt-0.6.8.jar"/>
+	<classpathentry kind="lib" path="D:/jtransc-rt-core-0.6.8.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

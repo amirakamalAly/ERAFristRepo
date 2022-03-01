@@ -10,16 +10,14 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
 
 public class TestUtil {
 
-	public static final String Testdat_sheet_path = "src\\test\\testdata\\B511EA00.xlsx";
-	// static Workbook book;
-	// static org.apache.poi.ss.usermodel.Sheet sheet;
-//	static Cell cell;
+	public static final String Testdat_sheet_path = "C:\\Users\\amira\\eclipse-workspace\\Automater"+"\\src\\test\\testdata\\B511EA00.xlsx";
+
 	static XSSFCell cell;
 	static XSSFWorkbook book;
-
 	public static Object[][] getTestData(String sheetName)
 
 	{
@@ -32,8 +30,7 @@ public class TestUtil {
 
 		try {
 			book = new XSSFWorkbook(file);
-			// book = WorkbookFactory.create(file);
-		} catch (InvalidActivityException e) {
+			} catch (InvalidActivityException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -53,7 +50,7 @@ public class TestUtil {
 			for (int k = 0; k < cols; k++) {
 				XSSFCell cell = row.getCell(k);
 				CellType cellType = cell.getCellType();
-			
+				System.out.println(cellType);
 				data[i][k] = sheet.getRow(i + 1).getCell(k);
 				
 				System.out.println(i);

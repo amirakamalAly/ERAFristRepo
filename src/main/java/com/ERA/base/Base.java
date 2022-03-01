@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -28,6 +30,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
+import com.ERA.utils.ExcelUtility;
 import com.ERA.utils.TestUtil;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -95,22 +98,35 @@ public class Base {
 		}
 	}
 	
-@DataProvider
-public  Object[][]  getLoginData() {
-	
-	Object[][] data= TestUtil.getTestData("Sheet1");
-	return data;
+@DataProvider(name = "loginUsers")
+public Object[][] getdata() throws IOException {
+System.out.println("start");
+
+List<Map<String, String>> testDataInMap=ExcelUtility.getMapTestDataInMap(); 
+
+Object[][] data = new Object[1][2];
+System.out.println(testDataInMap.get(0).get("Name"));
+ String Name = testDataInMap.get(0).get("Name");
+System.out.println(testDataInMap.get(0).get("MobileNumber"));
+ String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+
+         data[0][0]=Name;
+		 data[0][1]= MobileNumber;
+return data;
+
+
+ 
 }
 
 
-	@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})
-//@Parameters({"deviceName","platformName","platformVersion","skipServerInstallationpro","noSignpro"})
+//	@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})
+@Parameters({"deviceName","platformName","platformVersion","skipServerInstallationpro","noSignpro"})
 
 	@BeforeTest
 	
-	public void beforeClass(String deviceName,String platformName,String platformVersion,String udiddevice ,boolean noSignpro, boolean skipServerInstallationpro) throws Exception {
+//	public void beforeClass(String deviceName,String platformName,String platformVersion,String udiddevice ,boolean noSignpro, boolean skipServerInstallationpro) throws Exception {
 
-//public void beforeTest(String deviceName,String platformName,String platformVersion ,boolean noSignpro, boolean skipServerInstallationpro) throws Exception {
+public void beforeTest(String deviceName,String platformName,String platformVersion ,boolean noSignpro, boolean skipServerInstallationpro) throws Exception {
 
        File propFile= new File("src\\main\\config.properties");
 	   inputStream=new FileInputStream(propFile);
@@ -125,7 +141,7 @@ public  Object[][]  getLoginData() {
 		caps.setCapability("skipServerInstallation", skipServerInstallationpro);
 		caps.setCapability("noSign", noSignpro);
 		//used for mobile device 
-    	caps.setCapability("udid", udiddevice);
+  //  	caps.setCapability("udid", udiddevice);
 		//////////////////////////////////////////
 	    
         caps.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());

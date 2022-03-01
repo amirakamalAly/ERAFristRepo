@@ -3,17 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ERA.testcases.allowLocationPermissionTest">
+      <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
         <methods>
-          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="getotp"/>
+          <include name="clcikLogin"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="clickContinue"/>
+          <include name="SelectCountyCode"/>
           <include name="afterSuite"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="Searchforcounrty"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
+          <include name="SelectEgypt"/>
         </methods>
-      </class> <!-- com.ERA.testcases.allowLocationPermissionTest -->
+      </class> <!-- com.ERA.testcases.ClickloginbuttonfromHomescreenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,12 +11,20 @@ public class AddMobileNumberScreen extends Base{
 
 	
 	
-	public void addMobile( String Name,String  mobileNumber) {
-		
+	
+
+
+
+	public void AddMobileNumberScreen(String name, String mobileNumber) {
+		// TODO Auto-generated method stub
 		System.out.println(mobileNumber);
 		// TODO Auto-generated method stub
-		addMobile.sendKeys("mobileNumber");
+		addMobile.sendKeys(mobileNumber);
 	}
+
+
+
+	
 	
 
 }
