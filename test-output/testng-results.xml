@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="8" total="17" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35203" started-at="2022-03-01T23:53:50 EET" finished-at="2022-03-01T23:54:26 EET">
+  <suite name="Suite" duration-ms="32743" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:41:13 EET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="35203" started-at="2022-03-01T23:53:50 EET" finished-at="2022-03-01T23:54:26 EET">
+    <test name="Test" duration-ms="32743" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:41:13 EET">
       <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-01T23:54:08 EET" finished-at="2022-03-01T23:54:08 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:56 EET">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="clcikLogin" duration-ms="2324" started-at="2022-03-01T23:54:08 EET" finished-at="2022-03-01T23:54:10 EET">
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="clcikLogin" duration-ms="2962" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:59 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="465" started-at="2022-03-01T23:54:10 EET" finished-at="2022-03-01T23:54:11 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="523" started-at="2022-03-02T00:40:59 EET" finished-at="2022-03-02T00:41:00 EET">
           <params>
             <param index="0">
               <value>
@@ -31,29 +31,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-01T23:54:11 EET" finished-at="2022-03-01T23:54:11 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="SelectCountyCode" duration-ms="1290" started-at="2022-03-01T23:54:11 EET" finished-at="2022-03-01T23:54:12 EET">
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="SelectCountyCode" duration-ms="1595" started-at="2022-03-02T00:41:00 EET" finished-at="2022-03-02T00:41:01 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountyCode -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="596" started-at="2022-03-01T23:54:12 EET" finished-at="2022-03-01T23:54:13 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:00 EET" finished-at="2022-03-02T00:41:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="581" started-at="2022-03-02T00:41:01 EET" finished-at="2022-03-02T00:41:02 EET">
           <params>
             <param index="0">
               <value>
@@ -62,18 +62,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="Searchforcounrty" duration-ms="929" started-at="2022-03-01T23:54:13 EET" finished-at="2022-03-01T23:54:14 EET">
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="Searchforcounrty" duration-ms="992" started-at="2022-03-02T00:41:02 EET" finished-at="2022-03-02T00:41:03 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchforcounrty -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-01T23:54:13 EET" finished-at="2022-03-01T23:54:13 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:02 EET" finished-at="2022-03-02T00:41:02 EET">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="397" started-at="2022-03-01T23:54:14 EET" finished-at="2022-03-01T23:54:14 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="293" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:03 EET">
           <params>
             <param index="0">
               <value>
@@ -93,29 +93,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-01T23:54:14 EET" finished-at="2022-03-01T23:54:14 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="SelectEgypt" duration-ms="408" started-at="2022-03-01T23:54:14 EET" finished-at="2022-03-01T23:54:15 EET">
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="SelectEgypt" duration-ms="501" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:04 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEgypt -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="498" started-at="2022-03-01T23:54:15 EET" finished-at="2022-03-01T23:54:15 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="334" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:04 EET">
           <params>
             <param index="0">
               <value>
@@ -124,14 +124,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-01T23:54:15 EET" finished-at="2022-03-01T23:54:15 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:04 EET">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="addMobileNumber" duration-ms="710" started-at="2022-03-01T23:54:15 EET" data-provider="loginUsers" finished-at="2022-03-01T23:54:16 EET">
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="addMobileNumber" duration-ms="107" started-at="2022-03-02T00:41:04 EET" data-provider="loginUsers" finished-at="2022-03-02T00:41:04 EET">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMobileNumber -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="358" started-at="2022-03-01T23:54:16 EET" finished-at="2022-03-01T23:54:16 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="278" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:05 EET">
           <params>
             <param index="0">
               <value>
@@ -167,14 +167,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-01T23:54:16 EET" finished-at="2022-03-01T23:54:16 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
           <params>
             <param index="0">
               <value>
@@ -185,11 +185,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="clickContinue" duration-ms="198" started-at="2022-03-01T23:54:16 EET" finished-at="2022-03-01T23:54:17 EET">
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="clickContinue" duration-ms="263" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinue -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="351" started-at="2022-03-01T23:54:17 EET" finished-at="2022-03-01T23:54:17 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="386" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
           <params>
             <param index="0">
               <value>
@@ -198,14 +198,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-01T23:54:17 EET" finished-at="2022-03-01T23:54:17 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="getotp" duration-ms="7903" started-at="2022-03-01T23:54:17 EET" data-provider="loginUsers" finished-at="2022-03-01T23:54:25 EET">
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="getotp" duration-ms="7552" started-at="2022-03-02T00:41:05 EET" data-provider="loginUsers" finished-at="2022-03-02T00:41:13 EET">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getotp -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554]" name="afterMethod" is-config="true" duration-ms="576" started-at="2022-03-01T23:54:25 EET" finished-at="2022-03-01T23:54:26 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="507" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:13 EET">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@6a472554] output={null}]]]>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
               </value>
             </param>
           </params>
@@ -250,11 +250,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.ERA.testcases.ClickloginbuttonfromHomescreenTest -->
       <class name="com.ERA.testcases.SkipupdateTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="beforeSuite" is-config="true" duration-ms="81" started-at="2022-03-01T23:53:50 EET" finished-at="2022-03-01T23:53:50 EET">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeSuite" is-config="true" duration-ms="79" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:40:41 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="beforeTest" is-config="true" duration-ms="9322" started-at="2022-03-01T23:53:50 EET" finished-at="2022-03-01T23:54:00 EET">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeTest" is-config="true" duration-ms="8792" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:40:50 EET">
           <params>
             <param index="0">
               <value>
@@ -285,7 +285,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-03-01T23:54:00 EET" finished-at="2022-03-01T23:54:00 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-03-02T00:40:50 EET" finished-at="2022-03-02T00:40:50 EET">
           <params>
             <param index="0">
               <value>
@@ -296,11 +296,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="clickSkip" duration-ms="2679" started-at="2022-03-01T23:54:00 EET" finished-at="2022-03-01T23:54:02 EET">
+        <test-method status="PASS" signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="clickSkip" duration-ms="2944" started-at="2022-03-02T00:40:50 EET" finished-at="2022-03-02T00:40:52 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSkip -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="afterMethod" is-config="true" duration-ms="602" started-at="2022-03-01T23:54:02 EET" finished-at="2022-03-01T23:54:03 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterMethod" is-config="true" duration-ms="747" started-at="2022-03-02T00:40:52 EET" finished-at="2022-03-02T00:40:53 EET">
           <params>
             <param index="0">
               <value>
@@ -309,24 +309,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@58fdd99] output={null}]]]>
+                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-01T23:54:26 EET" finished-at="2022-03-01T23:54:26 EET">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:13 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@58fdd99]" name="afterSuite" is-config="true" duration-ms="196" started-at="2022-03-01T23:54:26 EET" finished-at="2022-03-01T23:54:26 EET">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterSuite" is-config="true" duration-ms="151" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:14 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.ERA.testcases.SkipupdateTest -->
       <class name="com.ERA.testcases.allowLocationPermissionTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@709ba3fb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-01T23:54:03 EET" finished-at="2022-03-01T23:54:03 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:40:53 EET" finished-at="2022-03-02T00:40:53 EET">
           <params>
             <param index="0">
               <value>
@@ -337,11 +337,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@709ba3fb]" name="clcallowLocationPermissionTestikLogin" duration-ms="4650" started-at="2022-03-01T23:54:03 EET" finished-at="2022-03-01T23:54:08 EET">
+        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="clcallowLocationPermissionTestikLogin" duration-ms="2412" started-at="2022-03-02T00:40:53 EET" finished-at="2022-03-02T00:40:56 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcallowLocationPermissionTestikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@709ba3fb]" name="afterMethod" is-config="true" duration-ms="569" started-at="2022-03-01T23:54:08 EET" finished-at="2022-03-01T23:54:08 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="afterMethod" is-config="true" duration-ms="503" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:56 EET">
           <params>
             <param index="0">
               <value>
@@ -350,7 +350,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46] output={null}]]]>
               </value>
             </param>
           </params>

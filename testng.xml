@@ -20,7 +20,7 @@
   
  
   <classes>
- <class name="com.ERA.utils.TestUtil"></class>
+ 
   <class name="com.ERA.testcases.SkipupdateTest"></class>
   <class name="com.ERA.testcases.allowLocationPermissionTest"></class>
  <!-- <class name="com.ERA.testcases.GetOtpTest"></class>-->
