@@ -24,23 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\amira\eclipse-workspace\Automater\testng.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Automater\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,7 +93,61 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">20 methods, 9 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="AddingDestination">AddingDestination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ClickSearchDest">ClickSearchDest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ClickSearchItem">ClickSearchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ConfirmDestination">ConfirmDestination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ConfirmPaymentTowingRequest">ConfirmPaymentTowingRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ConfirmTowingRequest">ConfirmTowingRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="SendDestLocation">SendDestLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="selectNormalTowing">selectNormalTowing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="selectTowingService">selectTowingService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,48 +157,58 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="Searchforcounrty">Searchforcounrty</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="CancelTowingRequest">CancelTowingRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="SelectCountyCode">SelectCountyCode</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.addNormalTowingRequestTest" class="method navigator-link" hash-for-method="ClickCancelTowingRequest">ClickCancelTowingRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="SelectEgypt">SelectEgypt</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="Searchforcounrty">Searchforcounrty</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="addMobileNumber(Amira, 1021132355)">addMobileNumber(Amira, 1021132355)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="SelectCountyCode">SelectCountyCode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.allowLocationPermissionTest" hash-for-method="clcallowLocationPermissionTestikLogin">clcallowLocationPermissionTestikLogin</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="SelectEgypt">SelectEgypt</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="clcikLogin">clcikLogin</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="addMobileNumber(Amira, 1021132355)">addMobileNumber(Amira, 1021132355)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="clickContinue">clickContinue</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.allowLocationPermissionTest" class="method navigator-link" hash-for-method="clcallowLocationPermissionTestikLogin">clcallowLocationPermissionTestikLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.SkipupdateTest" hash-for-method="clickSkip">clickSkip</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="clcikLogin">clcikLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" hash-for-method="getotp(Amira, 1021132355)">getotp(Amira, 1021132355)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="clickContinue">clickContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.SkipupdateTest" class="method navigator-link" hash-for-method="clickSkip">clickSkip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ERA.testcases.ClickloginbuttonfromHomescreenTest" class="method navigator-link" hash-for-method="getotp(Amira, 1021132355)">getotp(Amira, 1021132355)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -159,6 +223,407 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ERA.testcases.addNormalTowingRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddingDestination">
+                  </a> <!-- AddingDestination -->
+                  <span class="method-name">AddingDestination</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvYourDestination})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.DestinationScreen.Destinationbox(DestinationScreen.java:15)
+	at com.ERA.testcases.addNormalTowingRequestTest.AddingDestination(addNormalTowingRequestTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@273dec10 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/tvYourDestination})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSearchDest">
+                  </a> <!-- ClickSearchDest -->
+                  <span class="method-name">ClickSearchDest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvAddress})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.DestinationValidationScreen.DestinationSearch(DestinationValidationScreen.java:15)
+	at com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest(addNormalTowingRequestTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5a899811 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/tvAddress})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSearchItem">
+                  </a> <!-- ClickSearchItem -->
+                  <span class="method-name">ClickSearchItem</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/details})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.ClickSearchItemScreen.ClickSearchItem(ClickSearchItemScreen.java:15)
+	at com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem(addNormalTowingRequestTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@18e6b72b (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/details})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmDestination">
+                  </a> <!-- ConfirmDestination -->
+                  <span class="method-name">ConfirmDestination</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnDropOff})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.ConfirmDestinationScreen.ConfirmDestination(ConfirmDestinationScreen.java:15)
+	at com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination(addNormalTowingRequestTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5885e231 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnDropOff})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmPaymentTowingRequest">
+                  </a> <!-- ConfirmPaymentTowingRequest -->
+                  <span class="method-name">ConfirmPaymentTowingRequest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmPayment})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.ConfirmTowingRequestScreen.confirmPaymrntTowingRequest(ConfirmTowingRequestScreen.java:23)
+	at com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest(addNormalTowingRequestTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5486ee92 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnConfirmPayment})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmTowingRequest">
+                  </a> <!-- ConfirmTowingRequest -->
+                  <span class="method-name">ConfirmTowingRequest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmRequest})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.ConfirmTowingRequestScreen.confirmTowingRequest(ConfirmTowingRequestScreen.java:15)
+	at com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest(addNormalTowingRequestTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@78288f83 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnConfirmRequest})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendDestLocation">
+                  </a> <!-- SendDestLocation -->
+                  <span class="method-name">SendDestLocation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.eci.era:id/etSearch})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.sendKeys(&lt;generated&gt;)
+	at com.ERA.screens.SendDestLocationScreen.SendDestLocation(SendDestLocationScreen.java:18)
+	at com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation(addNormalTowingRequestTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6ce9771c (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectNormalTowing">
+                  </a> <!-- selectNormalTowing -->
+                  <span class="method-name">selectNormalTowing</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.subRequestScreen.SelectNormalTowing(subRequestScreen.java:14)
+	at com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing(addNormalTowingRequestTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6fc1a8f6 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTowingService">
+                  </a> <!-- selectTowingService -->
+                  <span class="method-name">selectTowingService</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.LinearLayout})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at com.ERA.screens.addNormalTowingRequest.SelectTowing(addNormalTowingRequest.java:19)
+	at com.ERA.testcases.addNormalTowingRequestTest.selectTowingService(addNormalTowingRequestTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@15d65fcf (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.LinearLayout})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RALI-NBQC&apos;, ip: &apos;192.168.80.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ERA.testcases.allowLocationPermissionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clcallowLocationPermissionTestikLogin">
+                  </a> <!-- clcallowLocationPermissionTestikLogin -->
+                  <span class="method-name">clcallowLocationPermissionTestikLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -236,14 +701,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ERA.testcases.allowLocationPermissionTest</span>
+              <span class="class-name">com.ERA.testcases.addNormalTowingRequestTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clcallowLocationPermissionTestikLogin">
-                  </a> <!-- clcallowLocationPermissionTestikLogin -->
-                  <span class="method-name">clcallowLocationPermissionTestikLogin</span>
+                  <a name="CancelTowingRequest">
+                  </a> <!-- CancelTowingRequest -->
+                  <span class="method-name">CancelTowingRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickCancelTowingRequest">
+                  </a> <!-- ClickCancelTowingRequest -->
+                  <span class="method-name">ClickCancelTowingRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,26 +723,28 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\amira\eclipse-workspace\Automater\testng.xml</span>
+            <span class="header-content">D:\Automater\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.ERA.listeners.ERAListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;noSignpro&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;udiddevice&quot; value=&quot;RF8R107C3TW&quot;/&gt;
+    &lt;parameter name=&quot;noSignpro&quot; value=&quot;false&quot;/&gt;
     &lt;parameter name=&quot;skipServerInstallationpro&quot; value=&quot;true&quot;/&gt;
-    &lt;parameter name=&quot;platformVersion&quot; value=&quot;9&quot;/&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;11&quot;/&gt;
     &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;Rania&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.ERA.testcases.SkipupdateTest&quot;/&gt;
       &lt;class name=&quot;com.ERA.testcases.allowLocationPermissionTest&quot;/&gt;
       &lt;class name=&quot;com.ERA.testcases.ClickloginbuttonfromHomescreenTest&quot;/&gt;
+      &lt;class name=&quot;com.ERA.testcases.addNormalTowingRequestTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -284,7 +758,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -310,48 +784,92 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getotp')
-data.setCell(0, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(0, 3, 7552);
+data.setCell(0, 1, 'CancelTowingRequest')
+data.setCell(0, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(0, 3, 31645);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clcikLogin')
-data.setCell(1, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(1, 3, 2962);
+data.setCell(1, 1, 'SendDestLocation')
+data.setCell(1, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(1, 3, 21291);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickSkip')
-data.setCell(2, 2, 'com.ERA.testcases.SkipupdateTest')
-data.setCell(2, 3, 2944);
+data.setCell(2, 1, 'ConfirmTowingRequest')
+data.setCell(2, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(2, 3, 21256);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clcallowLocationPermissionTestikLogin')
-data.setCell(3, 2, 'com.ERA.testcases.allowLocationPermissionTest')
-data.setCell(3, 3, 2412);
+data.setCell(3, 1, 'selectNormalTowing')
+data.setCell(3, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(3, 3, 21240);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SelectCountyCode')
-data.setCell(4, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(4, 3, 1595);
+data.setCell(4, 1, 'ConfirmDestination')
+data.setCell(4, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(4, 3, 21176);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Searchforcounrty')
-data.setCell(5, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(5, 3, 992);
+data.setCell(5, 1, 'ClickSearchItem')
+data.setCell(5, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(5, 3, 21176);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SelectEgypt')
-data.setCell(6, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(6, 3, 501);
+data.setCell(6, 1, 'ConfirmPaymentTowingRequest')
+data.setCell(6, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(6, 3, 21142);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'clickContinue')
-data.setCell(7, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(7, 3, 263);
+data.setCell(7, 1, 'ClickSearchDest')
+data.setCell(7, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(7, 3, 21109);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'addMobileNumber')
-data.setCell(8, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
-data.setCell(8, 3, 107);
+data.setCell(8, 1, 'AddingDestination')
+data.setCell(8, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(8, 3, 21033);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectTowingService')
+data.setCell(9, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(9, 3, 18293);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getotp')
+data.setCell(10, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(10, 3, 8400);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickSkip')
+data.setCell(11, 2, 'com.ERA.testcases.SkipupdateTest')
+data.setCell(11, 3, 6952);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clcikLogin')
+data.setCell(12, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(12, 3, 3887);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clcallowLocationPermissionTestikLogin')
+data.setCell(13, 2, 'com.ERA.testcases.allowLocationPermissionTest')
+data.setCell(13, 3, 2486);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Searchforcounrty')
+data.setCell(14, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(14, 3, 1211);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SelectCountyCode')
+data.setCell(15, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(15, 3, 947);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickContinue')
+data.setCell(16, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(16, 3, 702);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addMobileNumber')
+data.setCell(17, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(17, 3, 665);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SelectEgypt')
+data.setCell(18, 2, 'com.ERA.testcases.ClickloginbuttonfromHomescreenTest')
+data.setCell(18, 3, 383);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ClickCancelTowingRequest')
+data.setCell(19, 2, 'com.ERA.testcases.addNormalTowingRequestTest')
+data.setCell(19, 3, 150);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -366,15 +884,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">8 ignored methods</span>
+            <span class="header-content">12 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.ERA.testcases.ClickloginbuttonfromHomescreenTest</span>
+              <span class="ignored-class-name">com.ERA.testcases.allowLocationPermissionTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
+                <span class="ignored-method-name">beforeClass</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
@@ -383,11 +901,24 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.ERA.testcases.allowLocationPermissionTest</span>
+              <span class="ignored-class-name">com.ERA.testcases.ClickloginbuttonfromHomescreenTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeClass</span>
+                <br/>
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterClass</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ERA.testcases.addNormalTowingRequestTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeClass</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
@@ -409,133 +940,286 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(emulator-5554, Android, 9, true, true)</span>
-                <span class="method-start">80 ms</span>
+                <span class="method-name">beforeClass(Rania, Android, 11, RF8R107C3TW, true, false)</span>
+                <span class="method-start">85 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.SkipupdateTest.clickSkip())</span>
-                <span class="method-start">8891 ms</span>
+                <span class="method-start">14138 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickSkip</span>
-                <span class="method-start">8894 ms</span>
+                <span class="method-start">14139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.SkipupdateTest.clickSkip(), [TestResult name=clickSkip status=SUCCESS ...)</span>
-                <span class="method-start">11840 ms</span>
+                <span class="method-start">21092 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ERA.testcases.allowLocationPermissionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin())</span>
-                <span class="method-start">12590 ms</span>
+                <span class="method-start">21658 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clcallowLocationPermissionTestikLogin</span>
-                <span class="method-start">12590 ms</span>
+                <span class="method-start">21658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin(), [...)</span>
-                <span class="method-start">15003 ms</span>
+                <span class="method-start">24145 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ERA.testcases.ClickloginbuttonfromHomescreenTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clcikLogin())</span>
-                <span class="method-start">15507 ms</span>
+                <span class="method-start">24709 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clcikLogin</span>
-                <span class="method-start">15507 ms</span>
+                <span class="method-start">24710 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clcikLogin(), [TestResult name=clci...)</span>
-                <span class="method-start">18470 ms</span>
+                <span class="method-start">28598 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">SelectCountyCode</span>
-                <span class="method-start">18994 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode())</span>
-                <span class="method-start">18994 ms</span>
+                <span class="method-start">29153 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectCountyCode</span>
+                <span class="method-start">29153 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode(), [TestResult nam...)</span>
-                <span class="method-start">20590 ms</span>
+                <span class="method-start">30101 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Searchforcounrty</span>
-                <span class="method-start">21173 ms</span>
+                <span class="method-start">30669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.Searchforcounrty())</span>
-                <span class="method-start">21173 ms</span>
+                <span class="method-start">30669 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.Searchforcounrty(), [TestResult nam...)</span>
-                <span class="method-start">22166 ms</span>
+                <span class="method-start">31883 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">SelectEgypt</span>
-                <span class="method-start">22460 ms</span>
+                <span class="method-start">32354 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt())</span>
-                <span class="method-start">22460 ms</span>
+                <span class="method-start">32354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt(), [TestResult name=Sel...)</span>
-                <span class="method-start">22962 ms</span>
+                <span class="method-start">32737 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,ja...)</span>
-                <span class="method-start">23703 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addMobileNumber(Amira, 1021132355)</span>
-                <span class="method-start">23703 ms</span>
+                <span class="method-start">33581 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,ja...)</span>
+                <span class="method-start">33581 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,ja...)</span>
-                <span class="method-start">23810 ms</span>
+                <span class="method-start">34249 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clickContinue())</span>
-                <span class="method-start">24089 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickContinue</span>
-                <span class="method-start">24089 ms</span>
+                <span class="method-start">34797 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clickContinue())</span>
+                <span class="method-start">34797 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clickContinue(), [TestResult name=c...)</span>
-                <span class="method-start">24352 ms</span>
+                <span class="method-start">35500 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.S...)</span>
-                <span class="method-start">24761 ms</span>
+                <span class="method-start">36006 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getotp(Amira, 1021132355)</span>
-                <span class="method-start">24761 ms</span>
+                <span class="method-start">36006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.S...)</span>
-                <span class="method-start">32314 ms</span>
+                <span class="method-start">44406 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ERA.testcases.addNormalTowingRequestTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectTowingService</span>
+                <span class="method-start">44922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService())</span>
+                <span class="method-start">44922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService(), [TestResult name=sel...)</span>
+                <span class="method-start">63217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectNormalTowing</span>
+                <span class="method-start">63886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing())</span>
+                <span class="method-start">63886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing(), [TestResult name=sele...)</span>
+                <span class="method-start">85128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination())</span>
+                <span class="method-start">85770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddingDestination</span>
+                <span class="method-start">85771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination(), [TestResult name=Addin...)</span>
+                <span class="method-start">106808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest())</span>
+                <span class="method-start">107463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickSearchDest</span>
+                <span class="method-start">107463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest(), [TestResult name=ClickSe...)</span>
+                <span class="method-start">128574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendDestLocation</span>
+                <span class="method-start">129222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation())</span>
+                <span class="method-start">129222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation(), [TestResult name=SendDe...)</span>
+                <span class="method-start">150515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickSearchItem</span>
+                <span class="method-start">151158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem())</span>
+                <span class="method-start">151158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem(), [TestResult name=ClickSe...)</span>
+                <span class="method-start">172336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ConfirmDestination</span>
+                <span class="method-start">172967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination())</span>
+                <span class="method-start">172967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination(), [TestResult name=Conf...)</span>
+                <span class="method-start">194144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ConfirmTowingRequest</span>
+                <span class="method-start">194794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest())</span>
+                <span class="method-start">194794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest(), [TestResult name=Co...)</span>
+                <span class="method-start">216051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest())</span>
+                <span class="method-start">216697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ConfirmPaymentTowingRequest</span>
+                <span class="method-start">216697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest(), [TestResult ...)</span>
+                <span class="method-start">237840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CancelTowingRequest</span>
+                <span class="method-start">238509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest())</span>
+                <span class="method-start">238509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest(), [TestResult name=Can...)</span>
+                <span class="method-start">270155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest())</span>
+                <span class="method-start">270647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickCancelTowingRequest</span>
+                <span class="method-start">270647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest(), [TestResult nam...)</span>
+                <span class="method-start">270798 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ERA.testcases.SkipupdateTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">32834 ms</span>
+                <span class="method-start">271331 ms</span>
               </div> <!-- configuration-suite after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">32835 ms</span>
+                <span class="method-start">271332 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

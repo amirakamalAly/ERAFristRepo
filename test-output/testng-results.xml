@@ -1,13 +1,968 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="17" passed="9">
+<testng-results ignored="12" total="32" passed="11" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32743" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:41:13 EET">
+  <suite started-at="2022-03-14T14:20:19 EET" name="Suite" finished-at="2022-03-14T14:24:50 EET" duration-ms="271215">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32743" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:41:13 EET">
+    <test started-at="2022-03-14T14:20:19 EET" name="Test" finished-at="2022-03-14T14:24:50 EET" duration-ms="271215">
+      <class name="com.ERA.testcases.addNormalTowingRequestTest">
+        <test-method signature="selectTowingService()[pri:10, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:04 EET" name="selectTowingService" finished-at="2022-03-14T14:21:22 EET" duration-ms="18293" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.LinearLayout})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.LinearLayout})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.addNormalTowingRequest.SelectTowing(addNormalTowingRequest.java:19)
+at com.ERA.testcases.addNormalTowingRequestTest.selectTowingService(addNormalTowingRequestTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@15d65fcf (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.LinearLayout})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTowingService -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:04 EET" name="beforeMethod" finished-at="2022-03-14T14:21:04 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:22 EET" name="afterMethod" finished-at="2022-03-14T14:21:23 EET" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectTowingService status=FAILURE method=addNormalTowingRequestTest.selectTowingService()[pri:10, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="selectNormalTowing()[pri:11, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:23 EET" name="selectNormalTowing" finished-at="2022-03-14T14:21:44 EET" duration-ms="21240" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.subRequestScreen.SelectNormalTowing(subRequestScreen.java:14)
+at com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing(addNormalTowingRequestTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6fc1a8f6 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNormalTowing -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:23 EET" name="beforeMethod" finished-at="2022-03-14T14:21:23 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:44 EET" name="afterMethod" finished-at="2022-03-14T14:21:44 EET" duration-ms="642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectNormalTowing status=FAILURE method=addNormalTowingRequestTest.selectNormalTowing()[pri:11, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:44 EET" name="beforeMethod" finished-at="2022-03-14T14:21:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddingDestination()[pri:12, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:21:44 EET" name="AddingDestination" finished-at="2022-03-14T14:22:05 EET" duration-ms="21033" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvYourDestination})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvYourDestination})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.DestinationScreen.Destinationbox(DestinationScreen.java:15)
+at com.ERA.testcases.addNormalTowingRequestTest.AddingDestination(addNormalTowingRequestTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@273dec10 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/tvYourDestination})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingDestination -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:05 EET" name="afterMethod" finished-at="2022-03-14T14:22:06 EET" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddingDestination status=FAILURE method=addNormalTowingRequestTest.AddingDestination()[pri:12, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:06 EET" name="beforeMethod" finished-at="2022-03-14T14:22:06 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ClickSearchDest()[pri:13, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:06 EET" name="ClickSearchDest" finished-at="2022-03-14T14:22:27 EET" duration-ms="21109" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvAddress})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/tvAddress})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.DestinationValidationScreen.DestinationSearch(DestinationValidationScreen.java:15)
+at com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest(addNormalTowingRequestTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5a899811 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/tvAddress})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchDest -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:27 EET" name="afterMethod" finished-at="2022-03-14T14:22:28 EET" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchDest status=FAILURE method=addNormalTowingRequestTest.ClickSearchDest()[pri:13, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SendDestLocation()[pri:14, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:28 EET" name="SendDestLocation" finished-at="2022-03-14T14:22:49 EET" duration-ms="21291" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/etSearch})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/etSearch})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.sendKeys(<generated>)
+at com.ERA.screens.SendDestLocationScreen.SendDestLocation(SendDestLocationScreen.java:18)
+at com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation(addNormalTowingRequestTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6ce9771c (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendDestLocation -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:28 EET" name="beforeMethod" finished-at="2022-03-14T14:22:28 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:49 EET" name="afterMethod" finished-at="2022-03-14T14:22:50 EET" duration-ms="642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SendDestLocation status=FAILURE method=addNormalTowingRequestTest.SendDestLocation()[pri:14, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ClickSearchItem()[pri:15, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:50 EET" name="ClickSearchItem" finished-at="2022-03-14T14:23:11 EET" duration-ms="21176" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/details})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/details})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.ClickSearchItemScreen.ClickSearchItem(ClickSearchItemScreen.java:15)
+at com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem(addNormalTowingRequestTest.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@18e6b72b (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/details})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchItem -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:22:50 EET" name="beforeMethod" finished-at="2022-03-14T14:22:50 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:11 EET" name="afterMethod" finished-at="2022-03-14T14:23:12 EET" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchItem status=FAILURE method=addNormalTowingRequestTest.ClickSearchItem()[pri:15, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ConfirmDestination()[pri:16, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:12 EET" name="ConfirmDestination" finished-at="2022-03-14T14:23:33 EET" duration-ms="21176" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnDropOff})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnDropOff})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.ConfirmDestinationScreen.ConfirmDestination(ConfirmDestinationScreen.java:15)
+at com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination(addNormalTowingRequestTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5885e231 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnDropOff})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmDestination -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:12 EET" name="beforeMethod" finished-at="2022-03-14T14:23:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:33 EET" name="afterMethod" finished-at="2022-03-14T14:23:33 EET" duration-ms="650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmDestination status=FAILURE method=addNormalTowingRequestTest.ConfirmDestination()[pri:16, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ConfirmTowingRequest()[pri:17, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:33 EET" name="ConfirmTowingRequest" finished-at="2022-03-14T14:23:55 EET" duration-ms="21256" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmRequest})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmRequest})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.ConfirmTowingRequestScreen.confirmTowingRequest(ConfirmTowingRequestScreen.java:15)
+at com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest(addNormalTowingRequestTest.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@78288f83 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnConfirmRequest})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmTowingRequest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:33 EET" name="beforeMethod" finished-at="2022-03-14T14:23:33 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:55 EET" name="afterMethod" finished-at="2022-03-14T14:23:55 EET" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmTowingRequest status=FAILURE method=addNormalTowingRequestTest.ConfirmTowingRequest()[pri:17, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:55 EET" name="beforeMethod" finished-at="2022-03-14T14:23:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ConfirmPaymentTowingRequest()[pri:18, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:23:55 EET" name="ConfirmPaymentTowingRequest" finished-at="2022-03-14T14:24:16 EET" duration-ms="21142" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmPayment})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.eci.era:id/btnConfirmPayment})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at com.ERA.screens.ConfirmTowingRequestScreen.confirmPaymrntTowingRequest(ConfirmTowingRequestScreen.java:23)
+at com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest(addNormalTowingRequestTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5486ee92 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.eci.era:id/btnConfirmPayment})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RALI-NBQC', ip: '192.168.80.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPaymentTowingRequest -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:16 EET" name="afterMethod" finished-at="2022-03-14T14:24:17 EET" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmPaymentTowingRequest status=FAILURE method=addNormalTowingRequestTest.ConfirmPaymentTowingRequest()[pri:18, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="CancelTowingRequest()[pri:19, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:17 EET" name="CancelTowingRequest" finished-at="2022-03-14T14:24:49 EET" duration-ms="31645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTowingRequest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:17 EET" name="beforeMethod" finished-at="2022-03-14T14:24:17 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:49 EET" name="afterMethod" finished-at="2022-03-14T14:24:49 EET" duration-ms="492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelTowingRequest status=SUCCESS method=addNormalTowingRequestTest.CancelTowingRequest()[pri:19, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:49 EET" name="beforeMethod" finished-at="2022-03-14T14:24:49 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ClickCancelTowingRequest()[pri:20, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:49 EET" name="ClickCancelTowingRequest" finished-at="2022-03-14T14:24:49 EET" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCancelTowingRequest -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5]" started-at="2022-03-14T14:24:49 EET" name="afterMethod" finished-at="2022-03-14T14:24:50 EET" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickCancelTowingRequest status=SUCCESS method=addNormalTowingRequestTest.ClickCancelTowingRequest()[pri:20, instance:com.ERA.testcases.addNormalTowingRequestTest@77f1baf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
       <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:56 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:43 EET" name="beforeMethod" finished-at="2022-03-14T14:20:43 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +973,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="clcikLogin" duration-ms="2962" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:59 EET">
+        <test-method signature="clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:43 EET" name="clcikLogin" finished-at="2022-03-14T14:20:47 EET" duration-ms="3887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="523" started-at="2022-03-02T00:40:59 EET" finished-at="2022-03-02T00:41:00 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:47 EET" name="afterMethod" finished-at="2022-03-14T14:20:48 EET" duration-ms="554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,29 +986,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="SelectCountyCode" duration-ms="1595" started-at="2022-03-02T00:41:00 EET" finished-at="2022-03-02T00:41:01 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:48 EET" name="beforeMethod" finished-at="2022-03-14T14:20:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:48 EET" name="SelectCountyCode" finished-at="2022-03-14T14:20:49 EET" duration-ms="947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountyCode -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:00 EET" finished-at="2022-03-02T00:41:00 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="581" started-at="2022-03-02T00:41:01 EET" finished-at="2022-03-02T00:41:02 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:49 EET" name="afterMethod" finished-at="2022-03-14T14:20:49 EET" duration-ms="567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,18 +1017,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="Searchforcounrty" duration-ms="992" started-at="2022-03-02T00:41:02 EET" finished-at="2022-03-02T00:41:03 EET">
+        <test-method signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:49 EET" name="Searchforcounrty" finished-at="2022-03-14T14:20:51 EET" duration-ms="1211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchforcounrty -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:02 EET" finished-at="2022-03-02T00:41:02 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:49 EET" name="beforeMethod" finished-at="2022-03-14T14:20:49 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +1039,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="293" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:03 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:51 EET" name="afterMethod" finished-at="2022-03-14T14:20:51 EET" duration-ms="471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,18 +1048,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="SelectEgypt" duration-ms="501" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:04 EET">
+        <test-method signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:51 EET" name="SelectEgypt" finished-at="2022-03-14T14:20:51 EET" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEgypt -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:03 EET" finished-at="2022-03-02T00:41:03 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:51 EET" name="beforeMethod" finished-at="2022-03-14T14:20:51 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +1070,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="334" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:04 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:51 EET" name="afterMethod" finished-at="2022-03-14T14:20:52 EET" duration-ms="558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,25 +1079,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:04 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="addMobileNumber" duration-ms="107" started-at="2022-03-02T00:41:04 EET" data-provider="loginUsers" finished-at="2022-03-02T00:41:04 EET">
+        <test-method signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:52 EET" name="addMobileNumber" data-provider="loginUsers" finished-at="2022-03-14T14:20:53 EET" duration-ms="665" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +1102,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMobileNumber -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="278" started-at="2022-03-02T00:41:04 EET" finished-at="2022-03-02T00:41:05 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:52 EET" name="beforeMethod" finished-at="2022-03-14T14:20:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:53 EET" name="afterMethod" finished-at="2022-03-14T14:20:53 EET" duration-ms="547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,14 +1122,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
+        <test-method signature="clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:53 EET" name="clickContinue" finished-at="2022-03-14T14:20:54 EET" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:53 EET" name="beforeMethod" finished-at="2022-03-14T14:20:53 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,11 +1144,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="clickContinue" duration-ms="263" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickContinue -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="386" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:54 EET" name="afterMethod" finished-at="2022-03-14T14:20:55 EET" duration-ms="488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,14 +1153,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:05 EET" finished-at="2022-03-02T00:41:05 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:55 EET" name="beforeMethod" finished-at="2022-03-14T14:20:55 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,7 +1171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="getotp" duration-ms="7552" started-at="2022-03-02T00:41:05 EET" data-provider="loginUsers" finished-at="2022-03-02T00:41:13 EET">
+        <test-method signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:20:55 EET" name="getotp" data-provider="loginUsers" finished-at="2022-03-14T14:21:03 EET" duration-ms="8400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,7 +1187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getotp -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="507" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:13 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b]" started-at="2022-03-14T14:21:03 EET" name="afterMethod" finished-at="2022-03-14T14:21:04 EET" duration-ms="515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +1196,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@7d20d0b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -250,15 +1205,15 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.ERA.testcases.ClickloginbuttonfromHomescreenTest -->
       <class name="com.ERA.testcases.SkipupdateTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeSuite" is-config="true" duration-ms="79" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:40:41 EET">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:20:19 EET" name="beforeSuite" finished-at="2022-03-14T14:20:19 EET" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeTest" is-config="true" duration-ms="8792" started-at="2022-03-02T00:40:41 EET" finished-at="2022-03-02T00:40:50 EET">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:20:19 EET" name="beforeClass" finished-at="2022-03-14T14:20:33 EET" duration-ms="14042" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[emulator-5554]]>
+                <![CDATA[Rania]]>
               </value>
             </param>
             <param index="1">
@@ -268,12 +1223,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[9]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[true]]>
+                <![CDATA[RF8R107C3TW]]>
               </value>
             </param>
             <param index="4">
@@ -281,11 +1236,16 @@
                 <![CDATA[true]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-03-02T00:40:50 EET" finished-at="2022-03-02T00:40:50 EET">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:20:33 EET" name="beforeMethod" finished-at="2022-03-14T14:20:33 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -296,11 +1256,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="clickSkip" duration-ms="2944" started-at="2022-03-02T00:40:50 EET" finished-at="2022-03-02T00:40:52 EET">
+        <test-method signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:20:33 EET" name="clickSkip" finished-at="2022-03-14T14:20:40 EET" duration-ms="6952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSkip -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterMethod" is-config="true" duration-ms="747" started-at="2022-03-02T00:40:52 EET" finished-at="2022-03-02T00:40:53 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:20:40 EET" name="afterMethod" finished-at="2022-03-14T14:20:40 EET" duration-ms="565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,24 +1269,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27] output={null}]]]>
+                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@8297b3a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:13 EET">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:24:50 EET" name="afterClass" finished-at="2022-03-14T14:24:50 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterSuite" is-config="true" duration-ms="151" started-at="2022-03-02T00:41:13 EET" finished-at="2022-03-02T00:41:14 EET">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@8297b3a]" started-at="2022-03-14T14:24:50 EET" name="afterSuite" finished-at="2022-03-14T14:24:50 EET" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.ERA.testcases.SkipupdateTest -->
       <class name="com.ERA.testcases.allowLocationPermissionTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-02T00:40:53 EET" finished-at="2022-03-02T00:40:53 EET">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@7770f470]" started-at="2022-03-14T14:20:40 EET" name="beforeMethod" finished-at="2022-03-14T14:20:40 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,11 +1297,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="clcallowLocationPermissionTestikLogin" duration-ms="2412" started-at="2022-03-02T00:40:53 EET" finished-at="2022-03-02T00:40:56 EET">
+        <test-method signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@7770f470]" started-at="2022-03-14T14:20:40 EET" name="clcallowLocationPermissionTestikLogin" finished-at="2022-03-14T14:20:43 EET" duration-ms="2486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcallowLocationPermissionTestikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="afterMethod" is-config="true" duration-ms="503" started-at="2022-03-02T00:40:56 EET" finished-at="2022-03-02T00:40:56 EET">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@7770f470]" started-at="2022-03-14T14:20:43 EET" name="afterMethod" finished-at="2022-03-14T14:20:43 EET" duration-ms="564" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +1310,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46] output={null}]]]>
+                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@7770f470] output={null}]]]>
               </value>
             </param>
           </params>

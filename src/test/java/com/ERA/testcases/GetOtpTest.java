@@ -14,16 +14,16 @@ public class GetOtpTest {
 	@Test
 	 public String  getotp(String Name,String number) 
 	{  
-		String mkjf="%2B"+number;
+		String mobileNumwithCode="%2B"+number;
 		
 		RestAssured.baseURI="http://eraapi2.dev.arabiansystems.com/api/userlogin";
 		RestAssured.urlEncodingEnabled = false;
 		RequestSpecification httpRequest=RestAssured.given();
-		Response res = httpRequest.queryParam("mobileNumber",mkjf).get("/GetUserOTPMessage"); 
+		Response res = httpRequest.queryParam("mobileNumber",mobileNumwithCode).get("/GetUserOTPMessage"); 
 		String responsebody1=res.getBody().asString();
 		JsonPath jpath = new JsonPath(responsebody1);
 		String data = jpath.getString("data");
-		System.out.println("dat is  - "+data);
+		System.out.println("verfication code is  - "+data);
 		
 		return data;
 		 
