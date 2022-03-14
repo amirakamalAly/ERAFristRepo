@@ -1,7 +1,7 @@
 package com.ERA.testcases;
 
-import static org.testng.Assert.assertEquals;
 
+import com.ERA.testcases.TestGetDeliveryCost;
 import org.testng.annotations.Test;
 import com.ERA.base.Base;
 import com.ERA.screens.AddMobileNumberScreen;
@@ -61,6 +61,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 	public void addMobileNumber(String Name,String MobileNumber)
 
 	{
+		System.out.println("entring  mobile number from excel sheet to mobile number verfication screen  "+ MobileNumber );
 		AddMobileNumberScreen MobileNumberq = new AddMobileNumberScreen();
 		MobileNumberq.AddMobileNumberScreen(Name,MobileNumber);
 
@@ -79,11 +80,14 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 public void getotp(String Name,String MobileNumber) 
 	
 {
+		System.out.println("get otp for mobile number from excel sheet "+ MobileNumber );
 	
 		String numberr = "20"+MobileNumber;
-		System.out.println("otpmobile number"+numberr);
+		
 		String getotp=(String) new GetOtpTest().getotp(Name, numberr);
-		System.out.print("this call otp "+getotp);
+		
+		
+		
 		
         int number1 = Integer.parseInt(getotp);
         int A = 0;int B = 0; int C = 0; int D = 0;
@@ -101,7 +105,7 @@ public void getotp(String Name,String MobileNumber)
         String CC=String.valueOf(C);
         String DD=String.valueOf(D);
         
-        System.out.println(AA+"eeeeeeeeeee");
+      //  System.out.println(AA+"eeeeeeeeeee");
         GetOtpScreen addOtp = new GetOtpScreen();
         addOtp.addMobile(AA, BB, CC, DD);
         

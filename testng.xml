@@ -11,7 +11,7 @@
    <parameter name ="platformVersion" value="9"></parameter> 
     <parameter name ="platformName" value="Android"></parameter>  
   <parameter name ="skipServerInstallationpro" value="true"></parameter>
-  <parameter name ="noSignpro" value="true"></parameter>
+  <parameter name ="noSignpro" value="false"></parameter>
   <!-- device parameter  -->
   
 <!--  <parameter name ="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter>
@@ -23,8 +23,8 @@
  
   <class name="com.ERA.testcases.SkipupdateTest"></class>
   <class name="com.ERA.testcases.allowLocationPermissionTest"></class>
- <!-- <class name="com.ERA.testcases.GetOtpTest"></class>-->
   <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
+  <class name="com.ERA.testcases.addNormalTowingRequestTest"></class>
   </classes>
   </test> 
 
