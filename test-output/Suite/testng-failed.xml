@@ -11,66 +11,17 @@
     <parameter name="platformName" value="Android"/>
     <parameter name="deviceName" value="emulator-5554"/>
     <classes>
-      <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
-        <methods>
-          <include name="clcikLogin"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="addMobileNumber"/>
-          <include name="getotp"/>
-          <include name="beforeMethod"/>
-          <include name="clickContinue"/>
-          <include name="SelectCountyCode"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="Searchforcounrty"/>
-          <include name="afterClass"/>
-          <include name="SelectEgypt"/>
-        </methods>
-      </class> <!-- com.ERA.testcases.ClickloginbuttonfromHomescreenTest -->
-      <class name="com.ERA.testcases.addNormalTowingRequestTest">
-        <methods>
-          <include name="ConfirmPaymentTowingRequest"/>
-          <include name="AddingDestination"/>
-          <include name="afterMethod"/>
-          <include name="ConfirmDestination"/>
-          <include name="ClickSearchItem"/>
-          <include name="SendDestLocation"/>
-          <include name="beforeSuite"/>
-          <include name="ConfirmTowingRequest"/>
-          <include name="ClickCancelTowingRequest"/>
-          <include name="ClickSearchDest"/>
-          <include name="beforeMethod"/>
-          <include name="CancelTowingRequest"/>
-          <include name="selectNormalTowing"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="selectTowingService"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
-      <class name="com.ERA.testcases.SkipupdateTest">
+      <class name="com.ERA.testcases.LoginWithInvalidSmsCodeTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="clickSkip"/>
+          <include name="ClickBackTOHome"/>
           <include name="afterSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.ERA.testcases.SkipupdateTest -->
-      <class name="com.ERA.testcases.allowLocationPermissionTest">
-        <methods>
-          <include name="clcallowLocationPermissionTestikLogin"/>
-          <include name="beforeMethod"/>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.ERA.testcases.allowLocationPermissionTest -->
+      </class> <!-- com.ERA.testcases.LoginWithInvalidSmsCodeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

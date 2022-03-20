@@ -1,18 +1,11 @@
 package com.ERA.testcases;
 
 import com.ERA.base.Base;
-import com.ERA.screens.CancelTowingRequestScreen;
-import com.ERA.screens.ClickSearchItemScreen;
-import com.ERA.screens.ConfirmDestinationScreen;
-import com.ERA.screens.ConfirmTowingRequestScreen;
-import com.ERA.screens.DestinationScreen;
-import com.ERA.screens.DestinationValidationScreen;
-import com.ERA.screens.SendDestLocationScreen;
+
 import com.ERA.screens.addNormalTowingRequest;
-import com.ERA.screens.subRequestScreen;
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+
 
 public class addNormalTowingRequestTest extends Base {
 
@@ -24,12 +17,12 @@ public class addNormalTowingRequestTest extends Base {
 		Towing.SelectTowing();
 
 	}
-
+	
 	@Test(priority = 11)
 	public void selectNormalTowing()
 
 	{
-		subRequestScreen NormalTowing = new subRequestScreen();
+		addNormalTowingRequest NormalTowing = new addNormalTowingRequest();
 		NormalTowing.SelectNormalTowing();
 
 	}
@@ -38,7 +31,7 @@ public class addNormalTowingRequestTest extends Base {
 	public void AddingDestination()
 
 	{
-		DestinationScreen Ds = new DestinationScreen();
+		addNormalTowingRequest Ds = new addNormalTowingRequest();
 		Ds.Destinationbox();
 
 	}
@@ -47,17 +40,21 @@ public class addNormalTowingRequestTest extends Base {
 	public void ClickSearchDest()
 
 	{
-		DestinationValidationScreen Dv = new DestinationValidationScreen();
+		addNormalTowingRequest Dv = new addNormalTowingRequest();
 		Dv.DestinationSearch();
 
 	}
 	
-	@Test(priority = 14)
-	public void SendDestLocation()
+	
 
-	{
-		SendDestLocationScreen Dv = new SendDestLocationScreen();
-		Dv.SendDestLocation();
+
+	
+	@Test(dataProvider ="Locations",priority = 14)
+	public void SendDestLocation(String Description,String LocationValue)
+
+	{System.out.println("get location fromExcelsheet  "+ LocationValue );
+	addNormalTowingRequest Dv = new addNormalTowingRequest();
+		Dv.SendDestLocation(Description,LocationValue);
 
 		
 	}
@@ -66,7 +63,7 @@ public class addNormalTowingRequestTest extends Base {
 	public void ClickSearchItem()
 
 	{
-		ClickSearchItemScreen Dvw = new ClickSearchItemScreen();
+		addNormalTowingRequest Dvw = new addNormalTowingRequest();
 		Dvw.ClickSearchItem();
 
 		
@@ -75,7 +72,7 @@ public class addNormalTowingRequestTest extends Base {
 	public void ConfirmDestination()
 
 	{
-		ConfirmDestinationScreen Dvw = new ConfirmDestinationScreen();
+		addNormalTowingRequest Dvw = new addNormalTowingRequest();
 		Dvw.ConfirmDestination();
 
 		
@@ -84,7 +81,7 @@ public class addNormalTowingRequestTest extends Base {
 	@Test(priority = 17)
 	public void ConfirmTowingRequest()
 
-	{ConfirmTowingRequestScreen Confirm = new ConfirmTowingRequestScreen();
+	{addNormalTowingRequest Confirm = new addNormalTowingRequest();
 	Confirm.confirmTowingRequest();
 
 		
@@ -93,7 +90,7 @@ public class addNormalTowingRequestTest extends Base {
 	@Test(priority = 18)
 	public void ConfirmPaymentTowingRequest()
 
-	{ConfirmTowingRequestScreen Confirm = new ConfirmTowingRequestScreen();
+	{addNormalTowingRequest Confirm = new addNormalTowingRequest();
 	Confirm.confirmPaymrntTowingRequest();
 
 		
@@ -102,7 +99,7 @@ public class addNormalTowingRequestTest extends Base {
 	@Test(priority = 19)
 	public void CancelTowingRequest()
 
-	{CancelTowingRequestScreen Confirm = new CancelTowingRequestScreen();
+	{addNormalTowingRequest Confirm = new addNormalTowingRequest();
 	Confirm.confirmCancelTowingRequest();
 
 		
@@ -111,7 +108,7 @@ public class addNormalTowingRequestTest extends Base {
 	@Test(priority = 20)
 	public void ClickCancelTowingRequest()
 
-	{CancelTowingRequestScreen ConfirmBn = new CancelTowingRequestScreen();
+	{addNormalTowingRequest ConfirmBn = new addNormalTowingRequest();
 	ConfirmBn.ClickCancelTowingRequest();
 
 		

@@ -29,6 +29,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
 import com.ERA.utils.ExcelUtility;
+import com.ERA.utils.LocationExcelUtility;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -111,9 +112,61 @@ Object[][] data = new Object[1][2];
          data[0][0]=Name;
 		 data[0][1]= MobileNumber;
 return data;
+}
 
 
- 
+@DataProvider(name = "InvalidMobileNumber")
+public Object[][] getInvalidMobileNumberdata() throws IOException {
+
+
+List<Map<String, String>> testDataInMap=ExcelUtility.getMapTestDataInMap(); 
+
+Object[][] data = new Object[1][2];
+
+String Name = testDataInMap.get(1).get("Name");
+
+
+String MobileNumber = testDataInMap.get(1).get("MobileNumber");
+
+     data[0][0]=Name;
+	 data[0][1]= MobileNumber;
+return data;
+}
+
+@DataProvider(name = "Locations")
+public Object[][] getdataFromLocationExcelSheet() throws IOException {
+
+
+List<Map<String, String>> testDataInMap=LocationExcelUtility.getMapTestDataInMap(); 
+
+Object[][] Location = new Object[1][2];
+
+ String Description = testDataInMap.get(0).get("Description");
+
+
+ String Value = testDataInMap.get(0).get("Value");
+
+ Location[0][0]=Description;
+ Location[0][1]= Value;
+return Location;
+}
+
+@DataProvider(name = "InvalidLocations")
+public Object[][] getInvaildLocationExcelSheet() throws IOException {
+
+
+List<Map<String, String>> testDataInMap=LocationExcelUtility.getMapTestDataInMap(); 
+
+Object[][] Location = new Object[1][2];
+
+ String Description = testDataInMap.get(1).get("Description");
+
+
+ String Value = testDataInMap.get(1).get("Value");
+
+ Location[0][0]=Description;
+ Location[0][1]= Value;
+return Location;
 }
 
 
@@ -151,7 +204,7 @@ public void beforeTest(String deviceName,String platformName,String platformVers
 		caps.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 		
 		driver=new AndroidDriver<MobileElement>(new URL(prop.getProperty("appiumServerLink")), caps);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
 }
 

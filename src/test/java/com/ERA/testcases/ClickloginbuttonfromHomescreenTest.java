@@ -1,16 +1,13 @@
 package com.ERA.testcases;
 
 
-import com.ERA.testcases.TestGetDeliveryCost;
+
 import org.testng.annotations.Test;
 import com.ERA.base.Base;
-import com.ERA.screens.AddMobileNumberScreen;
+
 import com.ERA.screens.ClickloginbuttonfromHomescreen;
 import com.ERA.screens.GetOtpScreen;
-import com.ERA.screens.SearchforcounrtyScreen;
-import com.ERA.screens.SelectCountyCodeScreen;
-import com.ERA.screens.SelectEgyptScreen;
-import com.ERA.screens.clickContinueScreen;
+
 
 public class ClickloginbuttonfromHomescreenTest extends Base {
 
@@ -30,7 +27,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 	public void SelectCountyCode()
 
 	{
-		SelectCountyCodeScreen countrycode = new SelectCountyCodeScreen();
+		ClickloginbuttonfromHomescreen countrycode = new ClickloginbuttonfromHomescreen();
 		countrycode.Clickcounrtycode();
 
 	}
@@ -41,7 +38,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 
 	{
 
-		SearchforcounrtyScreen Search = new SearchforcounrtyScreen();
+		ClickloginbuttonfromHomescreen Search = new ClickloginbuttonfromHomescreen();
 		Search.Searchcounrtycode();
 
 	}
@@ -51,7 +48,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 	public void SelectEgypt()
 
 	{
-		SelectEgyptScreen countryEgypt = new SelectEgyptScreen();
+		ClickloginbuttonfromHomescreen countryEgypt = new ClickloginbuttonfromHomescreen();
 		countryEgypt.ClickEgypt();
 
 	}
@@ -62,7 +59,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 
 	{
 		System.out.println("entring  mobile number from excel sheet to mobile number verfication screen  "+ MobileNumber );
-		AddMobileNumberScreen MobileNumberq = new AddMobileNumberScreen();
+		ClickloginbuttonfromHomescreen MobileNumberq = new ClickloginbuttonfromHomescreen();
 		MobileNumberq.AddMobileNumberScreen(Name,MobileNumber);
 
 	}
@@ -71,7 +68,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 	public void clickContinue()
 
 	{
-		clickContinueScreen continueBtn = new clickContinueScreen();
+		ClickloginbuttonfromHomescreen continueBtn = new ClickloginbuttonfromHomescreen();
 		continueBtn.continueBtnclk();
 
 	}
