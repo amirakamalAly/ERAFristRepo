@@ -94,4 +94,25 @@ public class ClickloginbuttonfromHomescreen extends Base {
 		C.setValue(c);
 		D.setValue(d);
 	}
+	@AndroidFindBy(id = "com.eci.era:id/editbtn")
+	private MobileElement Edit;
+	public void EditMobileNumber() {
+		Edit.click();		
+	}
+	
+	@AndroidFindBy(id = "com.eci.era:id/loginBtn")
+	private MobileElement Logout;
+	public void Logout() {
+		// TODO Auto-generated method stub
+		Logout.click();
+	}
+	
+	
+	@AndroidFindBy(id = "com.eci.era:id/resendBtn")
+	private MobileElement Resend;
+	public void ClickResndOTP() {
+		// TODO Auto-generated method stub
+		Resend.click();
+		
+	}
 }

@@ -27,7 +27,6 @@ public class ExcelUtility {
 			workbook2 = new XSSFWorkbook(fileInputStream);
 			Sheet sheet = workbook2.getSheetAt(0);
 			int lastRowNumber = sheet.getLastRowNum();
-
 			for (int i = 0; i <= lastRowNumber; i++) {
 				Row row = sheet.getRow(i);
 				Cell keyCell = row.getCell(0);
@@ -37,7 +36,6 @@ public class ExcelUtility {
 				testData.put(key, value);
 			}
 		}
-
 		catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -54,23 +52,13 @@ public class ExcelUtility {
 			workbook = new XSSFWorkbook(fileInputStream);
 			Sheet sheet = workbook.getSheetAt(0);
 			int lastRowNumber = sheet.getLastRowNum();
-			// System.out.println(lastRowNumber);
 			int lastColNumber = sheet.getRow(0).getLastCellNum();
-
-			// System.out.println("lastcoulm count="+lastColNumber);
 
 			List<String> list = new ArrayList<String>();
 			for (int i = 0; i < lastColNumber; i++) {
 				Row row = sheet.getRow(0);
-
-				// System.out.println("row =get frist item from Excel sheet ");
-
 				Cell cell = row.getCell(i);
-
-				// System.out.println(" header="+cell);
-
 				rowHeader = cell.getStringCellValue().trim();
-
 				list.add(rowHeader);
 			}
 			testDataAllRow = new ArrayList<Map<String, String>>();
@@ -81,7 +69,6 @@ public class ExcelUtility {
 					Cell cell = row.getCell(k);
 					String colValue = cell.getStringCellValue().trim();
 					String str = colValue.replaceAll("[&]", "");
-
 					testData.put((String) list.get(k), str);
 				}
 				testDataAllRow.add(testData);

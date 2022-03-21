@@ -79,5 +79,14 @@ public class LoginWithInvalidMobileNumberTest extends Base {
 		Dvw.AssertInvalidLoginMobileNumber();
 
 	}
+	
+	@Test(priority = 10)
+	public void ClickBackTOHome()
+
+	{
+		ClickloginbuttonfromHomescreen Back = new ClickloginbuttonfromHomescreen();
+		Back.ClickBackHome();
+		
+}
 
 }

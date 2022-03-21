@@ -83,6 +83,8 @@ public class LocationExcelUtility {
 					String str = colValue.replaceAll("[&]", "");
 
 					testData.put((String) list.get(k), str);
+					
+				
 				}
 				testDataAllRow.add(testData);
 			}

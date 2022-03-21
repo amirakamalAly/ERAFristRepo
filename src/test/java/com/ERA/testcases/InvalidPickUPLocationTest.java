@@ -43,5 +43,23 @@ public class InvalidPickUPLocationTest extends Base {
 		Dvw.AssertInvalidLocationWithSearch();
 
 	}
+	
+	@Test(priority = 16)
+	public void clickMenuIconFromHome()
+
+	{
+		InvalidPickUPLocationScreen Dvw = new InvalidPickUPLocationScreen();
+		Dvw.clickMenuIconFromHome();
+
+	}
+	
+	@Test(priority = 17)
+	public void ClickNewRequest()
+
+	{
+		InvalidPickUPLocationScreen Dvw = new InvalidPickUPLocationScreen();
+		Dvw.ClickNewRequest();
+
+	}
 
 }

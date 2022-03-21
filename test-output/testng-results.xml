@@ -1,148 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="20" passed="12">
+<testng-results skipped="0" failed="0" ignored="40" total="124" passed="84">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39780" started-at="2022-03-20T13:32:26 EET" finished-at="2022-03-20T13:33:06 EET">
+  <suite name="Suite" duration-ms="248482" started-at="2022-03-21T14:38:29 EET" finished-at="2022-03-21T14:42:38 EET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39780" started-at="2022-03-20T13:32:26 EET" finished-at="2022-03-20T13:33:06 EET">
-      <class name="com.ERA.testcases.LoginWithInvalidSmsCodeTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:47 EET" finished-at="2022-03-20T13:32:47 EET">
+    <test name="Test" duration-ms="248482" started-at="2022-03-21T14:38:29 EET" finished-at="2022-03-21T14:42:38 EET">
+      <class name="com.ERA.testcases.addNormalBatteryRequestTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-03-21T14:42:03 EET" finished-at="2022-03-21T14:42:03 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.clcikLogin()]]>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.MoveMap()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="clcikLogin" duration-ms="2440" started-at="2022-03-20T13:32:47 EET" finished-at="2022-03-20T13:32:50 EET">
+        <test-method status="PASS" signature="MoveMap()[pri:29, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="MoveMap" duration-ms="21328" started-at="2022-03-21T14:42:03 EET" finished-at="2022-03-21T14:42:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveMap -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="342" started-at="2022-03-21T14:42:24 EET" finished-at="2022-03-21T14:42:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.MoveMap()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=MoveMap status=SUCCESS method=addNormalBatteryRequestTest.MoveMap()[pri:29, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:42:24 EET" finished-at="2022-03-21T14:42:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DragServiceSheet()[pri:30, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="DragServiceSheet" duration-ms="1994" started-at="2022-03-21T14:42:24 EET" finished-at="2022-03-21T14:42:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragServiceSheet -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="343" started-at="2022-03-21T14:42:26 EET" finished-at="2022-03-21T14:42:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=DragServiceSheet status=SUCCESS method=addNormalBatteryRequestTest.DragServiceSheet()[pri:30, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:42:27 EET" finished-at="2022-03-21T14:42:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectBattery()[pri:31, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="SelectBattery" duration-ms="1018" started-at="2022-03-21T14:42:27 EET" finished-at="2022-03-21T14:42:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBattery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="273" started-at="2022-03-21T14:42:28 EET" finished-at="2022-03-21T14:42:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectBattery status=SUCCESS method=addNormalBatteryRequestTest.SelectBattery()[pri:31, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-03-21T14:42:28 EET" finished-at="2022-03-21T14:42:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmSummery()[pri:32, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="ConfirmSummery" duration-ms="1813" started-at="2022-03-21T14:42:28 EET" finished-at="2022-03-21T14:42:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmSummery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="292" started-at="2022-03-21T14:42:30 EET" finished-at="2022-03-21T14:42:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmSummery status=SUCCESS method=addNormalBatteryRequestTest.ConfirmSummery()[pri:32, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-03-21T14:42:30 EET" finished-at="2022-03-21T14:42:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.ConfirmBaymnet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmBaymnet()[pri:33, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="ConfirmBaymnet" duration-ms="1617" started-at="2022-03-21T14:42:30 EET" finished-at="2022-03-21T14:42:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmBaymnet -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="343" started-at="2022-03-21T14:42:32 EET" finished-at="2022-03-21T14:42:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.ConfirmBaymnet()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmBaymnet status=SUCCESS method=addNormalBatteryRequestTest.ConfirmBaymnet()[pri:33, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:42:32 EET" finished-at="2022-03-21T14:42:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.CancelLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelLink()[pri:34, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="CancelLink" duration-ms="4773" started-at="2022-03-21T14:42:32 EET" finished-at="2022-03-21T14:42:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="307" started-at="2022-03-21T14:42:37 EET" finished-at="2022-03-21T14:42:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.CancelLink()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelLink status=SUCCESS method=addNormalBatteryRequestTest.CancelLink()[pri:34, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:42:37 EET" finished-at="2022-03-21T14:42:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.CancelBn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelBn()[pri:35, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="CancelBn" duration-ms="541" started-at="2022-03-21T14:42:37 EET" finished-at="2022-03-21T14:42:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelBn -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517]" name="afterMethod" is-config="true" duration-ms="262" started-at="2022-03-21T14:42:38 EET" finished-at="2022-03-21T14:42:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalBatteryRequestTest.CancelBn()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelBn status=SUCCESS method=addNormalBatteryRequestTest.CancelBn()[pri:35, instance:com.ERA.testcases.addNormalBatteryRequestTest@58134517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.addNormalBatteryRequestTest -->
+      <class name="com.ERA.testcases.Login_EditMobileNumberTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-03-21T14:40:25 EET" finished-at="2022-03-21T14:40:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clcikLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clcikLogin" duration-ms="845" started-at="2022-03-21T14:40:25 EET" finished-at="2022-03-21T14:40:26 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="286" started-at="2022-03-20T13:32:50 EET" finished-at="2022-03-20T13:32:50 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="321" started-at="2022-03-21T14:40:26 EET" finished-at="2022-03-21T14:40:26 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.clcikLogin()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clcikLogin()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=LoginWithInvalidSmsCodeTest.clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=Login_EditMobileNumberTest.clcikLogin()[pri:3, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:50 EET" finished-at="2022-03-20T13:32:50 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:40:26 EET" finished-at="2022-03-21T14:40:26 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectCountyCode()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.SelectCountyCode()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="SelectCountyCode" duration-ms="861" started-at="2022-03-20T13:32:50 EET" finished-at="2022-03-20T13:32:51 EET">
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="SelectCountyCode" duration-ms="451" started-at="2022-03-21T14:40:26 EET" finished-at="2022-03-21T14:40:27 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountyCode -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="339" started-at="2022-03-20T13:32:51 EET" finished-at="2022-03-20T13:32:51 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="295" started-at="2022-03-21T14:40:27 EET" finished-at="2022-03-21T14:40:27 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectCountyCode()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.SelectCountyCode()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=LoginWithInvalidSmsCodeTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=Login_EditMobileNumberTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-20T13:32:51 EET" finished-at="2022-03-20T13:32:51 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:40:27 EET" finished-at="2022-03-21T14:40:27 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.Searchforcounrty()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.Searchforcounrty()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="Searchforcounrty" duration-ms="562" started-at="2022-03-20T13:32:51 EET" finished-at="2022-03-20T13:32:52 EET">
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="Searchforcounrty" duration-ms="1076" started-at="2022-03-21T14:40:27 EET" finished-at="2022-03-21T14:40:28 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchforcounrty -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="283" started-at="2022-03-20T13:32:52 EET" finished-at="2022-03-20T13:32:52 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="229" started-at="2022-03-21T14:40:28 EET" finished-at="2022-03-21T14:40:28 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.Searchforcounrty()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.Searchforcounrty()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=LoginWithInvalidSmsCodeTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=Login_EditMobileNumberTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-20T13:32:52 EET" finished-at="2022-03-20T13:32:52 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:40:28 EET" finished-at="2022-03-21T14:40:28 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectEgypt()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.SelectEgypt()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="SelectEgypt" duration-ms="455" started-at="2022-03-20T13:32:52 EET" finished-at="2022-03-20T13:32:53 EET">
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="SelectEgypt" duration-ms="422" started-at="2022-03-21T14:40:28 EET" finished-at="2022-03-21T14:40:29 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEgypt -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="310" started-at="2022-03-20T13:32:53 EET" finished-at="2022-03-20T13:32:53 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="303" started-at="2022-03-21T14:40:29 EET" finished-at="2022-03-21T14:40:29 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectEgypt()]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.SelectEgypt()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=LoginWithInvalidSmsCodeTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=Login_EditMobileNumberTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:53 EET" finished-at="2022-03-20T13:32:53 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-03-21T14:40:29 EET" finished-at="2022-03-21T14:40:29 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="addMobileNumber" duration-ms="582" started-at="2022-03-20T13:32:53 EET" data-provider="loginUsers" finished-at="2022-03-20T13:32:54 EET">
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="addMobileNumber" duration-ms="849" started-at="2022-03-21T14:40:29 EET" data-provider="loginUsers" finished-at="2022-03-21T14:40:30 EET">
           <params>
             <param index="0">
               <value>
@@ -158,7 +377,448 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMobileNumber -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="261" started-at="2022-03-20T13:32:54 EET" finished-at="2022-03-20T13:32:54 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="267" started-at="2022-03-21T14:40:30 EET" finished-at="2022-03-21T14:40:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=Login_EditMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:40:30 EET" finished-at="2022-03-21T14:40:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickContinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clickContinue" duration-ms="248" started-at="2022-03-21T14:40:30 EET" finished-at="2022-03-21T14:40:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="338" started-at="2022-03-21T14:40:30 EET" finished-at="2022-03-21T14:40:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=Login_EditMobileNumberTest.clickContinue()[pri:8, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-03-21T14:40:31 EET" finished-at="2022-03-21T14:40:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.EditMobileNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EditMobileNumber()[pri:10, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="EditMobileNumber" duration-ms="963" started-at="2022-03-21T14:40:31 EET" finished-at="2022-03-21T14:40:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="315" started-at="2022-03-21T14:40:32 EET" finished-at="2022-03-21T14:40:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.EditMobileNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=EditMobileNumber status=SUCCESS method=Login_EditMobileNumberTest.EditMobileNumber()[pri:10, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:40:32 EET" finished-at="2022-03-21T14:40:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.EditMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EditMobileNumber(java.lang.String,java.lang.String)[pri:11, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="EditMobileNumber" duration-ms="850" started-at="2022-03-21T14:40:32 EET" data-provider="EditloginUsers" finished-at="2022-03-21T14:40:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1116332215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="261" started-at="2022-03-21T14:40:33 EET" finished-at="2022-03-21T14:40:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.EditMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=EditMobileNumber status=SUCCESS method=Login_EditMobileNumberTest.EditMobileNumber(java.lang.String,java.lang.String)[pri:11, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-03-21T14:40:33 EET" finished-at="2022-03-21T14:40:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickCntinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickCntinue()[pri:12, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clickCntinue" duration-ms="266" started-at="2022-03-21T14:40:33 EET" finished-at="2022-03-21T14:40:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCntinue -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="315" started-at="2022-03-21T14:40:33 EET" finished-at="2022-03-21T14:40:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickCntinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickCntinue status=SUCCESS method=Login_EditMobileNumberTest.clickCntinue()[pri:12, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-03-21T14:40:34 EET" finished-at="2022-03-21T14:40:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:13, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="getotp" duration-ms="7794" started-at="2022-03-21T14:40:34 EET" data-provider="EditloginUsers" finished-at="2022-03-21T14:40:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1116332215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getotp -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="328" started-at="2022-03-21T14:40:42 EET" finished-at="2022-03-21T14:40:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=Login_EditMobileNumberTest.getotp(java.lang.String,java.lang.String)[pri:13, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-03-21T14:40:42 EET" finished-at="2022-03-21T14:40:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickMenuIconFromHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickMenuIconFromHome()[pri:14, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clickMenuIconFromHome" duration-ms="2925" started-at="2022-03-21T14:40:42 EET" finished-at="2022-03-21T14:40:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuIconFromHome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="290" started-at="2022-03-21T14:40:45 EET" finished-at="2022-03-21T14:40:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickMenuIconFromHome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickMenuIconFromHome status=SUCCESS method=Login_EditMobileNumberTest.clickMenuIconFromHome()[pri:14, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-03-21T14:40:45 EET" finished-at="2022-03-21T14:40:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickLogout()[pri:15, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clickLogout" duration-ms="691" started-at="2022-03-21T14:40:45 EET" finished-at="2022-03-21T14:40:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="302" started-at="2022-03-21T14:40:46 EET" finished-at="2022-03-21T14:40:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickLogout()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickLogout status=SUCCESS method=Login_EditMobileNumberTest.clickLogout()[pri:15, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:40:46 EET" finished-at="2022-03-21T14:40:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickSkip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickSkip()[pri:16, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="clickSkip" duration-ms="3595" started-at="2022-03-21T14:40:46 EET" finished-at="2022-03-21T14:40:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSkip -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517]" name="afterMethod" is-config="true" duration-ms="422" started-at="2022-03-21T14:40:50 EET" finished-at="2022-03-21T14:40:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_EditMobileNumberTest.clickSkip()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=Login_EditMobileNumberTest.clickSkip()[pri:16, instance:com.ERA.testcases.Login_EditMobileNumberTest@6591f517] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.Login_EditMobileNumberTest -->
+      <class name="com.ERA.testcases.LoginWithInvalidSmsCodeTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.clcikLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="clcikLogin" duration-ms="921" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clcikLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="303" started-at="2022-03-21T14:40:10 EET" finished-at="2022-03-21T14:40:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.clcikLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=LoginWithInvalidSmsCodeTest.clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:40:10 EET" finished-at="2022-03-21T14:40:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="SelectCountyCode" duration-ms="498" started-at="2022-03-21T14:40:10 EET" finished-at="2022-03-21T14:40:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountyCode -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="294" started-at="2022-03-21T14:40:11 EET" finished-at="2022-03-21T14:40:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectCountyCode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=LoginWithInvalidSmsCodeTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:40:11 EET" finished-at="2022-03-21T14:40:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.Searchforcounrty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="Searchforcounrty" duration-ms="1070" started-at="2022-03-21T14:40:11 EET" finished-at="2022-03-21T14:40:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchforcounrty -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="224" started-at="2022-03-21T14:40:12 EET" finished-at="2022-03-21T14:40:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.Searchforcounrty()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=LoginWithInvalidSmsCodeTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:40:13 EET" finished-at="2022-03-21T14:40:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectEgypt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="SelectEgypt" duration-ms="407" started-at="2022-03-21T14:40:13 EET" finished-at="2022-03-21T14:40:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEgypt -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="271" started-at="2022-03-21T14:40:13 EET" finished-at="2022-03-21T14:40:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.SelectEgypt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=LoginWithInvalidSmsCodeTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:40:13 EET" finished-at="2022-03-21T14:40:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="addMobileNumber" duration-ms="872" started-at="2022-03-21T14:40:13 EET" data-provider="loginUsers" finished-at="2022-03-21T14:40:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1021132355]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="262" started-at="2022-03-21T14:40:14 EET" finished-at="2022-03-21T14:40:14 EET">
           <params>
             <param index="0">
               <value>
@@ -167,14 +827,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=LoginWithInvalidSmsCodeTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=LoginWithInvalidSmsCodeTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:54 EET" finished-at="2022-03-20T13:32:54 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2022-03-21T14:40:14 EET" finished-at="2022-03-21T14:40:14 EET">
           <params>
             <param index="0">
               <value>
@@ -185,11 +845,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="clickContinue" duration-ms="278" started-at="2022-03-20T13:32:54 EET" finished-at="2022-03-20T13:32:54 EET">
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="clickContinue" duration-ms="248" started-at="2022-03-21T14:40:14 EET" finished-at="2022-03-21T14:40:15 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinue -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="435" started-at="2022-03-20T13:32:54 EET" finished-at="2022-03-20T13:32:55 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="429" started-at="2022-03-21T14:40:15 EET" finished-at="2022-03-21T14:40:15 EET">
           <params>
             <param index="0">
               <value>
@@ -198,14 +858,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=LoginWithInvalidSmsCodeTest.clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=LoginWithInvalidSmsCodeTest.clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:55 EET" finished-at="2022-03-20T13:32:55 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-03-21T14:40:15 EET" finished-at="2022-03-21T14:40:15 EET">
           <params>
             <param index="0">
               <value>
@@ -216,7 +876,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="getotp" duration-ms="7804" started-at="2022-03-20T13:32:55 EET" data-provider="loginUsers" finished-at="2022-03-20T13:33:03 EET">
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="getotp" duration-ms="7675" started-at="2022-03-21T14:40:15 EET" data-provider="loginUsers" finished-at="2022-03-21T14:40:23 EET">
           <params>
             <param index="0">
               <value>
@@ -232,7 +892,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getotp -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="410" started-at="2022-03-20T13:33:03 EET" finished-at="2022-03-20T13:33:03 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="273" started-at="2022-03-21T14:40:23 EET" finished-at="2022-03-21T14:40:23 EET">
           <params>
             <param index="0">
               <value>
@@ -241,29 +901,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=getotp status=SUCCESS method=LoginWithInvalidSmsCodeTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=LoginWithInvalidSmsCodeTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="AssertInvalidOtp()[pri:10, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="AssertInvalidOtp" duration-ms="1590" started-at="2022-03-20T13:33:03 EET" finished-at="2022-03-20T13:33:05 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2022-03-21T14:40:23 EET" finished-at="2022-03-21T14:40:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.AssertInvalidOtp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AssertInvalidOtp()[pri:10, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="AssertInvalidOtp" duration-ms="520" started-at="2022-03-21T14:40:23 EET" finished-at="2022-03-21T14:40:24 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssertInvalidOtp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:33:03 EET" finished-at="2022-03-20T13:33:03 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.AssertInvalidOtp()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="252" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:05 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="241" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:24 EET">
           <params>
             <param index="0">
               <value>
@@ -272,29 +932,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=AssertInvalidOtp status=SUCCESS method=LoginWithInvalidSmsCodeTest.AssertInvalidOtp()[pri:10, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=AssertInvalidOtp status=SUCCESS method=LoginWithInvalidSmsCodeTest.AssertInvalidOtp()[pri:10, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="ClickBackArrow()[pri:11, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="ClickBackArrow" duration-ms="106" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:05 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.ClickBackArrow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickBackArrow()[pri:11, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="ClickBackArrow" duration-ms="60" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:24 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickBackArrow -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:05 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ERA.testcases.LoginWithInvalidSmsCodeTest.ClickBackArrow()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="282" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:05 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="263" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:24 EET">
           <params>
             <param index="0">
               <value>
@@ -303,14 +963,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=ClickBackArrow status=SUCCESS method=LoginWithInvalidSmsCodeTest.ClickBackArrow()[pri:11, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=ClickBackArrow status=SUCCESS method=LoginWithInvalidSmsCodeTest.ClickBackArrow()[pri:11, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:05 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:24 EET">
           <params>
             <param index="0">
               <value>
@@ -321,11 +981,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ClickBackTOHome()[pri:12, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="ClickBackTOHome" duration-ms="406" started-at="2022-03-20T13:33:05 EET" finished-at="2022-03-20T13:33:06 EET">
+        <test-method status="PASS" signature="ClickBackTOHome()[pri:12, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="ClickBackTOHome" duration-ms="385" started-at="2022-03-21T14:40:24 EET" finished-at="2022-03-21T14:40:25 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickBackTOHome -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="396" started-at="2022-03-20T13:33:06 EET" finished-at="2022-03-20T13:33:06 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="381" started-at="2022-03-21T14:40:25 EET" finished-at="2022-03-21T14:40:25 EET">
           <params>
             <param index="0">
               <value>
@@ -334,7 +994,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=ClickBackTOHome status=SUCCESS method=LoginWithInvalidSmsCodeTest.ClickBackTOHome()[pri:12, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=ClickBackTOHome status=SUCCESS method=LoginWithInvalidSmsCodeTest.ClickBackTOHome()[pri:12, instance:com.ERA.testcases.LoginWithInvalidSmsCodeTest@f0f2775] output={null}]]]>
               </value>
             </param>
           </params>
@@ -342,12 +1002,1258 @@
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.ERA.testcases.LoginWithInvalidSmsCodeTest -->
+      <class name="com.ERA.testcases.addNormalFuelRequestTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:41:38 EET" finished-at="2022-03-21T14:41:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.MoveMap()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MoveMap()[pri:21, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="MoveMap" duration-ms="3831" started-at="2022-03-21T14:41:38 EET" finished-at="2022-03-21T14:41:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveMap -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="335" started-at="2022-03-21T14:41:42 EET" finished-at="2022-03-21T14:41:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.MoveMap()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=MoveMap status=SUCCESS method=addNormalFuelRequestTest.MoveMap()[pri:21, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:41:42 EET" finished-at="2022-03-21T14:41:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.Dragsheet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Dragsheet()[pri:22, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="Dragsheet" duration-ms="736" started-at="2022-03-21T14:41:42 EET" finished-at="2022-03-21T14:41:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dragsheet -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="270" started-at="2022-03-21T14:41:43 EET" finished-at="2022-03-21T14:41:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.Dragsheet()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Dragsheet status=SUCCESS method=addNormalFuelRequestTest.Dragsheet()[pri:22, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-03-21T14:41:43 EET" finished-at="2022-03-21T14:41:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.selectFuelService()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectFuelService()[pri:23, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="selectFuelService" duration-ms="6544" started-at="2022-03-21T14:41:43 EET" finished-at="2022-03-21T14:41:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFuelService -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="257" started-at="2022-03-21T14:41:50 EET" finished-at="2022-03-21T14:41:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.selectFuelService()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectFuelService status=SUCCESS method=addNormalFuelRequestTest.selectFuelService()[pri:23, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2022-03-21T14:41:50 EET" finished-at="2022-03-21T14:41:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.SelectFuelType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectFuelType()[pri:24, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="SelectFuelType" duration-ms="619" started-at="2022-03-21T14:41:50 EET" finished-at="2022-03-21T14:41:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFuelType -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="254" started-at="2022-03-21T14:41:51 EET" finished-at="2022-03-21T14:41:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.SelectFuelType()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectFuelType status=SUCCESS method=addNormalFuelRequestTest.SelectFuelType()[pri:24, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:51 EET" finished-at="2022-03-21T14:41:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmfuelType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmfuelType()[pri:25, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="ConfirmfuelType" duration-ms="715" started-at="2022-03-21T14:41:51 EET" finished-at="2022-03-21T14:41:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmfuelType -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="283" started-at="2022-03-21T14:41:52 EET" finished-at="2022-03-21T14:41:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmfuelType()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmfuelType status=SUCCESS method=addNormalFuelRequestTest.ConfirmfuelType()[pri:25, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:41:52 EET" finished-at="2022-03-21T14:41:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmpaymentButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmpaymentButton()[pri:26, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="ConfirmpaymentButton" duration-ms="1735" started-at="2022-03-21T14:41:52 EET" finished-at="2022-03-21T14:41:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmpaymentButton -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="323" started-at="2022-03-21T14:41:54 EET" finished-at="2022-03-21T14:41:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmpaymentButton()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmpaymentButton status=SUCCESS method=addNormalFuelRequestTest.ConfirmpaymentButton()[pri:26, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:41:54 EET" finished-at="2022-03-21T14:41:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.SelectCash()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectCash()[pri:27, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="SelectCash" duration-ms="1606" started-at="2022-03-21T14:41:54 EET" finished-at="2022-03-21T14:41:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCash -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="297" started-at="2022-03-21T14:41:56 EET" finished-at="2022-03-21T14:41:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.SelectCash()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectCash status=SUCCESS method=addNormalFuelRequestTest.SelectCash()[pri:27, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:56 EET" finished-at="2022-03-21T14:41:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmCashPayment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmCashPayment()[pri:28, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="ConfirmCashPayment" duration-ms="668" started-at="2022-03-21T14:41:56 EET" finished-at="2022-03-21T14:41:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmCashPayment -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="386" started-at="2022-03-21T14:41:57 EET" finished-at="2022-03-21T14:41:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.ConfirmCashPayment()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmCashPayment status=SUCCESS method=addNormalFuelRequestTest.ConfirmCashPayment()[pri:28, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:41:57 EET" finished-at="2022-03-21T14:41:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.CancelFuelRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelFuelRequest()[pri:29, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="CancelFuelRequest" duration-ms="4528" started-at="2022-03-21T14:41:57 EET" finished-at="2022-03-21T14:42:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelFuelRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="333" started-at="2022-03-21T14:42:02 EET" finished-at="2022-03-21T14:42:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.CancelFuelRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelFuelRequest status=SUCCESS method=addNormalFuelRequestTest.CancelFuelRequest()[pri:29, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:42:02 EET" finished-at="2022-03-21T14:42:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.CancelBnFuelRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelBnFuelRequest()[pri:30, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="CancelBnFuelRequest" duration-ms="432" started-at="2022-03-21T14:42:02 EET" finished-at="2022-03-21T14:42:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelBnFuelRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3]" name="afterMethod" is-config="true" duration-ms="241" started-at="2022-03-21T14:42:02 EET" finished-at="2022-03-21T14:42:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalFuelRequestTest.CancelBnFuelRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelBnFuelRequest status=SUCCESS method=addNormalFuelRequestTest.CancelBnFuelRequest()[pri:30, instance:com.ERA.testcases.addNormalFuelRequestTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.addNormalFuelRequestTest -->
+      <class name="com.ERA.testcases.addNormalTowingRequestTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:15 EET" finished-at="2022-03-21T14:41:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectTowingService()[pri:10, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="selectTowingService" duration-ms="2615" started-at="2022-03-21T14:41:15 EET" finished-at="2022-03-21T14:41:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTowingService -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="324" started-at="2022-03-21T14:41:18 EET" finished-at="2022-03-21T14:41:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectTowingService()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectTowingService status=SUCCESS method=addNormalTowingRequestTest.selectTowingService()[pri:10, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:41:18 EET" finished-at="2022-03-21T14:41:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectNormalTowing()[pri:11, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="selectNormalTowing" duration-ms="734" started-at="2022-03-21T14:41:18 EET" finished-at="2022-03-21T14:41:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNormalTowing -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="294" started-at="2022-03-21T14:41:19 EET" finished-at="2022-03-21T14:41:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.selectNormalTowing()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectNormalTowing status=SUCCESS method=addNormalTowingRequestTest.selectNormalTowing()[pri:11, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-03-21T14:41:19 EET" finished-at="2022-03-21T14:41:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddingDestination()[pri:12, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="AddingDestination" duration-ms="884" started-at="2022-03-21T14:41:19 EET" finished-at="2022-03-21T14:41:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingDestination -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="286" started-at="2022-03-21T14:41:20 EET" finished-at="2022-03-21T14:41:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.AddingDestination()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddingDestination status=SUCCESS method=addNormalTowingRequestTest.AddingDestination()[pri:12, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-03-21T14:41:20 EET" finished-at="2022-03-21T14:41:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickSearchDest()[pri:13, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ClickSearchDest" duration-ms="1818" started-at="2022-03-21T14:41:20 EET" finished-at="2022-03-21T14:41:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchDest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="356" started-at="2022-03-21T14:41:22 EET" finished-at="2022-03-21T14:41:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchDest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchDest status=SUCCESS method=addNormalTowingRequestTest.ClickSearchDest()[pri:13, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:22 EET" finished-at="2022-03-21T14:41:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SendDestLocation(java.lang.String,java.lang.String)[pri:14, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="SendDestLocation" duration-ms="914" started-at="2022-03-21T14:41:22 EET" data-provider="Locations" finished-at="2022-03-21T14:41:23 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Towing destination Location]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[?????? ??? ??????? - ????, ??????? ???????? ?????? ????????]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendDestLocation -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="274" started-at="2022-03-21T14:41:23 EET" finished-at="2022-03-21T14:41:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.SendDestLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SendDestLocation status=SUCCESS method=addNormalTowingRequestTest.SendDestLocation(java.lang.String,java.lang.String)[pri:14, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-03-21T14:41:24 EET" finished-at="2022-03-21T14:41:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickSearchItem()[pri:15, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ClickSearchItem" duration-ms="1071" started-at="2022-03-21T14:41:24 EET" finished-at="2022-03-21T14:41:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchItem -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="306" started-at="2022-03-21T14:41:25 EET" finished-at="2022-03-21T14:41:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickSearchItem()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchItem status=SUCCESS method=addNormalTowingRequestTest.ClickSearchItem()[pri:15, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:41:25 EET" finished-at="2022-03-21T14:41:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmDestination()[pri:16, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ConfirmDestination" duration-ms="1641" started-at="2022-03-21T14:41:25 EET" finished-at="2022-03-21T14:41:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmDestination -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="431" started-at="2022-03-21T14:41:27 EET" finished-at="2022-03-21T14:41:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmDestination()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmDestination status=SUCCESS method=addNormalTowingRequestTest.ConfirmDestination()[pri:16, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:41:27 EET" finished-at="2022-03-21T14:41:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmTowingRequest()[pri:17, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ConfirmTowingRequest" duration-ms="2625" started-at="2022-03-21T14:41:27 EET" finished-at="2022-03-21T14:41:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmTowingRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="330" started-at="2022-03-21T14:41:30 EET" finished-at="2022-03-21T14:41:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmTowingRequest status=SUCCESS method=addNormalTowingRequestTest.ConfirmTowingRequest()[pri:17, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:41:30 EET" finished-at="2022-03-21T14:41:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmPaymentTowingRequest()[pri:18, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ConfirmPaymentTowingRequest" duration-ms="652" started-at="2022-03-21T14:41:30 EET" finished-at="2022-03-21T14:41:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPaymentTowingRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="421" started-at="2022-03-21T14:41:31 EET" finished-at="2022-03-21T14:41:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ConfirmPaymentTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmPaymentTowingRequest status=SUCCESS method=addNormalTowingRequestTest.ConfirmPaymentTowingRequest()[pri:18, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:31 EET" finished-at="2022-03-21T14:41:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelTowingRequest()[pri:19, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="CancelTowingRequest" duration-ms="5829" started-at="2022-03-21T14:41:31 EET" finished-at="2022-03-21T14:41:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTowingRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="359" started-at="2022-03-21T14:41:37 EET" finished-at="2022-03-21T14:41:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.CancelTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelTowingRequest status=SUCCESS method=addNormalTowingRequestTest.CancelTowingRequest()[pri:19, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:41:37 EET" finished-at="2022-03-21T14:41:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickCancelTowingRequest()[pri:20, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="ClickCancelTowingRequest" duration-ms="471" started-at="2022-03-21T14:41:37 EET" finished-at="2022-03-21T14:41:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCancelTowingRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10]" name="afterMethod" is-config="true" duration-ms="253" started-at="2022-03-21T14:41:38 EET" finished-at="2022-03-21T14:41:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.addNormalTowingRequestTest.ClickCancelTowingRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickCancelTowingRequest status=SUCCESS method=addNormalTowingRequestTest.ClickCancelTowingRequest()[pri:20, instance:com.ERA.testcases.addNormalTowingRequestTest@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
+      <class name="com.ERA.testcases.Login_ResendOTPTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:38:51 EET" finished-at="2022-03-21T14:38:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.clcikLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="clcikLogin" duration-ms="2306" started-at="2022-03-21T14:38:51 EET" finished-at="2022-03-21T14:38:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clcikLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="277" started-at="2022-03-21T14:38:53 EET" finished-at="2022-03-21T14:38:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.clcikLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=Login_ResendOTPTest.clcikLogin()[pri:3, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:38:54 EET" finished-at="2022-03-21T14:38:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="SelectCountyCode" duration-ms="843" started-at="2022-03-21T14:38:54 EET" finished-at="2022-03-21T14:38:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountyCode -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="277" started-at="2022-03-21T14:38:55 EET" finished-at="2022-03-21T14:38:55 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.SelectCountyCode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=Login_ResendOTPTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:38:55 EET" finished-at="2022-03-21T14:38:55 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.Searchforcounrty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="Searchforcounrty" duration-ms="1178" started-at="2022-03-21T14:38:55 EET" finished-at="2022-03-21T14:38:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchforcounrty -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="257" started-at="2022-03-21T14:38:56 EET" finished-at="2022-03-21T14:38:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.Searchforcounrty()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=Login_ResendOTPTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:38:56 EET" finished-at="2022-03-21T14:38:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.SelectEgypt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="SelectEgypt" duration-ms="484" started-at="2022-03-21T14:38:56 EET" finished-at="2022-03-21T14:38:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEgypt -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="295" started-at="2022-03-21T14:38:57 EET" finished-at="2022-03-21T14:38:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.SelectEgypt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=Login_ResendOTPTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:38:57 EET" finished-at="2022-03-21T14:38:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="addMobileNumber" duration-ms="627" started-at="2022-03-21T14:38:57 EET" data-provider="loginUsers" finished-at="2022-03-21T14:38:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1021132355]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="281" started-at="2022-03-21T14:38:58 EET" finished-at="2022-03-21T14:38:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=Login_ResendOTPTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-03-21T14:38:58 EET" finished-at="2022-03-21T14:38:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.clickContinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="clickContinue" duration-ms="236" started-at="2022-03-21T14:38:58 EET" finished-at="2022-03-21T14:38:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="329" started-at="2022-03-21T14:38:59 EET" finished-at="2022-03-21T14:38:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.clickContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=Login_ResendOTPTest.clickContinue()[pri:8, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2022-03-21T14:38:59 EET" finished-at="2022-03-21T14:38:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="getotp" duration-ms="6226" started-at="2022-03-21T14:38:59 EET" data-provider="loginUsers" finished-at="2022-03-21T14:39:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1021132355]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getotp -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="345" started-at="2022-03-21T14:39:05 EET" finished-at="2022-03-21T14:39:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=Login_ResendOTPTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:39:05 EET" finished-at="2022-03-21T14:39:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ResendOTP() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ResendOTP()[pri:10, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="ResendOTP" duration-ms="54675" started-at="2022-03-21T14:39:05 EET" finished-at="2022-03-21T14:40:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendOTP -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="353" started-at="2022-03-21T14:40:00 EET" finished-at="2022-03-21T14:40:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ResendOTP() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ResendOTP status=SUCCESS method=Login_ResendOTPTest.ResendOTP()[pri:10, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:40:01 EET" finished-at="2022-03-21T14:40:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ClickBackArrow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickBackArrow()[pri:11, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="ClickBackArrow" duration-ms="1040" started-at="2022-03-21T14:40:01 EET" finished-at="2022-03-21T14:40:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBackArrow -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="274" started-at="2022-03-21T14:40:02 EET" finished-at="2022-03-21T14:40:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ClickBackArrow()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickBackArrow status=SUCCESS method=Login_ResendOTPTest.ClickBackArrow()[pri:11, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2022-03-21T14:40:02 EET" finished-at="2022-03-21T14:40:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ClickBackTOHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickBackTOHome()[pri:12, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="ClickBackTOHome" duration-ms="389" started-at="2022-03-21T14:40:02 EET" finished-at="2022-03-21T14:40:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBackTOHome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884]" name="afterMethod" is-config="true" duration-ms="344" started-at="2022-03-21T14:40:02 EET" finished-at="2022-03-21T14:40:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.Login_ResendOTPTest.ClickBackTOHome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickBackTOHome status=SUCCESS method=Login_ResendOTPTest.ClickBackTOHome()[pri:12, instance:com.ERA.testcases.Login_ResendOTPTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.Login_ResendOTPTest -->
+      <class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-03-21T14:40:50 EET" finished-at="2022-03-21T14:40:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clcikLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="clcikLogin" duration-ms="2493" started-at="2022-03-21T14:40:50 EET" finished-at="2022-03-21T14:40:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clcikLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="333" started-at="2022-03-21T14:40:53 EET" finished-at="2022-03-21T14:40:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clcikLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-03-21T14:40:53 EET" finished-at="2022-03-21T14:40:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="SelectCountyCode" duration-ms="958" started-at="2022-03-21T14:40:53 EET" finished-at="2022-03-21T14:40:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountyCode -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="326" started-at="2022-03-21T14:40:54 EET" finished-at="2022-03-21T14:40:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectCountyCode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-03-21T14:40:54 EET" finished-at="2022-03-21T14:40:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.Searchforcounrty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="Searchforcounrty" duration-ms="985" started-at="2022-03-21T14:40:54 EET" finished-at="2022-03-21T14:40:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchforcounrty -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="241" started-at="2022-03-21T14:40:55 EET" finished-at="2022-03-21T14:40:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.Searchforcounrty()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:40:56 EET" finished-at="2022-03-21T14:40:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="SelectEgypt" duration-ms="376" started-at="2022-03-21T14:40:56 EET" finished-at="2022-03-21T14:40:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEgypt -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="285" started-at="2022-03-21T14:40:56 EET" finished-at="2022-03-21T14:40:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.SelectEgypt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:40:56 EET" finished-at="2022-03-21T14:40:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="addMobileNumber" duration-ms="273" started-at="2022-03-21T14:40:56 EET" data-provider="loginUsers" finished-at="2022-03-21T14:40:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1021132355]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="279" started-at="2022-03-21T14:40:56 EET" finished-at="2022-03-21T14:40:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:40:57 EET" finished-at="2022-03-21T14:40:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clickContinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="clickContinue" duration-ms="230" started-at="2022-03-21T14:40:57 EET" finished-at="2022-03-21T14:40:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="286" started-at="2022-03-21T14:40:57 EET" finished-at="2022-03-21T14:40:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.clickContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-03-21T14:40:57 EET" finished-at="2022-03-21T14:40:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="getotp" duration-ms="6816" started-at="2022-03-21T14:40:57 EET" data-provider="loginUsers" finished-at="2022-03-21T14:41:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1021132355]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getotp -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2]" name="afterMethod" is-config="true" duration-ms="318" started-at="2022-03-21T14:41:04 EET" finished-at="2022-03-21T14:41:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:com.ERA.testcases.ClickloginbuttonfromHomescreenTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.ClickloginbuttonfromHomescreenTest -->
       <class name="com.ERA.testcases.SkipupdateTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeSuite" is-config="true" duration-ms="79" started-at="2022-03-20T13:32:26 EET" finished-at="2022-03-20T13:32:26 EET">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="beforeSuite" is-config="true" duration-ms="81" started-at="2022-03-21T14:38:29 EET" finished-at="2022-03-21T14:38:29 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeTest" is-config="true" duration-ms="12015" started-at="2022-03-20T13:32:26 EET" finished-at="2022-03-20T13:32:38 EET">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="beforeTest" is-config="true" duration-ms="10518" started-at="2022-03-21T14:38:29 EET" finished-at="2022-03-21T14:38:40 EET">
           <params>
             <param index="0">
               <value>
@@ -378,7 +2284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-03-20T13:32:38 EET" finished-at="2022-03-20T13:32:38 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2022-03-21T14:38:40 EET" finished-at="2022-03-21T14:38:40 EET">
           <params>
             <param index="0">
               <value>
@@ -389,11 +2295,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="clickSkip" duration-ms="6400" started-at="2022-03-20T13:32:38 EET" finished-at="2022-03-20T13:32:45 EET">
+        <test-method status="PASS" signature="clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="clickSkip" duration-ms="8596" started-at="2022-03-21T14:38:40 EET" finished-at="2022-03-21T14:38:49 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSkip -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterMethod" is-config="true" duration-ms="434" started-at="2022-03-20T13:32:45 EET" finished-at="2022-03-20T13:32:45 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="afterMethod" is-config="true" duration-ms="463" started-at="2022-03-21T14:38:49 EET" finished-at="2022-03-21T14:38:49 EET">
           <params>
             <param index="0">
               <value>
@@ -402,24 +2308,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@551bdc27] output={null}]]]>
+                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:com.ERA.testcases.SkipupdateTest@709ba3fb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-20T13:33:06 EET" finished-at="2022-03-20T13:33:06 EET">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-03-21T14:42:38 EET" finished-at="2022-03-21T14:42:38 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@551bdc27]" name="afterSuite" is-config="true" duration-ms="221" started-at="2022-03-20T13:33:06 EET" finished-at="2022-03-20T13:33:06 EET">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ERA.testcases.SkipupdateTest@709ba3fb]" name="afterSuite" is-config="true" duration-ms="219" started-at="2022-03-21T14:42:38 EET" finished-at="2022-03-21T14:42:38 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.ERA.testcases.SkipupdateTest -->
       <class name="com.ERA.testcases.allowLocationPermissionTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-20T13:32:45 EET" finished-at="2022-03-20T13:32:45 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@61d47554]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:38:49 EET" finished-at="2022-03-21T14:38:49 EET">
           <params>
             <param index="0">
               <value>
@@ -430,11 +2336,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="clcallowLocationPermissionTestikLogin" duration-ms="1732" started-at="2022-03-20T13:32:45 EET" finished-at="2022-03-20T13:32:47 EET">
+        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@61d47554]" name="clcallowLocationPermissionTestikLogin" duration-ms="1666" started-at="2022-03-21T14:38:49 EET" finished-at="2022-03-21T14:38:51 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcallowLocationPermissionTestikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46]" name="afterMethod" is-config="true" duration-ms="400" started-at="2022-03-20T13:32:47 EET" finished-at="2022-03-20T13:32:47 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.allowLocationPermissionTest@61d47554]" name="afterMethod" is-config="true" duration-ms="290" started-at="2022-03-21T14:38:51 EET" finished-at="2022-03-21T14:38:51 EET">
           <params>
             <param index="0">
               <value>
@@ -443,7 +2349,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@5d20e46] output={null}]]]>
+                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:com.ERA.testcases.allowLocationPermissionTest@61d47554] output={null}]]]>
               </value>
             </param>
           </params>
@@ -451,6 +2357,468 @@
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.ERA.testcases.allowLocationPermissionTest -->
+      <class name="com.ERA.testcases.InvalidPickUPLocationTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-03-21T14:41:04 EET" finished-at="2022-03-21T14:41:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.AddingDestination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddingDestination()[pri:12, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="AddingDestination" duration-ms="3162" started-at="2022-03-21T14:41:04 EET" finished-at="2022-03-21T14:41:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingDestination -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="336" started-at="2022-03-21T14:41:08 EET" finished-at="2022-03-21T14:41:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.AddingDestination()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddingDestination status=SUCCESS method=InvalidPickUPLocationTest.AddingDestination()[pri:12, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-03-21T14:41:08 EET" finished-at="2022-03-21T14:41:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.SendDestLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SendDestLocation(java.lang.String,java.lang.String)[pri:13, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="SendDestLocation" duration-ms="1707" started-at="2022-03-21T14:41:08 EET" data-provider="InvalidLocations" finished-at="2022-03-21T14:41:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Towing Pickup Location]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mousa ibn Noseir St, ??????? ?????? ???????? 11828]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendDestLocation -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="268" started-at="2022-03-21T14:41:10 EET" finished-at="2022-03-21T14:41:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.SendDestLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SendDestLocation status=SUCCESS method=InvalidPickUPLocationTest.SendDestLocation(java.lang.String,java.lang.String)[pri:13, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:41:10 EET" finished-at="2022-03-21T14:41:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.ClickSearchresultItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickSearchresultItem()[pri:14, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="ClickSearchresultItem" duration-ms="1048" started-at="2022-03-21T14:41:10 EET" finished-at="2022-03-21T14:41:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchresultItem -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="252" started-at="2022-03-21T14:41:11 EET" finished-at="2022-03-21T14:41:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.ClickSearchresultItem()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchresultItem status=SUCCESS method=InvalidPickUPLocationTest.ClickSearchresultItem()[pri:14, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-21T14:41:11 EET" finished-at="2022-03-21T14:41:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.AssertInvalidLocationWithSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AssertInvalidLocationWithSearch()[pri:15, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="AssertInvalidLocationWithSearch" duration-ms="1636" started-at="2022-03-21T14:41:11 EET" finished-at="2022-03-21T14:41:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertInvalidLocationWithSearch -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="324" started-at="2022-03-21T14:41:13 EET" finished-at="2022-03-21T14:41:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.AssertInvalidLocationWithSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AssertInvalidLocationWithSearch status=SUCCESS method=InvalidPickUPLocationTest.AssertInvalidLocationWithSearch()[pri:15, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2022-03-21T14:41:13 EET" finished-at="2022-03-21T14:41:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.clickMenuIconFromHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickMenuIconFromHome()[pri:16, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="clickMenuIconFromHome" duration-ms="443" started-at="2022-03-21T14:41:13 EET" finished-at="2022-03-21T14:41:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuIconFromHome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="297" started-at="2022-03-21T14:41:14 EET" finished-at="2022-03-21T14:41:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.clickMenuIconFromHome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickMenuIconFromHome status=SUCCESS method=InvalidPickUPLocationTest.clickMenuIconFromHome()[pri:16, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:41:14 EET" finished-at="2022-03-21T14:41:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.ClickNewRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickNewRequest()[pri:17, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="ClickNewRequest" duration-ms="711" started-at="2022-03-21T14:41:14 EET" finished-at="2022-03-21T14:41:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickNewRequest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883]" name="afterMethod" is-config="true" duration-ms="297" started-at="2022-03-21T14:41:15 EET" finished-at="2022-03-21T14:41:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.InvalidPickUPLocationTest.ClickNewRequest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickNewRequest status=SUCCESS method=InvalidPickUPLocationTest.ClickNewRequest()[pri:17, instance:com.ERA.testcases.InvalidPickUPLocationTest@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.InvalidPickUPLocationTest -->
+      <class name="com.ERA.testcases.LoginWithInvalidMobileNumberTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2022-03-21T14:40:03 EET" finished-at="2022-03-21T14:40:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.clcikLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="clcikLogin" duration-ms="916" started-at="2022-03-21T14:40:03 EET" finished-at="2022-03-21T14:40:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clcikLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="316" started-at="2022-03-21T14:40:04 EET" finished-at="2022-03-21T14:40:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.clcikLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=LoginWithInvalidMobileNumberTest.clcikLogin()[pri:3, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-03-21T14:40:04 EET" finished-at="2022-03-21T14:40:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.SelectCountyCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="SelectCountyCode" duration-ms="469" started-at="2022-03-21T14:40:04 EET" finished-at="2022-03-21T14:40:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountyCode -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="299" started-at="2022-03-21T14:40:04 EET" finished-at="2022-03-21T14:40:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.SelectCountyCode()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=LoginWithInvalidMobileNumberTest.SelectCountyCode()[pri:4, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-03-21T14:40:05 EET" finished-at="2022-03-21T14:40:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.Searchforcounrty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="Searchforcounrty" duration-ms="1050" started-at="2022-03-21T14:40:05 EET" finished-at="2022-03-21T14:40:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchforcounrty -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="249" started-at="2022-03-21T14:40:06 EET" finished-at="2022-03-21T14:40:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.Searchforcounrty()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=LoginWithInvalidMobileNumberTest.Searchforcounrty()[pri:5, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:40:06 EET" finished-at="2022-03-21T14:40:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.SelectEgypt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="SelectEgypt" duration-ms="389" started-at="2022-03-21T14:40:06 EET" finished-at="2022-03-21T14:40:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEgypt -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="271" started-at="2022-03-21T14:40:06 EET" finished-at="2022-03-21T14:40:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.SelectEgypt()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=LoginWithInvalidMobileNumberTest.SelectEgypt()[pri:6, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2022-03-21T14:40:07 EET" finished-at="2022-03-21T14:40:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="addMobileNumber" duration-ms="790" started-at="2022-03-21T14:40:07 EET" data-provider="InvalidMobileNumber" finished-at="2022-03-21T14:40:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amiraaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111633332215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="255" started-at="2022-03-21T14:40:07 EET" finished-at="2022-03-21T14:40:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=LoginWithInvalidMobileNumberTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-03-21T14:40:08 EET" finished-at="2022-03-21T14:40:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.clickContinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="clickContinue" duration-ms="266" started-at="2022-03-21T14:40:08 EET" finished-at="2022-03-21T14:40:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinue -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="268" started-at="2022-03-21T14:40:08 EET" finished-at="2022-03-21T14:40:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.clickContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=LoginWithInvalidMobileNumberTest.clickContinue()[pri:8, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-03-21T14:40:08 EET" finished-at="2022-03-21T14:40:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.AssertInvalidLoginMobileNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AssertInvalidLoginMobileNumber()[pri:9, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="AssertInvalidLoginMobileNumber" duration-ms="338" started-at="2022-03-21T14:40:08 EET" finished-at="2022-03-21T14:40:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertInvalidLoginMobileNumber -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="265" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.AssertInvalidLoginMobileNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AssertInvalidLoginMobileNumber status=SUCCESS method=LoginWithInvalidMobileNumberTest.AssertInvalidLoginMobileNumber()[pri:9, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.ClickBackTOHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickBackTOHome()[pri:10, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="ClickBackTOHome" duration-ms="62" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBackTOHome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552]" name="afterMethod" is-config="true" duration-ms="330" started-at="2022-03-21T14:40:09 EET" finished-at="2022-03-21T14:40:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ERA.testcases.LoginWithInvalidMobileNumberTest.ClickBackTOHome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickBackTOHome status=SUCCESS method=LoginWithInvalidMobileNumberTest.ClickBackTOHome()[pri:10, instance:com.ERA.testcases.LoginWithInvalidMobileNumberTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ERA.testcases.LoginWithInvalidMobileNumberTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
