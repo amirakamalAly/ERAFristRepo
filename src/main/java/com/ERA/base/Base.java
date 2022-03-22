@@ -61,10 +61,10 @@ public class Base {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method) {
+	public void beforeMethod(Method method) throws InterruptedException {
 		logger = extent.startTest(method.getName());
 		
-		 driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		Thread.sleep(5000);
 	};
 
 	@AfterMethod
@@ -181,6 +181,7 @@ public class Base {
 
 		driver = new AndroidDriver<MobileElement>(new URL(prop.getProperty("appiumServerLink")), caps);
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		Thread.sleep(10000);
 
 	}
 
