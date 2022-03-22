@@ -11,17 +11,17 @@
     <parameter name="platformName" value="Android"/>
     <parameter name="deviceName" value="emulator-5554"/>
     <classes>
-      <class name="com.ERA.testcases.Login_ResendOTPTest">
+      <class name="com.ERA.testcases.addNormalTowingRequestTest">
         <methods>
-          <include name="ResendOTP"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="selectTowingService"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.ERA.testcases.Login_ResendOTPTest -->
+      </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

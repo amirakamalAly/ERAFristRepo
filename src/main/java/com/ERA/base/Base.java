@@ -61,15 +61,15 @@ public class Base {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method) throws InterruptedException {
+	public void beforeMethod(Method method)   {
 		logger = extent.startTest(method.getName());
 		
-		Thread.sleep(5000);
+	
 	};
 
 	@AfterMethod
-	public void afterMethod(Method method, ITestResult result) {
-		 driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+	public void afterMethod(Method method, ITestResult result) throws InterruptedException {
+		Thread.sleep(5000);
 
 		File image = driver.getScreenshotAs(OutputType.FILE);
 		try {
