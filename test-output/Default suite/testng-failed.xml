@@ -3,22 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ERA.testcases.addNormalTowingRequestTest">
+      <class name="com.ERA.testcases.API_GetDeliveryCostTest">
         <methods>
-          <include name="ClickSearchDest"/>
           <include name="beforeMethod"/>
-          <include name="AddingDestination"/>
-          <include name="selectNormalTowing"/>
+          <include name="GeteliveryCost"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="selectTowingService"/>
-          <include name="ClickSearchItem"/>
-          <include name="SendDestLocation"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
+      </class> <!-- com.ERA.testcases.API_GetDeliveryCostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

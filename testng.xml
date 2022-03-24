@@ -20,19 +20,26 @@
 
 
 		<classes>
-	<!-- 		<class name="com.ERA.testcases.SkipupdateTest"></class>
+			
+			<class name="com.ERA.testcases.OpenFleetAndAssignRequestTest"></class>
+			<!-- <class name="com.ERA.testcases.SkipupdateTest"></class>
 			<class name="com.ERA.testcases.allowLocationPermissionTest"></class>
-			<class
-				name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class> -->  
-			<class name="com.ERA.testcases.TestGetDeliveryCostTest"></class>
 
-			<!-- <class name="com.ERA.testcases.Login_ResendOTPTest"></class> <class 
-				name="com.ERA.testcases.LoginWithInvalidMobileNumberTest"></class> <class 
-				name="com.ERA.testcases.LoginWithInvalidSmsCodeTest"></class> <class name="com.ERA.testcases.Login_EditMobileNumberTest"></class> 
-				<class name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class> 
-				<class name="com.ERA.testcases.InvalidPickUPLocationTest"></class> <class 
-				name="com.ERA.testcases.addNormalTowingRequestTest"></class> <class name="com.ERA.testcases.addNormalFuelRequestTest"></class> 
-				<class name="com.ERA.testcases.addNormalBatteryRequestTest"></class> -->
+			<class name="com.ERA.testcases.Login_ResendOTPTest"></class>
+			<class
+				name="com.ERA.testcases.LoginWithInvalidMobileNumberTest"></class>
+			<class name="com.ERA.testcases.LoginWithInvalidSmsCodeTest"></class>
+			<class name="com.ERA.testcases.Login_EditMobileNumberTest"></class>
+			<class name="com.ERA.testcases.API_GetTokenValueTest"></class>
+			<class name="com.ERA.testcases.API_GetFuelDeliveryCostTest"></class>
+			<class name="com.ERA.testcases.API_GetTowingDeliveryCostTest"></class>
+			<class
+				name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
+
+			<class name="com.ERA.testcases.InvalidPickUPLocationTest"></class>
+			<class name="com.ERA.testcases.addNormalTowingRequestTest"></class>
+			<class name="com.ERA.testcases.addNormalFuelRequestTest"></class>
+			<class name="com.ERA.testcases.addNormalBatteryRequestTest"></class> -->
 		</classes>
 	</test>
 
