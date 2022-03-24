@@ -2,6 +2,8 @@ package com.ERA.testcases;
 
 
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 import com.ERA.base.Base;
 import com.ERA.screens.ClcikUpdateLater;
@@ -103,7 +105,7 @@ public class Login_EditMobileNumberTest extends Base {
 	}
 	
 	@Test(dataProvider ="EditloginUsers",priority = 13)
-	public void getotp(String Name,String MobileNumber) 
+	public void getotp(String Name,String MobileNumber) throws IOException 
 		
 	{
 			System.out.println("get otp for mobile number from excel sheet "+ MobileNumber );

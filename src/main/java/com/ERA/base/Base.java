@@ -53,6 +53,7 @@ public class Base {
 		extent.addSystemInfo("Framework Type", "Appium page object");
 		extent.addSystemInfo("Autor", "Amira");
 		extent.addSystemInfo("Enviroment", "Android");
+
 	};
 
 	@AfterSuite
@@ -61,15 +62,14 @@ public class Base {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method)   {
+	public void beforeMethod(Method method) throws InterruptedException {
 		logger = extent.startTest(method.getName());
-		
-	
+		Thread.sleep(3000);
 	};
 
 	@AfterMethod
 	public void afterMethod(Method method, ITestResult result) throws InterruptedException {
-	//	Thread.sleep(3000);
+		Thread.sleep(3000);
 
 		File image = driver.getScreenshotAs(OutputType.FILE);
 		try {
@@ -161,6 +161,7 @@ public class Base {
 		prop = new Properties();
 		prop.load(inputStream);
 		File app = new File(prop.getProperty("androidAppPath"));
+		
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("deviceName", deviceName);
 		caps.setCapability("platformName", platformName);
@@ -181,7 +182,6 @@ public class Base {
 
 		driver = new AndroidDriver<MobileElement>(new URL(prop.getProperty("appiumServerLink")), caps);
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		Thread.sleep(10000);
 
 	}
 

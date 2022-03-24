@@ -2,6 +2,8 @@ package com.ERA.testcases;
 
 
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 import com.ERA.base.Base;
 
@@ -74,7 +76,7 @@ public class ClickloginbuttonfromHomescreenTest extends Base {
 	}
 	
 	@Test(dataProvider ="loginUsers",priority = 9)
-public void getotp(String Name,String MobileNumber) 
+public void getotp(String Name,String MobileNumber) throws IOException 
 	
 {
 		System.out.println("get otp for mobile number from excel sheet "+ MobileNumber );
