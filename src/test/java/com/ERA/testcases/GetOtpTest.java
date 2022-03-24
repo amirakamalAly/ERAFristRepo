@@ -15,7 +15,7 @@ public class GetOtpTest {
 	 public String  getotp(String Name,String number) 
 	{  
 		String mobileNumwithCode="%2B"+number;
-		
+		System.out.println("mobileNumwithCode is  - "+mobileNumwithCode);
 		RestAssured.baseURI="http://eraapi2.dev.arabiansystems.com/api/userlogin";
 		RestAssured.urlEncodingEnabled = false;
 		RequestSpecification httpRequest=RestAssured.given();
