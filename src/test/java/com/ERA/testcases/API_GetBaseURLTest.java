@@ -18,5 +18,15 @@ public class API_GetBaseURLTest extends Base {
 		String URLL = prop.getProperty("PathURL");
 		return URLL;
 	}
+	
+	public String GetrdriverBaseUrl() throws IOException {
+
+		File propFile = new File("src\\main\\config.properties");
+		inputStream = new FileInputStream(propFile);
+		prop = new Properties();
+		prop.load(inputStream);
+		String driverBaseURL = prop.getProperty("driverBaseURL");
+		return driverBaseURL;
+	}
 
 }

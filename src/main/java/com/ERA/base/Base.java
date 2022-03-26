@@ -30,7 +30,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
 import com.ERA.utils.ExcelUtility;
+import com.ERA.utils.JobOrderIdUtility;
 import com.ERA.utils.LocationExcelUtility;
+import com.ERA.utils.RequestUtility;
+import com.ERA.utils.access_tokenUtility;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -64,12 +67,12 @@ public class Base {
 	@BeforeMethod
 	public void beforeMethod(Method method) throws InterruptedException {
 		logger = extent.startTest(method.getName());
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 	};
 
 	@AfterMethod
 	public void afterMethod(Method method, ITestResult result) throws InterruptedException {
-		Thread.sleep(8000);
+		Thread.sleep(5000);
 
 		File image = driver.getScreenshotAs(OutputType.FILE);
 		try {
@@ -149,7 +152,54 @@ public class Base {
 		Location[0][1] = Value;
 		return Location;
 	}
-
+	
+	@DataProvider(name = "RequestId")
+	public Object[][] getRequestIddata() throws IOException {
+		List<Map<String, String>> testDataInMap = RequestUtility.getMapTestDataInMap();
+		Object[][] data = new Object[1][3];
+		String Name = testDataInMap.get(0).get("Name");
+		String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+		String RequestId = testDataInMap.get(0).get("RequestId");
+		
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = RequestId;
+		return data;
+	}
+	
+	
+	@DataProvider(name = "driverdata")
+	public Object[][] getJoborderId() throws IOException {
+		List<Map<String, String>> testDataInMap = JobOrderIdUtility.getMapTestDataInMap();
+		Object[][] data = new Object[1][4];
+		String Name = testDataInMap.get(0).get("Name");
+		String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+		String RequestId = testDataInMap.get(0).get("RequestId");
+		String JoborderId = testDataInMap.get(0).get("JoborderId");
+		
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = RequestId;
+		data[0][3] = JoborderId;
+		return data;
+	}
+	
+	@DataProvider(name = "access_token")
+	public Object[][] getaccess_token() throws IOException {
+		List<Map<String, String>> testDataInMap = access_tokenUtility.getMapTestDataInMap();
+		Object[][] data = new Object[1][5];
+		String Name = testDataInMap.get(0).get("Name");
+		String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+		String RequestId = testDataInMap.get(0).get("RequestId");
+		String JoborderId = testDataInMap.get(0).get("JoborderId");
+		String access_token = testDataInMap.get(0).get("access_token");
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = RequestId;
+		data[0][3] = JoborderId;
+		data[0][4] = access_token;
+		return data;
+	}
 //	@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})
 	@Parameters({ "deviceName", "platformName", "platformVersion", "skipServerInstallationpro", "noSignpro" })
 	@BeforeTest

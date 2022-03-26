@@ -96,22 +96,22 @@ public class addNormalTowingRequestTest extends Base {
 		
 	}
 	
-	@Test(priority = 19)
-	public void CancelTowingRequest()
-
-	{addNormalTowingRequest Confirm = new addNormalTowingRequest();
-	Confirm.confirmCancelTowingRequest();
+//	@Test(priority = 19)
+//	public void CancelTowingRequest()
+//
+//	{addNormalTowingRequest Confirm = new addNormalTowingRequest();
+//	Confirm.confirmCancelTowingRequest();
+//
+//		
+//	}
+//	
+//	@Test(priority = 20)
+//	public void ClickCancelTowingRequest()
+//
+//	{addNormalTowingRequest ConfirmBn = new addNormalTowingRequest();
+//	ConfirmBn.ClickCancelTowingRequest();
 
 		
-	}
-	
-	@Test(priority = 20)
-	public void ClickCancelTowingRequest()
-
-	{addNormalTowingRequest ConfirmBn = new addNormalTowingRequest();
-	ConfirmBn.ClickCancelTowingRequest();
-
-		
-	}
+	//}
 }
 
