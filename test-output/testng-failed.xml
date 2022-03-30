@@ -11,11 +11,18 @@
     <parameter name="platformName" value="Android"/>
     <parameter name="deviceName" value="emulator-5554"/>
     <classes>
-      <class name="com.ERA.testcases.OpenFleetAndAssignRequestTest">
+      <class name="com.ERA.testcases.RequestHistoryTest">
         <methods>
-          <include name="OpenFleetURL"/>
+          <include name="beforeMethod"/>
+          <include name="ClickFristItemRequestHistory"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="MenuRequestHistory"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.ERA.testcases.OpenFleetAndAssignRequestTest -->
+      </class> <!-- com.ERA.testcases.RequestHistoryTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

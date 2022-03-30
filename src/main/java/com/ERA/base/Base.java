@@ -67,12 +67,12 @@ public class Base {
 	@BeforeMethod
 	public void beforeMethod(Method method) throws InterruptedException {
 		logger = extent.startTest(method.getName());
-//		Thread.sleep(3000);
+	//Thread.sleep(3000);
 	};
 
 	@AfterMethod
 	public void afterMethod(Method method, ITestResult result) throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		File image = driver.getScreenshotAs(OutputType.FILE);
 		try {

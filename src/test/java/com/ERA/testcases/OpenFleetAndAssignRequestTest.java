@@ -14,8 +14,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class OpenFleetAndAssignRequestTest extends Base{
 	WebDriver FleetMangement;
 
-	@Test(dataProvider = "RequestId", priority = 11)
-	public void OpenFleetURL(String Name,String MobileNumber,String RequestId)  {
+	@Test(dataProvider = "loginUsers", priority = 11)
+	public void OpenFleetURL(String Name,String MobileNumber)  {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amira\\eclipse-workspace\\Automater\\Driver\\chromedriver.exe");
 		FleetMangement = new ChromeDriver();
@@ -43,9 +43,9 @@ public class OpenFleetAndAssignRequestTest extends Base{
 		String Jobid;
 		try {
 			
-			Jobid = (String) new OpenAdminAndGetJobOrderIdTest().OpenAdminURL( Name,MobileNumber, RequestId);
+			Jobid = (String) new OpenAdminAndGetJobOrderIdRequestIDTest().OpenAdminURL( Name,MobileNumber);
 			
-			System.out.println("joborderId" + Jobid);
+			System.out.println("joborderId  " + Jobid);
 			FleetMangement.findElement(By.xpath("//input[@placeholder='Search ']")).sendKeys(Jobid);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

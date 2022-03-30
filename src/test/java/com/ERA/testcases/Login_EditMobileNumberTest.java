@@ -140,32 +140,32 @@ public class Login_EditMobileNumberTest extends Base {
 	        
 	}
 	
-	
-	@Test(priority = 14)
-	public void clickMenuIconFromHome()
-
-	{
-		InvalidPickUPLocationScreen Dvw = new InvalidPickUPLocationScreen();
-		Dvw.clickMenuIconFromHome();
-
-	}
-	@Test(priority = 15)
-	public void clickLogout()
-
-	{
-		ClickloginbuttonfromHomescreen Dvw = new ClickloginbuttonfromHomescreen();
-		Dvw.Logout();
-
-	}
-	@Test(priority = 16) 
-	public void clickSkip() 
-	
-	
-	{
-		ClcikUpdateLater skipupdatetest = new ClcikUpdateLater();
-		skipupdatetest.clcikUpdateLaterbu();
-		
-		
-			}
+//	
+//	@Test(priority = 14)
+//	public void clickMenuIconFromHome()
+//
+//	{
+//		InvalidPickUPLocationScreen Dvw = new InvalidPickUPLocationScreen();
+//		Dvw.clickMenuIconFromHome();
+//
+//	}
+//	@Test(priority = 15)
+//	public void clickLogout()
+//
+//	{
+//		ClickloginbuttonfromHomescreen Dvw = new ClickloginbuttonfromHomescreen();
+//		Dvw.Logout();
+//
+//	}
+//	@Test(priority = 16) 
+//	public void clickSkip() 
+//	
+//	
+//	{
+//		ClcikUpdateLater skipupdatetest = new ClcikUpdateLater();
+//		skipupdatetest.clcikUpdateLaterbu();
+//		
+//		
+//			}
 
 }
