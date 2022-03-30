@@ -105,11 +105,12 @@ Object[][] data = new Object[1][2];
 
  String Name = testDataInMap.get(0).get("Name");
 
-
- String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+// String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+ String MobileNumber="1127465090";
 
          data[0][0]=Name;
-		 data[0][1]= MobileNumber;
+		data[0][1]= MobileNumber;
+         
 return data;
 
 
@@ -151,7 +152,7 @@ return data;
 		caps.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 		
 		driver=new AndroidDriver<MobileElement>(new URL(prop.getProperty("appiumServerLink")), caps);
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 
 }
 

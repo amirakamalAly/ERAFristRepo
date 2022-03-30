@@ -13,10 +13,10 @@
   <parameter name ="skipServerInstallationpro" value="true"></parameter>
   <parameter name ="noSignpro" value="false"></parameter> -->
   <!-- device parameter  -->
- <parameter name ="skipServerInstallationpro" value="true"></parameter>
+  <parameter name ="skipServerInstallationpro" value="true"></parameter>
   <parameter name ="noSignpro" value="false"></parameter> 
-      <parameter name ="platformName" value="Android"></parameter>  
- <parameter name ="skipServerInstallationpro" value="true"></parameter>
+  <parameter name ="platformName" value="Android"></parameter>  
+  <parameter name ="skipServerInstallationpro" value="true"></parameter>
   <parameter name ="udiddevice" value="RF8R107C3TW"></parameter>
   <parameter name ="platformVersion" value="11"></parameter>
   <parameter name ="deviceName" value="Rania"></parameter> 

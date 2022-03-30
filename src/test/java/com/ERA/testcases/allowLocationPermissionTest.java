@@ -12,7 +12,7 @@ public class allowLocationPermissionTest extends Base {
 	
 	{
 		
-		//for elmulator use below 2 commands
+		//for emulator use below 2 commands
 		//allowLocationPermission clickallowLocation= new allowLocationPermission();
 	   //clickallowLocation.ClickallowLocation();
 

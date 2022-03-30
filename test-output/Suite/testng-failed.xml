@@ -14,20 +14,17 @@
     <classes>
       <class name="com.ERA.testcases.addNormalTowingRequestTest">
         <methods>
-          <include name="ConfirmPaymentTowingRequest"/>
-          <include name="AddingDestination"/>
-          <include name="afterMethod"/>
-          <include name="ConfirmDestination"/>
-          <include name="ClickSearchItem"/>
-          <include name="SendDestLocation"/>
-          <include name="beforeSuite"/>
           <include name="ConfirmTowingRequest"/>
-          <include name="ClickSearchDest"/>
+          <include name="ClickCancelTowingRequest"/>
+          <include name="ConfirmPaymentTowingRequest"/>
           <include name="beforeMethod"/>
+          <include name="CancelTowingRequest"/>
           <include name="beforeClass"/>
+          <include name="AddingDestination"/>
           <include name="selectNormalTowing"/>
           <include name="afterSuite"/>
-          <include name="selectTowingService"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.ERA.testcases.addNormalTowingRequestTest -->
