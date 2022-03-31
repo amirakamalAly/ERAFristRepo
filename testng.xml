@@ -6,14 +6,14 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 
-		<!-- emulator parameter -->
-		<parameter name="deviceName" value="emulator-5554"></parameter>
+	 	<!-- emulator parameter -->
+	<!--	<parameter name="deviceName" value="emulator-5554"></parameter>
 		<parameter name="platformVersion" value="9"></parameter>
 		<parameter name="platformName" value="Android"></parameter>
 		<parameter name="skipServerInstallationpro" value="true"></parameter>
 		<parameter name="noSignpro" value="false"></parameter>
-		<!-- device parameter -->
-
+		device parameter
+ -->
 		<!-- <parameter name ="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter> 
 			<parameter name ="platformVersion" value="11"></parameter> <parameter name 
 			="deviceName" value="OPPO Reno2 F"></parameter> -->
