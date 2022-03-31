@@ -23,16 +23,18 @@
 			<class
 				name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
 				<class name="com.ERA.testcases.RequestHistoryTest"></class>
-			<!-- <class name="com.ERA.testcases.addNormalTowingRequestTest"></class>
+			<!-- 	<class name="com.ERA.testcases.DismissTowingRatesheetTest"></class> -->
+<!-- 				
+			<class name="com.ERA.testcases.addNormalTowingRequestTest"></class>
 			<class name="com.ERA.testcases.OpenFleetAndAssignRequestTest"></class>
 			<class name="com.ERA.testcases.API_Driver_Startjob_Test"></class>
 			<class
 				name="com.ERA.testcases.API_Driver_savemissingfieldvalue_Test"></class>
 			<class name="com.ERA.testcases.API_Driver_vehiclepickedup_Test"></class>
 			<class name="com.ERA.testcases.API_Driver_completejob_Test"></class>
-			<class name="com.ERA.testcases.DismissTowingRatesheetTest"></class>
-			 -->
-
+			
+			
+ -->
 			<!-- <class name="com.ERA.testcases.InvalidPickUPLocationTest"></class> 
 				<class name="com.ERA.testcases.addNormalFuelRequestTest"></class> <class 
 				name="com.ERA.testcases.addNormalBatteryRequestTest"></class> <class name="com.ERA.testcases.CancelNormalTowingRequestTest"></class> 

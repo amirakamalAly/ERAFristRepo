@@ -24,11 +24,49 @@ public class RequestHistoryTest extends Base {
 		History.MenuRequestHistory();
 	}
 
-	@Test(priority =3)
+
+	@Test(priority =4)
+	public void scrollitems()
+
+	{
+		RequestHistoryScreen scroll = new RequestHistoryScreen();
+		for (int i = 0; i < 2; i++) {
+			scroll.scrollitems();
+			}
+	
+	}
+	
+	
+	@Test(priority =5)
 	public void ClickFristItemRequestHistory()
 
 	{
 		RequestHistoryScreen FristItem = new RequestHistoryScreen();
 		FristItem.ClickFristItemRequestHistory();
+	}
+	@Test(priority =6)
+	public void scrollitemetails()
+
+	{
+		RequestHistoryScreen FristItem = new RequestHistoryScreen();
+		FristItem.scrollitemetails();
+	}
+	
+	@Test(priority =7)
+	public void callriver()
+
+	{
+		RequestHistoryScreen rate = new RequestHistoryScreen();
+		rate.calldriver();
+	}
+	
+	
+	
+	@Test(priority =8)
+	public void ratedriver()
+
+	{
+		RequestHistoryScreen rate = new RequestHistoryScreen();
+		rate.ratedriver();
 	}
 }

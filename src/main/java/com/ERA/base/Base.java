@@ -67,7 +67,7 @@ public class Base {
 	@BeforeMethod
 	public void beforeMethod(Method method) throws InterruptedException {
 		logger = extent.startTest(method.getName());
-	//Thread.sleep(3000);
+	Thread.sleep(3000);
 	};
 
 	@AfterMethod
