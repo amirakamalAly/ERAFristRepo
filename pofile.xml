@@ -18,12 +18,16 @@
 			<parameter name ="platformVersion" value="11"></parameter> <parameter name 
 			="deviceName" value="OPPO Reno2 F"></parameter> -->
 		<classes>
-			<class name="com.ERA.testcases.SkipupdateTest"></class>
-			<class name="com.ERA.testcases.allowLocationPermissionTest"></class>
-			<class
-				name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
-			<class name="com.ERA.testcases.MenuTest" />
-			<class name="com.ERA.testcases.towing.ProfileTest" />
+			<class name="common.SkipupdateTest"></class>
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="common.MenuTest" />
+			
+			<class name="profile.Profile_DeleteImageTest" />
+		<!-- 	<class name="profile.Profile_InvalidEmailFormatTest" />
+			<class name="profile.Profile_InvalidNameAndEmailTest" />
+			<class name="profile.ProfileTest" />
+ -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

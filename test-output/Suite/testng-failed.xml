@@ -11,18 +11,17 @@
     <parameter name="platformName" value="Android"/>
     <parameter name="deviceName" value="emulator-5554"/>
     <classes>
-      <class name="com.ERA.testcases.towing.ProfileTest">
+      <class name="profile.Profile_InvalidEmailFormatTest">
         <methods>
-          <include name="clickprofiletabFromMenu"/>
           <include name="beforeMethod"/>
-          <include name="selectNormalTowing"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
+          <include name="ValidateInvalidEmailFormat"/>
         </methods>
-      </class> <!-- com.ERA.testcases.towing.ProfileTest -->
+      </class> <!-- profile.Profile_InvalidEmailFormatTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

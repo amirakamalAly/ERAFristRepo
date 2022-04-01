@@ -34,6 +34,7 @@ import com.ERA.utils.JobOrderIdUtility;
 import com.ERA.utils.LocationExcelUtility;
 import com.ERA.utils.RequestUtility;
 import com.ERA.utils.access_tokenUtility;
+import com.ERA.utils.profileUitilty;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -198,6 +199,48 @@ public class Base {
 		data[0][2] = RequestId;
 		data[0][3] = JoborderId;
 		data[0][4] = access_token;
+		return data;
+	}
+	
+	@DataProvider(name = "Profiledata")
+	public Object[][] getprofiledata() throws IOException {
+		List<Map<String, String>> testDataInMap = profileUitilty.getMapTestDataInMap();
+		Object[][] data = new Object[1][3];
+		String Name = testDataInMap.get(0).get("Name");
+		String MobileNumber = testDataInMap.get(0).get("MobileNumber");
+		String Email = testDataInMap.get(0).get("Email");
+		
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = Email;
+		return data;
+	}
+	
+	@DataProvider(name = "InvalidNameAndEmail")
+	public Object[][] getInvaildEmailForprofiledata() throws IOException {
+		List<Map<String, String>> testDataInMap = profileUitilty.getMapTestDataInMap();
+		Object[][] data = new Object[1][3];
+		String Name = testDataInMap.get(1).get("Name");
+		String MobileNumber = testDataInMap.get(1).get("MobileNumber");
+		String Email = testDataInMap.get(1).get("Email");
+		
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = Email;
+		return data;
+	}
+	
+	@DataProvider(name = "InvalidEmailFromat")
+	public Object[][] getInvaildEmailFormat() throws IOException {
+		List<Map<String, String>> testDataInMap = profileUitilty.getMapTestDataInMap();
+		Object[][] data = new Object[1][3];
+		String Name = testDataInMap.get(1).get("Name");
+		String MobileNumber = testDataInMap.get(2).get("MobileNumber");
+		String Email = testDataInMap.get(2).get("Email");
+		
+		data[0][0] = Name;
+		data[0][1] = MobileNumber;
+		data[0][2] = Email;
 		return data;
 	}
 //	@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})

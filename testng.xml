@@ -7,43 +7,44 @@
 	<test thread-count="5" name="Test">
 
 	 	<!-- emulator parameter -->
-	<!--	<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
 		<parameter name="platformVersion" value="9"></parameter>
 		<parameter name="platformName" value="Android"></parameter>
 		<parameter name="skipServerInstallationpro" value="true"></parameter>
 		<parameter name="noSignpro" value="false"></parameter>
-		device parameter
+		<!-- device parameter
  -->
 		<!-- <parameter name ="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter> 
 			<parameter name ="platformVersion" value="11"></parameter> <parameter name 
 			="deviceName" value="OPPO Reno2 F"></parameter> -->
 		<classes>
-			<class name="com.ERA.testcases.SkipupdateTest"></class>
-			<class name="com.ERA.testcases.allowLocationPermissionTest"></class>
+			<class name="common.SkipupdateTest"></class>
+		<!-- 	<class name="common.allowLocationPermissionTest"></class>
 			<class
-				name="com.ERA.testcases.ClickloginbuttonfromHomescreenTest"></class>
-				<class name="com.ERA.testcases.RequestHistoryTest"></class>
-			<!-- 	<class name="com.ERA.testcases.DismissTowingRatesheetTest"></class> -->
-<!-- 				
-			<class name="com.ERA.testcases.addNormalTowingRequestTest"></class>
-			<class name="com.ERA.testcases.OpenFleetAndAssignRequestTest"></class>
-			<class name="com.ERA.testcases.API_Driver_Startjob_Test"></class>
+				name="login.ClickloginbuttonfromHomescreenTest"></class>
+						
+			<class name="towing.addNormalTowingRequestTest"></class> -->
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestTest"></class>
+			
+		<!-- 	<class name="driverApi.API_Driver_Startjob_Test"></class>
 			<class
-				name="com.ERA.testcases.API_Driver_savemissingfieldvalue_Test"></class>
-			<class name="com.ERA.testcases.API_Driver_vehiclepickedup_Test"></class>
-			<class name="com.ERA.testcases.API_Driver_completejob_Test"></class>
+				name="driverApi.API_Driver_savemissingfieldvalue_Test"></class>
+			<class name="driverApi.API_Driver_vehiclepickedup_Test"></class>
+			<class name="driverApi.API_Driver_completejob_Test"></class>
 			
-			
- -->
-			<!-- <class name="com.ERA.testcases.InvalidPickUPLocationTest"></class> 
-				<class name="com.ERA.testcases.addNormalFuelRequestTest"></class> <class 
-				name="com.ERA.testcases.addNormalBatteryRequestTest"></class> <class name="com.ERA.testcases.CancelNormalTowingRequestTest"></class> 
-				<class name="com.ERA.testcases.LogoutTest"></class> <class name="com.ERA.testcases.Login_ResendOTPTest"></class> 
-				<class name="com.ERA.testcases.LoginWithInvalidMobileNumberTest"></class> 
-				<class name="com.ERA.testcases.LoginWithInvalidSmsCodeTest"></class> <class 
-				name="com.ERA.testcases.Login_EditMobileNumberTest"></class> <class name="com.ERA.testcases.API_GetTokenValueTest"></class> 
-				<class name="com.ERA.testcases.API_GetFuelDeliveryCostTest"></class> <class 
-				name="com.ERA.testcases.API_GetTowingDeliveryCostTest"></class> <class name="com.ERA.testcases.API_GetActiveRequestTest"></class> -->
+					<class name="towing.DismissTowingRatesheetTest"></class>
+ 	<class name="common.RequestHistoryTest"></class>
+ 		<class name="common.MenuTest" />
+			<class name="profile.ProfileTest" /> -->
+			<!-- <class name="towing.InvalidPickUPLocationTest"></class> 
+				<class name="Fuel.addNormalFuelRequestTest"></class> <class 
+				name="com.ERA.testcases.Battery.addNormalBatteryRequestTest"></class> <class name="towing.CancelNormalTowingRequestTest"></class> 
+				<class name="common.LogoutTest"></class> <class name="login.Login_ResendOTPTest"></class> 
+				<class name="login.LoginWithInvalidMobileNumberTest"></class> 
+				<class name="login.LoginWithInvalidSmsCodeTest"></class> <class 
+				name="login.Login_EditMobileNumberTest"></class> <class name="DeliverycostApi.API_GetTokenValueTest"></class> 
+				<class name="DeliverycostApi.API_GetFuelDeliveryCostTest"></class> <class 
+				name="DeliverycostApi.API_GetTowingDeliveryCostTest"></class> <class name="DeliverycostApi.API_GetActiveRequestTest"></class> -->
 		</classes>
 	</test>
 
