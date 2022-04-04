@@ -113,6 +113,27 @@ public class addNormalTowingRequest extends Base {
     
 
 		clickCancelBn.click();
+	}
+
+	@AndroidFindBy (id="com.eci.era:id/backImg")
+	private MobileElement backarrow;
+	public void clcikBackarrow() {
+		// TODO Auto-generated method stub
+		backarrow.click();
+	}	
+	
+	@AndroidFindBy (id="com.eci.era:id/btnBackToHome")
+	private MobileElement comfirmbackhome;
+	public void comfirmbackhome() {
+		// TODO Auto-generated method stub
+		comfirmbackhome.click();
+	}	
+	
+	@AndroidFindBy (id="com.eci.era:id/closeImg")
+	private MobileElement dissmisscaution;
+	public void dissmisscaution() {
+		// TODO Auto-generated method stub
+		dissmisscaution.click();
 	}	
 	
 }

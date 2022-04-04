@@ -6,7 +6,7 @@ import com.ERA.screens.profile.profiletabFromMenu;
 
 import org.testng.annotations.Test;
 
-public class Profile_TakeCameraImageTest extends Base {
+public class Profile_GalleryImageTest extends Base {
 
 
 	@Test(priority = 1)
@@ -18,12 +18,12 @@ public class Profile_TakeCameraImageTest extends Base {
 
 	}
 	@Test(priority = 2)
-	public void ImageOtionscenterIcon()
+	public void ImageOtions()
 
 	{
 		profiletabFromMenu ImageOtions = new profiletabFromMenu();
-		ImageOtions.ClickImageOptionscenteredIcon();
-	
+		ImageOtions.ClickImageOptions();
+
 	}
 //	@Test(priority = 3)
 //	public void AllowPermissionImageTake()
@@ -44,20 +44,20 @@ public class Profile_TakeCameraImageTest extends Base {
 //	}
 	
 	@Test(priority = 5)
-	public void CaptureImage()
+	public void GalleryImage()
 
 	{
-		profiletabFromMenu CaptureImage = new profiletabFromMenu();
-		CaptureImage.ClickTakeImage();
+		profiletabFromMenu GalleryImage = new profiletabFromMenu();
+		GalleryImage.ClickGalleryImage();
 
 	}
 	
 	@Test(priority = 6)
-	public void camera()
+	public void SelectFolder()
 
 	{
 		profiletabFromMenu CaptureImage = new profiletabFromMenu();
-		CaptureImage.Clickcamera();
+		CaptureImage.Clickfolder();
 
 	}	
 	@Test(priority = 7)
@@ -65,7 +65,7 @@ public class Profile_TakeCameraImageTest extends Base {
 
 	{
 		profiletabFromMenu confirmImage = new profiletabFromMenu();
-		confirmImage.confirmImage();
+		confirmImage.confirmSelectedImage();
 
 	}	
 		

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="16" total="31" passed="15">
+<testng-results skipped="0" failed="0" ignored="12" total="38" passed="26">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="116288" started-at="2022-04-01T22:54:20 EET" finished-at="2022-04-01T22:56:17 EET">
+  <suite name="Suite" duration-ms="194693" started-at="2022-04-04T15:50:03 EET" finished-at="2022-04-04T15:53:18 EET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="116288" started-at="2022-04-01T22:54:20 EET" finished-at="2022-04-01T22:56:17 EET">
+    <test name="Test" duration-ms="194693" started-at="2022-04-04T15:50:03 EET" finished-at="2022-04-04T15:53:18 EET">
       <class name="login.ClickloginbuttonfromHomescreenTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3010" started-at="2022-04-01T22:54:45 EET" finished-at="2022-04-01T22:54:48 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3007" started-at="2022-04-04T15:50:26 EET" finished-at="2022-04-04T15:50:29 EET">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="clcikLogin" duration-ms="159" started-at="2022-04-01T22:54:48 EET" finished-at="2022-04-01T22:54:48 EET">
+        <test-method status="PASS" signature="clcikLogin()[pri:3, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="clcikLogin" duration-ms="145" started-at="2022-04-04T15:50:29 EET" finished-at="2022-04-04T15:50:29 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clcikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3260" started-at="2022-04-01T22:54:48 EET" finished-at="2022-04-01T22:54:51 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3281" started-at="2022-04-04T15:50:29 EET" finished-at="2022-04-04T15:50:32 EET">
           <params>
             <param index="0">
               <value>
@@ -31,14 +31,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=clcikLogin status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clcikLogin()[pri:3, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3013" started-at="2022-04-01T22:54:51 EET" finished-at="2022-04-01T22:54:54 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3007" started-at="2022-04-04T15:50:32 EET" finished-at="2022-04-04T15:50:35 EET">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="SelectCountyCode" duration-ms="112" started-at="2022-04-01T22:54:54 EET" finished-at="2022-04-01T22:54:54 EET">
+        <test-method status="PASS" signature="SelectCountyCode()[pri:4, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="SelectCountyCode" duration-ms="97" started-at="2022-04-04T15:50:35 EET" finished-at="2022-04-04T15:50:36 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountyCode -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3237" started-at="2022-04-01T22:54:54 EET" finished-at="2022-04-01T22:54:57 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3254" started-at="2022-04-04T15:50:36 EET" finished-at="2022-04-04T15:50:39 EET">
           <params>
             <param index="0">
               <value>
@@ -62,14 +62,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=SelectCountyCode status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectCountyCode()[pri:4, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-01T22:54:57 EET" finished-at="2022-04-01T22:55:00 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3014" started-at="2022-04-04T15:50:39 EET" finished-at="2022-04-04T15:50:42 EET">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="Searchforcounrty" duration-ms="131" started-at="2022-04-01T22:55:00 EET" finished-at="2022-04-01T22:55:01 EET">
+        <test-method status="PASS" signature="Searchforcounrty()[pri:5, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="Searchforcounrty" duration-ms="149" started-at="2022-04-04T15:50:42 EET" finished-at="2022-04-04T15:50:42 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchforcounrty -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3251" started-at="2022-04-01T22:55:01 EET" finished-at="2022-04-01T22:55:04 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3239" started-at="2022-04-04T15:50:42 EET" finished-at="2022-04-04T15:50:45 EET">
           <params>
             <param index="0">
               <value>
@@ -93,14 +93,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=Searchforcounrty status=SUCCESS method=ClickloginbuttonfromHomescreenTest.Searchforcounrty()[pri:5, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3006" started-at="2022-04-01T22:55:04 EET" finished-at="2022-04-01T22:55:07 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3005" started-at="2022-04-04T15:50:45 EET" finished-at="2022-04-04T15:50:48 EET">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="SelectEgypt" duration-ms="161" started-at="2022-04-01T22:55:07 EET" finished-at="2022-04-01T22:55:07 EET">
+        <test-method status="PASS" signature="SelectEgypt()[pri:6, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="SelectEgypt" duration-ms="193" started-at="2022-04-04T15:50:48 EET" finished-at="2022-04-04T15:50:48 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEgypt -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3270" started-at="2022-04-01T22:55:07 EET" finished-at="2022-04-01T22:55:10 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3285" started-at="2022-04-04T15:50:48 EET" finished-at="2022-04-04T15:50:52 EET">
           <params>
             <param index="0">
               <value>
@@ -124,14 +124,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=SelectEgypt status=SUCCESS method=ClickloginbuttonfromHomescreenTest.SelectEgypt()[pri:6, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3001" started-at="2022-04-01T22:55:11 EET" finished-at="2022-04-01T22:55:14 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3003" started-at="2022-04-04T15:50:52 EET" finished-at="2022-04-04T15:50:55 EET">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="addMobileNumber" duration-ms="97" started-at="2022-04-01T22:55:14 EET" data-provider="loginUsers" finished-at="2022-04-01T22:55:14 EET">
+        <test-method status="PASS" signature="addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="addMobileNumber" duration-ms="623" started-at="2022-04-04T15:50:55 EET" data-provider="loginUsers" finished-at="2022-04-04T15:50:56 EET">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMobileNumber -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3266" started-at="2022-04-01T22:55:14 EET" finished-at="2022-04-01T22:55:17 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3266" started-at="2022-04-04T15:50:56 EET" finished-at="2022-04-04T15:50:59 EET">
           <params>
             <param index="0">
               <value>
@@ -167,14 +167,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=addMobileNumber status=SUCCESS method=ClickloginbuttonfromHomescreenTest.addMobileNumber(java.lang.String,java.lang.String)[pri:7, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3003" started-at="2022-04-01T22:55:17 EET" finished-at="2022-04-01T22:55:20 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3008" started-at="2022-04-04T15:50:59 EET" finished-at="2022-04-04T15:51:02 EET">
           <params>
             <param index="0">
               <value>
@@ -185,11 +185,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickContinue()[pri:8, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="clickContinue" duration-ms="92" started-at="2022-04-01T22:55:20 EET" finished-at="2022-04-01T22:55:20 EET">
+        <test-method status="PASS" signature="clickContinue()[pri:8, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="clickContinue" duration-ms="81" started-at="2022-04-04T15:51:02 EET" finished-at="2022-04-04T15:51:02 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinue -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3206" started-at="2022-04-01T22:55:20 EET" finished-at="2022-04-01T22:55:23 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3246" started-at="2022-04-04T15:51:02 EET" finished-at="2022-04-04T15:51:05 EET">
           <params>
             <param index="0">
               <value>
@@ -198,14 +198,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=clickContinue status=SUCCESS method=ClickloginbuttonfromHomescreenTest.clickContinue()[pri:8, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3007" started-at="2022-04-01T22:55:23 EET" finished-at="2022-04-01T22:55:26 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-04T15:51:05 EET" finished-at="2022-04-04T15:51:08 EET">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="getotp" duration-ms="7486" started-at="2022-04-01T22:55:26 EET" data-provider="loginUsers" finished-at="2022-04-01T22:55:34 EET">
+        <test-method status="PASS" signature="getotp(java.lang.String,java.lang.String)[pri:9, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="getotp" duration-ms="6484" started-at="2022-04-04T15:51:08 EET" data-provider="loginUsers" finished-at="2022-04-04T15:51:15 EET">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getotp -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3219" started-at="2022-04-01T22:55:34 EET" finished-at="2022-04-01T22:55:37 EET">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3394" started-at="2022-04-04T15:51:15 EET" finished-at="2022-04-04T15:51:18 EET">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:login.ClickloginbuttonfromHomescreenTest@4d339552] output={null}]]]>
+                <![CDATA[[TestResult name=getotp status=SUCCESS method=ClickloginbuttonfromHomescreenTest.getotp(java.lang.String,java.lang.String)[pri:9, instance:login.ClickloginbuttonfromHomescreenTest@69b794e2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -249,235 +249,12 @@
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
-      <class name="profile.Profile_DeleteImageTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="beforeMethod" is-config="true" duration-ms="3013" started-at="2022-04-01T22:55:44 EET" finished-at="2022-04-01T22:55:47 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.clickprofiletabFromMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickprofiletabFromMenu()[pri:1, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="clickprofiletabFromMenu" duration-ms="655" started-at="2022-04-01T22:55:47 EET" finished-at="2022-04-01T22:55:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickprofiletabFromMenu -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="afterMethod" is-config="true" duration-ms="3252" started-at="2022-04-01T22:55:47 EET" finished-at="2022-04-01T22:55:51 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.clickprofiletabFromMenu()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=clickprofiletabFromMenu status=SUCCESS method=Profile_DeleteImageTest.clickprofiletabFromMenu()[pri:1, instance:profile.Profile_DeleteImageTest@5a4aa2f2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-01T22:55:51 EET" finished-at="2022-04-01T22:55:54 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.ImageOtions()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ImageOtions()[pri:2, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="ImageOtions" duration-ms="667" started-at="2022-04-01T22:55:54 EET" finished-at="2022-04-01T22:55:54 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ImageOtions -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="afterMethod" is-config="true" duration-ms="3262" started-at="2022-04-01T22:55:54 EET" finished-at="2022-04-01T22:55:58 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.ImageOtions()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=ImageOtions status=SUCCESS method=Profile_DeleteImageTest.ImageOtions()[pri:2, instance:profile.Profile_DeleteImageTest@5a4aa2f2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="beforeMethod" is-config="true" duration-ms="3006" started-at="2022-04-01T22:55:58 EET" finished-at="2022-04-01T22:56:01 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.AllowPermissionImageTake()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AllowPermissionImageTake()[pri:3, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="AllowPermissionImageTake" duration-ms="104" started-at="2022-04-01T22:56:01 EET" finished-at="2022-04-01T22:56:01 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AllowPermissionImageTake -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="afterMethod" is-config="true" duration-ms="3295" started-at="2022-04-01T22:56:01 EET" finished-at="2022-04-01T22:56:04 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.AllowPermissionImageTake()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=AllowPermissionImageTake status=SUCCESS method=Profile_DeleteImageTest.AllowPermissionImageTake()[pri:3, instance:profile.Profile_DeleteImageTest@5a4aa2f2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="beforeMethod" is-config="true" duration-ms="3000" started-at="2022-04-01T22:56:04 EET" finished-at="2022-04-01T22:56:07 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.AllowPermissionaccessFiles()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AllowPermissionaccessFiles()[pri:4, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="AllowPermissionaccessFiles" duration-ms="60" started-at="2022-04-01T22:56:07 EET" finished-at="2022-04-01T22:56:07 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AllowPermissionaccessFiles -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="afterMethod" is-config="true" duration-ms="3286" started-at="2022-04-01T22:56:07 EET" finished-at="2022-04-01T22:56:10 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.AllowPermissionaccessFiles()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=AllowPermissionaccessFiles status=SUCCESS method=Profile_DeleteImageTest.AllowPermissionaccessFiles()[pri:4, instance:profile.Profile_DeleteImageTest@5a4aa2f2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="beforeMethod" is-config="true" duration-ms="3015" started-at="2022-04-01T22:56:10 EET" finished-at="2022-04-01T22:56:13 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.DeleteImage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="DeleteImage()[pri:5, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="DeleteImage" duration-ms="78" started-at="2022-04-01T22:56:13 EET" finished-at="2022-04-01T22:56:13 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteImage -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:profile.Profile_DeleteImageTest@5a4aa2f2]" name="afterMethod" is-config="true" duration-ms="3226" started-at="2022-04-01T22:56:13 EET" finished-at="2022-04-01T22:56:17 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void profile.Profile_DeleteImageTest.DeleteImage()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=DeleteImage status=SUCCESS method=Profile_DeleteImageTest.DeleteImage()[pri:5, instance:profile.Profile_DeleteImageTest@5a4aa2f2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- profile.Profile_DeleteImageTest -->
-      <class name="common.MenuTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:common.MenuTest@f0f2775]" name="beforeMethod" is-config="true" duration-ms="3015" started-at="2022-04-01T22:55:37 EET" finished-at="2022-04-01T22:55:40 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void common.MenuTest.ClickMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ClickMenu()[pri:1, instance:common.MenuTest@f0f2775]" name="ClickMenu" duration-ms="462" started-at="2022-04-01T22:55:40 EET" finished-at="2022-04-01T22:55:40 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickMenu -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:common.MenuTest@f0f2775]" name="afterMethod" is-config="true" duration-ms="3268" started-at="2022-04-01T22:55:40 EET" finished-at="2022-04-01T22:55:44 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void common.MenuTest.ClickMenu()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=ClickMenu status=SUCCESS method=MenuTest.ClickMenu()[pri:1, instance:common.MenuTest@f0f2775] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- common.MenuTest -->
       <class name="common.allowLocationPermissionTest">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:common.allowLocationPermissionTest@69b794e2]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-01T22:54:38 EET" finished-at="2022-04-01T22:54:41 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void common.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:common.allowLocationPermissionTest@69b794e2]" name="clcallowLocationPermissionTestikLogin" duration-ms="110" started-at="2022-04-01T22:54:41 EET" finished-at="2022-04-01T22:54:41 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clcallowLocationPermissionTestikLogin -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:common.allowLocationPermissionTest@69b794e2]" name="afterMethod" is-config="true" duration-ms="3267" started-at="2022-04-01T22:54:41 EET" finished-at="2022-04-01T22:54:45 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void common.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:common.allowLocationPermissionTest@69b794e2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- common.allowLocationPermissionTest -->
-      <class name="common.SkipupdateTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="beforeSuite" is-config="true" duration-ms="77" started-at="2022-04-01T22:54:20 EET" finished-at="2022-04-01T22:54:20 EET">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="beforeSuite" is-config="true" duration-ms="75" started-at="2022-04-04T15:50:03 EET" finished-at="2022-04-04T15:50:03 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="beforeTest" is-config="true" duration-ms="11306" started-at="2022-04-01T22:54:20 EET" finished-at="2022-04-01T22:54:32 EET">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,boolean,boolean)[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="beforeTest" is-config="true" duration-ms="14570" started-at="2022-04-04T15:50:03 EET" finished-at="2022-04-04T15:50:18 EET">
           <params>
             <param index="0">
               <value>
@@ -508,46 +285,608 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="beforeMethod" is-config="true" duration-ms="3007" started-at="2022-04-01T22:54:32 EET" finished-at="2022-04-01T22:54:35 EET">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="beforeMethod" is-config="true" duration-ms="3017" started-at="2022-04-04T15:50:18 EET" finished-at="2022-04-04T15:50:21 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void common.SkipupdateTest.clickSkip()]]>
+                <![CDATA[public void common.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clickSkip()[pri:1, instance:common.SkipupdateTest@3d36e4cd]" name="clickSkip" duration-ms="207" started-at="2022-04-01T22:54:35 EET" finished-at="2022-04-01T22:54:35 EET">
+        <test-method status="PASS" signature="clcallowLocationPermissionTestikLogin()[pri:2, instance:common.allowLocationPermissionTest@709ba3fb]" name="clcallowLocationPermissionTestikLogin" duration-ms="2033" started-at="2022-04-04T15:50:21 EET" finished-at="2022-04-04T15:50:23 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickSkip -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="afterMethod" is-config="true" duration-ms="3338" started-at="2022-04-01T22:54:35 EET" finished-at="2022-04-01T22:54:38 EET">
+        </test-method> <!-- clcallowLocationPermissionTestikLogin -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="afterMethod" is-config="true" duration-ms="3364" started-at="2022-04-04T15:50:23 EET" finished-at="2022-04-04T15:50:26 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void common.SkipupdateTest.clickSkip()]]>
+                <![CDATA[public void common.allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=clickSkip status=SUCCESS method=SkipupdateTest.clickSkip()[pri:1, instance:common.SkipupdateTest@3d36e4cd] output={null}]]]>
+                <![CDATA[[TestResult name=clcallowLocationPermissionTestikLogin status=SUCCESS method=allowLocationPermissionTest.clcallowLocationPermissionTestikLogin()[pri:2, instance:common.allowLocationPermissionTest@709ba3fb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="afterSuite" is-config="true" duration-ms="142" started-at="2022-04-01T22:56:17 EET" finished-at="2022-04-01T22:56:17 EET">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="afterSuite" is-config="true" duration-ms="156" started-at="2022-04-04T15:53:18 EET" finished-at="2022-04-04T15:53:18 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:common.SkipupdateTest@3d36e4cd]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-04-01T22:56:17 EET" finished-at="2022-04-01T22:56:17 EET">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:common.allowLocationPermissionTest@709ba3fb]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-04-04T15:53:18 EET" finished-at="2022-04-04T15:53:18 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- common.SkipupdateTest -->
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="Battery.dismisscautionBatteryRequestTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3009" started-at="2022-04-04T15:51:18 EET" finished-at="2022-04-04T15:51:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.MoveMap()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MoveMap()[pri:1, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="MoveMap" duration-ms="614" started-at="2022-04-04T15:51:21 EET" finished-at="2022-04-04T15:51:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveMap -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3301" started-at="2022-04-04T15:51:22 EET" finished-at="2022-04-04T15:51:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.MoveMap()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=MoveMap status=SUCCESS method=dismisscautionBatteryRequestTest.MoveMap()[pri:1, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3011" started-at="2022-04-04T15:51:25 EET" finished-at="2022-04-04T15:51:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DragServiceSheet()[pri:2, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="DragServiceSheet" duration-ms="668" started-at="2022-04-04T15:51:28 EET" finished-at="2022-04-04T15:51:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragServiceSheet -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3276" started-at="2022-04-04T15:51:29 EET" finished-at="2022-04-04T15:51:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=DragServiceSheet status=SUCCESS method=dismisscautionBatteryRequestTest.DragServiceSheet()[pri:2, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3003" started-at="2022-04-04T15:51:32 EET" finished-at="2022-04-04T15:51:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectBattery()[pri:3, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="SelectBattery" duration-ms="459" started-at="2022-04-04T15:51:35 EET" finished-at="2022-04-04T15:51:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBattery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3308" started-at="2022-04-04T15:51:36 EET" finished-at="2022-04-04T15:51:39 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectBattery status=SUCCESS method=dismisscautionBatteryRequestTest.SelectBattery()[pri:3, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3012" started-at="2022-04-04T15:51:39 EET" finished-at="2022-04-04T15:51:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmSummery()[pri:4, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="ConfirmSummery" duration-ms="618" started-at="2022-04-04T15:51:42 EET" finished-at="2022-04-04T15:51:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmSummery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3301" started-at="2022-04-04T15:51:42 EET" finished-at="2022-04-04T15:51:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmSummery status=SUCCESS method=dismisscautionBatteryRequestTest.ConfirmSummery()[pri:4, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3015" started-at="2022-04-04T15:51:46 EET" finished-at="2022-04-04T15:51:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.clickBackarrow1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickBackarrow1()[pri:6, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="clickBackarrow1" duration-ms="681" started-at="2022-04-04T15:51:49 EET" finished-at="2022-04-04T15:51:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackarrow1 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3258" started-at="2022-04-04T15:51:49 EET" finished-at="2022-04-04T15:51:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.clickBackarrow1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickBackarrow1 status=SUCCESS method=dismisscautionBatteryRequestTest.clickBackarrow1()[pri:6, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3014" started-at="2022-04-04T15:51:53 EET" finished-at="2022-04-04T15:51:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.clickBackarrrow2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickBackarrrow2()[pri:7, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="clickBackarrrow2" duration-ms="116" started-at="2022-04-04T15:51:56 EET" finished-at="2022-04-04T15:51:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackarrrow2 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3270" started-at="2022-04-04T15:51:56 EET" finished-at="2022-04-04T15:51:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.clickBackarrrow2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickBackarrrow2 status=SUCCESS method=dismisscautionBatteryRequestTest.clickBackarrrow2()[pri:7, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3015" started-at="2022-04-04T15:51:59 EET" finished-at="2022-04-04T15:52:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.confirmbackome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="confirmbackome()[pri:8, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="confirmbackome" duration-ms="62" started-at="2022-04-04T15:52:02 EET" finished-at="2022-04-04T15:52:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmbackome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3293" started-at="2022-04-04T15:52:02 EET" finished-at="2022-04-04T15:52:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.confirmbackome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=confirmbackome status=SUCCESS method=dismisscautionBatteryRequestTest.confirmbackome()[pri:8, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3013" started-at="2022-04-04T15:52:06 EET" finished-at="2022-04-04T15:52:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmSummery2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmSummery2()[pri:9, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="ConfirmSummery2" duration-ms="105" started-at="2022-04-04T15:52:09 EET" finished-at="2022-04-04T15:52:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmSummery2 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3313" started-at="2022-04-04T15:52:09 EET" finished-at="2022-04-04T15:52:12 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmSummery2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmSummery2 status=SUCCESS method=dismisscautionBatteryRequestTest.ConfirmSummery2()[pri:9, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3014" started-at="2022-04-04T15:52:12 EET" finished-at="2022-04-04T15:52:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmBaymnet2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmBaymnet2()[pri:10, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="ConfirmBaymnet2" duration-ms="532" started-at="2022-04-04T15:52:15 EET" finished-at="2022-04-04T15:52:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmBaymnet2 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3263" started-at="2022-04-04T15:52:15 EET" finished-at="2022-04-04T15:52:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.ConfirmBaymnet2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmBaymnet2 status=SUCCESS method=dismisscautionBatteryRequestTest.ConfirmBaymnet2()[pri:10, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-04T15:52:19 EET" finished-at="2022-04-04T15:52:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.CancelLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelLink()[pri:11, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="CancelLink" duration-ms="163" started-at="2022-04-04T15:52:22 EET" finished-at="2022-04-04T15:52:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelLink -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3238" started-at="2022-04-04T15:52:22 EET" finished-at="2022-04-04T15:52:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.CancelLink()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelLink status=SUCCESS method=dismisscautionBatteryRequestTest.CancelLink()[pri:11, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="beforeMethod" is-config="true" duration-ms="3014" started-at="2022-04-04T15:52:25 EET" finished-at="2022-04-04T15:52:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.CancelBn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CancelBn()[pri:12, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="CancelBn" duration-ms="168" started-at="2022-04-04T15:52:28 EET" finished-at="2022-04-04T15:52:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelBn -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.dismisscautionBatteryRequestTest@3f200884]" name="afterMethod" is-config="true" duration-ms="3315" started-at="2022-04-04T15:52:28 EET" finished-at="2022-04-04T15:52:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.dismisscautionBatteryRequestTest.CancelBn()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CancelBn status=SUCCESS method=dismisscautionBatteryRequestTest.CancelBn()[pri:12, instance:Battery.dismisscautionBatteryRequestTest@3f200884] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Battery.dismisscautionBatteryRequestTest -->
+      <class name="Battery.cautionBatteryRequestTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3003" started-at="2022-04-04T15:52:32 EET" finished-at="2022-04-04T15:52:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.MoveMap()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MoveMap()[pri:1, instance:Battery.cautionBatteryRequestTest@4d339552]" name="MoveMap" duration-ms="394" started-at="2022-04-04T15:52:35 EET" finished-at="2022-04-04T15:52:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveMap -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3279" started-at="2022-04-04T15:52:35 EET" finished-at="2022-04-04T15:52:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.MoveMap()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=MoveMap status=SUCCESS method=cautionBatteryRequestTest.MoveMap()[pri:1, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-04T15:52:38 EET" finished-at="2022-04-04T15:52:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DragServiceSheet()[pri:2, instance:Battery.cautionBatteryRequestTest@4d339552]" name="DragServiceSheet" duration-ms="450" started-at="2022-04-04T15:52:41 EET" finished-at="2022-04-04T15:52:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragServiceSheet -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3286" started-at="2022-04-04T15:52:42 EET" finished-at="2022-04-04T15:52:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.DragServiceSheet()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=DragServiceSheet status=SUCCESS method=cautionBatteryRequestTest.DragServiceSheet()[pri:2, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3008" started-at="2022-04-04T15:52:45 EET" finished-at="2022-04-04T15:52:48 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelectBattery()[pri:3, instance:Battery.cautionBatteryRequestTest@4d339552]" name="SelectBattery" duration-ms="396" started-at="2022-04-04T15:52:48 EET" finished-at="2022-04-04T15:52:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBattery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3300" started-at="2022-04-04T15:52:48 EET" finished-at="2022-04-04T15:52:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.SelectBattery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SelectBattery status=SUCCESS method=cautionBatteryRequestTest.SelectBattery()[pri:3, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3010" started-at="2022-04-04T15:52:52 EET" finished-at="2022-04-04T15:52:55 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ConfirmSummery()[pri:4, instance:Battery.cautionBatteryRequestTest@4d339552]" name="ConfirmSummery" duration-ms="132" started-at="2022-04-04T15:52:55 EET" finished-at="2022-04-04T15:52:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmSummery -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3316" started-at="2022-04-04T15:52:55 EET" finished-at="2022-04-04T15:52:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.ConfirmSummery()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConfirmSummery status=SUCCESS method=cautionBatteryRequestTest.ConfirmSummery()[pri:4, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3012" started-at="2022-04-04T15:52:58 EET" finished-at="2022-04-04T15:53:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.clickBackarrow1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickBackarrow1()[pri:5, instance:Battery.cautionBatteryRequestTest@4d339552]" name="clickBackarrow1" duration-ms="234" started-at="2022-04-04T15:53:01 EET" finished-at="2022-04-04T15:53:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackarrow1 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3292" started-at="2022-04-04T15:53:01 EET" finished-at="2022-04-04T15:53:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.clickBackarrow1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickBackarrow1 status=SUCCESS method=cautionBatteryRequestTest.clickBackarrow1()[pri:5, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3002" started-at="2022-04-04T15:53:05 EET" finished-at="2022-04-04T15:53:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.clickBackarrrow2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickBackarrrow2()[pri:6, instance:Battery.cautionBatteryRequestTest@4d339552]" name="clickBackarrrow2" duration-ms="154" started-at="2022-04-04T15:53:08 EET" finished-at="2022-04-04T15:53:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackarrrow2 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3244" started-at="2022-04-04T15:53:08 EET" finished-at="2022-04-04T15:53:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.clickBackarrrow2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickBackarrrow2 status=SUCCESS method=cautionBatteryRequestTest.clickBackarrrow2()[pri:6, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="beforeMethod" is-config="true" duration-ms="3007" started-at="2022-04-04T15:53:11 EET" finished-at="2022-04-04T15:53:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.confirmbackome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="confirmbackome()[pri:7, instance:Battery.cautionBatteryRequestTest@4d339552]" name="confirmbackome" duration-ms="95" started-at="2022-04-04T15:53:14 EET" finished-at="2022-04-04T15:53:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmbackome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Battery.cautionBatteryRequestTest@4d339552]" name="afterMethod" is-config="true" duration-ms="3445" started-at="2022-04-04T15:53:14 EET" finished-at="2022-04-04T15:53:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Battery.cautionBatteryRequestTest.confirmbackome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=confirmbackome status=SUCCESS method=cautionBatteryRequestTest.confirmbackome()[pri:7, instance:Battery.cautionBatteryRequestTest@4d339552] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Battery.cautionBatteryRequestTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

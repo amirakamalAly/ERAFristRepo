@@ -1,4 +1,4 @@
-package com.ERA.testcases.Battery;
+package Battery;
 
 import org.testng.annotations.Test;
 

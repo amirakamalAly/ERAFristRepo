@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
+  <listeners>
 		<listener class-name="com.ERA.listeners.ERAListener" />
 	</listeners>
 
@@ -18,19 +18,18 @@
 			<parameter name ="platformVersion" value="11"></parameter> <parameter name 
 			="deviceName" value="OPPO Reno2 F"></parameter> -->
 		<classes>
-			<class name="common.SkipupdateTest"></class>
+		<!-- 	<class name="common.SkipupdateTest"></class> -->
 			<class name="common.allowLocationPermissionTest"></class>
-			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
-			<class name="common.MenuTest" />
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>		
+			<class name="Battery.dismisscautionBatteryRequestTest"/>
+			<class name="Battery.cautionBatteryRequestTest"/>
+			<!-- <class name="Fuel.dismisscautionFuelRequestTest"/> -->
+			<!-- <class name="Fuel.cautionFuelRequestTest"/> -->
+			<!-- <class name="towing.DismissCautionTowingRequestTest"/> -->
 			
-			<class name="profile.Profile_DeleteImageTest" />
-			<class name="profile.Profile_TakeCameraImageTest" />
-			
-			<class name="profile.Profile_GalleryImageTest" />
-			<class name="profile.Profile_InvalidEmailFormatTest" />
-			<class name="profile.Profile_InvalidNameAndEmailTest" />
-			<class name="profile.ProfileTest" />
-
-		</classes>
-	</test> <!-- Test -->
+    <!--   <class name="Fuel.VisaPaymentAddNormalFuelRequestTest"/>
+      <class name="Fuel.VisaPaymentTest"/> -->
+      
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

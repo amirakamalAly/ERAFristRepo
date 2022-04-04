@@ -129,5 +129,67 @@ public class profiletabFromMenu extends Base {
 		// TODO Auto-generated method stub
 		allowPermission.click();
 	}
+	@AndroidFindBy(id = "com.eci.era:id/centeredTakePhotoBtn")
+	public MobileElement centeredIcon;
+	
+	public void ClickImageOptionscenteredIcon() {
+		// TODO Auto-generated method stub
+		centeredIcon.click();
+	}
 
+	@AndroidFindBy(id = "com.eci.era:id/cameraTV")
+	public MobileElement captureImage;
+	public void ClickTakeImage() {
+		// TODO Auto-generated method stub
+		captureImage.click();
+	}
+	@AndroidFindBy(id = "com.android.camera2:id/shutter_button")
+	public MobileElement takeImage;
+	
+	public void Clickcamera() {
+		// TODO Auto-generated method stub
+		takeImage.click();
+		
+	}
+	
+	
+
+@AndroidFindBy(id = "com.android.camera2:id/done_button")
+public MobileElement confirmImage;
+
+public void confirmImage() {
+	// TODO Auto-generated method stub
+	confirmImage.click();
+	
+}
+
+@AndroidFindBy(accessibility = "Photo taken on Apr 1, 2022 7:22:51 PM")
+public MobileElement image;
+
+public void confirmSelectedImage() {
+	// TODO Auto-generated method stub
+	image.click();
+	
+}
+@AndroidFindBy(id = "com.eci.era:id/closeImg")
+public MobileElement dismiss;
+
+public void clickdissmissPopup() {
+	// TODO Auto-generated method stub
+	dismiss.click();
+}
+
+@AndroidFindBy(id = "com.eci.era:id/galleryTV")
+public MobileElement gallery;
+public void ClickGalleryImage() {
+	// TODO Auto-generated method stub
+	gallery.click();
+}
+
+@AndroidFindBy(id = "com.google.android.apps.photos:id/image")
+public MobileElement selectfolder;
+public void Clickfolder() {
+	// TODO Auto-generated method stub
+	selectfolder.click();
+}
 }

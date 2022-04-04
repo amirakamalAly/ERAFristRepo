@@ -1,7 +1,7 @@
 package profile;
 
 import com.ERA.base.Base;
-
+import com.ERA.screens.MenuScreen;
 import com.ERA.screens.profile.profiletabFromMenu;
 
 import org.testng.annotations.Test;
@@ -50,6 +50,23 @@ public class ProfileTest extends Base {
 	{
 		profiletabFromMenu save = new profiletabFromMenu();
 		save.clickSave();
+
+	}
+	@Test(priority = 6)
+	public void dissmissPopup()
+
+	{
+		profiletabFromMenu dismiss = new profiletabFromMenu();
+		dismiss.clickdissmissPopup();
+
+	}
+
+	@Test(priority = 7)
+	public void ClickMenu()
+
+	{
+		MenuScreen Menu = new MenuScreen();
+		Menu.ClickMenuIcon();
 
 	}
 	
