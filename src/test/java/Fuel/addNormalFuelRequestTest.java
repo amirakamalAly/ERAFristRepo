@@ -82,21 +82,21 @@ public class addNormalFuelRequestTest  extends Base {
 
 	}
 	
-	@Test(priority = 29)
-	public void CancelFuelRequest()
-
-	{
-		CancelFuelRequestScreen cancellink = new CancelFuelRequestScreen();
-		cancellink.confirmCancelFuelRequest();
-
-	}
-	
-	@Test(priority = 30)
-	public void CancelBnFuelRequest()
-
-	{
-		CancelFuelRequestScreen cancelBn = new CancelFuelRequestScreen();
-		cancelBn.ClickCancelFuelRequest();
-
-	}
+//	@Test(priority = 29)
+//	public void CancelFuelRequest()
+//
+//	{
+//		CancelFuelRequestScreen cancellink = new CancelFuelRequestScreen();
+//		cancellink.confirmCancelFuelRequest();
+//
+//	}
+//	
+//	@Test(priority = 30)
+//	public void CancelBnFuelRequest()
+//
+//	{
+//		CancelFuelRequestScreen cancelBn = new CancelFuelRequestScreen();
+//		cancelBn.ClickCancelFuelRequest();
+//
+//	}
 }

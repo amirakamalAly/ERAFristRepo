@@ -1,27 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="noSignpro" value="false"/>
+  <parameter name="skipServerInstallationpro" value="true"/>
+  <parameter name="platformVersion" value="9"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
   <listeners>
     <listener class-name="com.ERA.listeners.ERAListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="noSignpro" value="false"/>
-    <parameter name="skipServerInstallationpro" value="true"/>
-    <parameter name="platformVersion" value="9"/>
-    <parameter name="platformName" value="Android"/>
-    <parameter name="deviceName" value="emulator-5554"/>
+  <test thread-count="5" name="Battery(failed)">
     <classes>
-      <class name="Fuel.VisaPaymentTest">
+      <class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest">
         <methods>
+          <include name="OpenFleetURL" invocation-numbers="0"/>
           <include name="beforeMethod"/>
-          <include name="addcreditNumber"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
-          <include name="afterClass"/>
         </methods>
-      </class> <!-- Fuel.VisaPaymentTest -->
+      </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest -->
+      <class name="driverApi.API_Driver_FuelAndBattery_completejob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="completejob" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_completejob_Test -->
+      <class name="common.RatesheetTest">
+        <methods>
+          <include name="ratedriver"/>
+          <include name="beforeMethod"/>
+          <include name="IssuesTextAssert"/>
+          <include name="assertError"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="allstarts"/>
+          <include name="beforeSuite"/>
+          <include name="submit5RateButton"/>
+          <include name="submitRateButton"/>
+        </methods>
+      </class> <!-- common.RatesheetTest -->
+      <class name="towing.DismissTowingRatesheetTest">
+        <methods>
+          <include name="clickratingBarButton"/>
+          <include name="IssuesTextAssert"/>
+          <include name="assertError"/>
+          <include name="beforeMethod"/>
+          <include name="SelectReason"/>
+          <include name="submitRateButton"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="clickismissRate"/>
+          <include name="allstarts"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- towing.DismissTowingRatesheetTest -->
+      <class name="driverApi.API_Driver_Startjob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="driverLogin" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_Startjob_Test -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Battery(failed) -->
 </suite> <!-- Failed suite [Suite] -->

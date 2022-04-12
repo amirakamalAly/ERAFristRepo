@@ -19,7 +19,8 @@ public class OpenFleetAndAssignRequestTest extends Base{
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amira\\eclipse-workspace\\Automater\\Driver\\chromedriver.exe");
 		FleetMangement = new ChromeDriver();
-		FleetMangement.get("https://support.eas.ae/DispatchListings/ERAListUnscheduledFinCleared");
+		//FleetMangement.get("https://support.eas.ae/DispatchListings/ERAListUnscheduledFinCleared");
+		FleetMangement.get("https://support.emiratesauction.net/XGNO300/DispatchListings/ERAListUnscheduledFinCleared");
 
 		FleetMangement.manage().window().maximize();
 		((JavascriptExecutor) FleetMangement).executeScript("document.body.style.zoom='80%';");
@@ -32,11 +33,13 @@ public class OpenFleetAndAssignRequestTest extends Base{
 		}
 		FleetMangement.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		FleetMangement.findElement(By.id("UserName")).sendKeys("shivox");
-
+		//FleetMangement.findElement(By.id("UserName")).sendKeys("shivox");
+		FleetMangement.findElement(By.id("UserName")).sendKeys("egyptdev");
 		FleetMangement.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		FleetMangement.findElement(By.id("Password")).sendKeys("123456789");
+
+	//	FleetMangement.findElement(By.id("Password")).sendKeys("123456789");
+		FleetMangement.findElement(By.id("Password")).sendKeys("egyptDevUser@456");
 		FleetMangement.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		FleetMangement.findElement(By.xpath("//input[@value='Log in']")).click();
 		FleetMangement.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -70,8 +73,10 @@ try {
 	// TODO Auto-generated catch block
 	e1.printStackTrace();
 }
-		FleetMangement.findElement(By.xpath("/html/body/div[8]/div/div/div[2]/div/form/div[5]/div[1]/span/span/input"))
-				.sendKeys("Egypt User  02");
+//FleetMangement.findElement(By.xpath("/html/body/div[8]/div/div/div[2]/div/form/div[5]/div[1]/span/span/input"))
+//.sendKeys("Egypt User  02");
+FleetMangement.findElement(By.xpath("/html/body/div[8]/div/div/div[2]/div/form/div[5]/div[1]/span/span/input"))
+.sendKeys("Sherif Sharaf");
 		FleetMangement.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		FleetMangement.findElement(By.xpath("/html/body/div[9]/div/div[3]/ul/li/span[1]")).click();

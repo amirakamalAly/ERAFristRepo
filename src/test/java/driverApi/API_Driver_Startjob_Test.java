@@ -21,57 +21,52 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class API_Driver_Startjob_Test extends Base{
+public class API_Driver_Startjob_Test extends Base {
 
 	@Test(dataProvider = "driverdata", priority = 1)
-	
-	public void driverLogin(String Name,String MobileNumber,String RequestId,String JoborderId) throws IOException {
+
+	public void driverLogin(String Name, String MobileNumber, String RequestId, String JoborderId) throws IOException {
 
 		String driverBaseURL = (String) new driverApi.API_GetBaseURLTest().GetrdriverBaseUrl();
-		String access_token = (String) new driverApi.API_Driver_Login_Test(). driverLogin();
+		String access_token = (String) new driverApi.API_Driver_Login_Test().driverLogin();
 
 ////////////////////////////////Get Request///////////////////////////////////	
-		RestAssured.baseURI =driverBaseURL + "/api/v1/fleetjobs";
+//		RestAssured.baseURI = driverBaseURL + "/api/v1/fleetjobs";
+//		RequestSpecification httpRequest = RestAssured.given();
+//		Response res = httpRequest.queryParam("access_token", access_token).queryParam("gx", "30.239421666666665")
+//				.queryParam("jobId", JoborderId).queryParam("gy", "31.483515000000004")
+//				.queryParam("recoveryQrCode", "12345678901234562")
+//
+//				.get("/startjob");
+//////////////////////////////////live///////////////////////////
+		RestAssured.baseURI = driverBaseURL + "/api/v1/fleetjobs";
 		RequestSpecification httpRequest = RestAssured.given();
-		Response res = httpRequest
-				.queryParam("access_token", access_token)
-				.queryParam("gx", "30.239421666666665")
-				.queryParam("jobId", JoborderId)
-				.queryParam("gy", "31.483515000000004")
-				.queryParam("recoveryQrCode", "12345678901234562")
-				.get("/startjob");
-
-////////////////////////////////Response ///////////////////////////////////
+		Response res = httpRequest.queryParam("access_token", access_token).queryParam("gx", "30.239421666666665")
+				.queryParam("jobId", JoborderId).queryParam("gy", "31.483515000000004")
+				// .queryParam("recoveryQrCode", "12345678901234562")
+				.queryParam("recoveryQrCode", "01234567890123452").get("/startjob");//////////////////////////////// Response
+																					//////////////////////////////// ///////////////////////////////////
 		String responsebody1 = res.getBody().asString();
 		System.out.println("responsebody is  - " + responsebody1);
 		JsonPath path = new JsonPath(responsebody1);
 		boolean Success = path.get("success");
 		Assert.assertEquals(Success, true);
-		////////////////////////////////objectdata ////////////////
+		//////////////////////////////// objectdata ////////////////
 		// workbook object
 		XSSFWorkbook workbook = new XSSFWorkbook();
 
 		// spreadsheet object
-		XSSFSheet spreadsheet
-			= workbook.createSheet("DriverAccessToken");
+		XSSFSheet spreadsheet = workbook.createSheet("DriverAccessToken");
 
 		// creating a row object
 		XSSFRow row;
-String s=String.valueOf(RequestId);
+		String s = String.valueOf(RequestId);
 		// This data needs to be written (Object[])
-		Map<String, Object[]> Requestetails
-			= new TreeMap<String, Object[]>();
-System.out.println("//////////////////name is "+Name);
-			Requestetails.put(
-			"1",
-			new Object[] { "Name", "MobileNumber", "RequestId","JoborderId" ,"access_token"});
-			
-			
-			Requestetails.put(
-					"2",
-					new Object[] { Name, MobileNumber,RequestId,JoborderId,access_token });
-					
-	
+		Map<String, Object[]> Requestetails = new TreeMap<String, Object[]>();
+		System.out.println("//////////////////name is " + Name);
+		Requestetails.put("1", new Object[] { "Name", "MobileNumber", "RequestId", "JoborderId", "access_token" });
+
+		Requestetails.put("2", new Object[] { Name, MobileNumber, RequestId, JoborderId, access_token });
 
 		Set<String> keyid = Requestetails.keySet();
 
@@ -87,23 +82,17 @@ System.out.println("//////////////////name is "+Name);
 
 			for (Object obj : objectArr) {
 				Cell cell = row.createCell(cellid++);
-				cell.setCellValue((String)obj);
+				cell.setCellValue((String) obj);
 			}
 		}
 
 		// .xlsx is the format for Excel Sheets...
 		// writing the workbook into the file...
-		FileOutputStream out = new FileOutputStream(
-			new File("C:\\Users\\amira\\eclipse-workspace\\Automater\\src\\test\\testdata\\driverAccessToken.xlsx"));
+		FileOutputStream out = new FileOutputStream(new File(
+				"C:\\Users\\amira\\eclipse-workspace\\Automater\\src\\test\\testdata\\driverAccessToken.xlsx"));
 
 		workbook.write(out);
 		out.close();
-	
 
-
-
-
-	
-		
 	}
 }

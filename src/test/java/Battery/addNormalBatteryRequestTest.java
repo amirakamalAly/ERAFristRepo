@@ -62,23 +62,23 @@ public class addNormalBatteryRequestTest  extends Base {
 
 	}
 	
-	@Test(priority = 34)
-	public void CancelLink()
-
-	{
-		addBatteryRequestTestScreen cancelLnk = new addBatteryRequestTestScreen();
-		cancelLnk.Cancellink();
-		
-
-	}
-	
-	@Test(priority = 35)
-	public void CancelBn()
-
-	{
-		addBatteryRequestTestScreen cancelBn = new addBatteryRequestTestScreen();
-		cancelBn.CancelBn();
-		
-
-	}
+//	@Test(priority = 34)
+//	public void CancelLink()
+//
+//	{
+//		addBatteryRequestTestScreen cancelLnk = new addBatteryRequestTestScreen();
+//		cancelLnk.Cancellink();
+//		
+//
+//	}
+//	
+//	@Test(priority = 35)
+//	public void CancelBn()
+//
+//	{
+//		addBatteryRequestTestScreen cancelBn = new addBatteryRequestTestScreen();
+//		cancelBn.CancelBn();
+//		
+//
+//	}
 }

@@ -37,6 +37,7 @@ import com.ERA.utils.access_tokenUtility;
 import com.ERA.utils.profileUitilty;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.HTMLReporter;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class Base {
@@ -46,6 +47,7 @@ public class Base {
 	protected Properties prop;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
+	 public static HTMLReporter htmlReporter;
 
 	public Base() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -53,16 +55,24 @@ public class Base {
 
 	@BeforeSuite
 	public void beforeSuite() {
+		
 		extent = new ExtentReports("Reports/index.html");
 		extent.addSystemInfo("Framework Type", "Appium page object");
 		extent.addSystemInfo("Autor", "Amira");
 		extent.addSystemInfo("Enviroment", "Android");
+		
+//		 htmlReporter = new HTMLReporter(new File(System.getProperty("user.dir") + "/AutomationReports.html"));
+//	        htmlReporter.loadXMLConfig(new File(System.getProperty("user.dir") + "/src/resource/XML/Extent-Config.xml"));
+//	        reports = new ExtentReports();
+//	        htmlReporter.setAppendExisting(true);
+//	        reports.setSystemInfo("Environment", "Automation");
+//	        reports.attachReporter(htmlReporter);
 
 	};
 
 	@AfterSuite
 	public void afterSuite() {
-		extent.flush();
+	extent.flush();
 	}
 
 	@BeforeMethod
@@ -138,6 +148,16 @@ public class Base {
 		Object[][] Location = new Object[1][2];
 		String Description = testDataInMap.get(0).get("Description");
 		String Value = testDataInMap.get(0).get("Value");
+		Location[0][0] = Description;
+		Location[0][1] = Value;
+		return Location;
+	}
+	@DataProvider(name = "validLocations")
+	public Object[][] getdatalocationfromLocationExcelSheet() throws IOException {
+		List<Map<String, String>> testDataInMap = LocationExcelUtility.getMapTestDataInMap();
+		Object[][] Location = new Object[1][2];
+		String Description = testDataInMap.get(2).get("Description");
+		String Value = testDataInMap.get(2).get("Value");
 		Location[0][0] = Description;
 		Location[0][1] = Value;
 		return Location;
@@ -278,9 +298,9 @@ public class Base {
 
 	}
 
-	@AfterSuite
-	public void afterClass() {
-
-//driver.quit();
-	}
+//	@AfterSuite
+//	public void afterClass() {
+//
+////driver.quit();
+//	}
 }

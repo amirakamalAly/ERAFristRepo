@@ -25,16 +25,16 @@ public class RequestHistoryTest extends Base {
 	}
 
 
-	@Test(priority =4)
-	public void scrollitems()
-
-	{
-		RequestHistoryScreen scroll = new RequestHistoryScreen();
-		for (int i = 0; i < 2; i++) {
-			scroll.scrollitems();
-			}
-	
-	}
+//	@Test(priority =4)
+//	public void scrollitems()
+//
+//	{
+//		RequestHistoryScreen scroll = new RequestHistoryScreen();
+//		for (int i = 0; i < 2; i++) {
+//			scroll.scrollitems();
+//			}
+//	
+//	}
 	
 	
 	@Test(priority =5)
@@ -62,11 +62,11 @@ public class RequestHistoryTest extends Base {
 	
 	
 	
-	@Test(priority =8)
-	public void ratedriver()
-
-	{
-		RequestHistoryScreen rate = new RequestHistoryScreen();
-		rate.ratedriver();
-	}
+//	@Test(priority =8)
+//	public void ratedriver()
+//
+//	{
+//		RequestHistoryScreen rate = new RequestHistoryScreen();
+//		rate.ratedriver();
+//	}
 }

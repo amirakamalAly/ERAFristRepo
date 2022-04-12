@@ -31,7 +31,8 @@ public class OpenAdminAndGetJobOrderIdRequestIDTest extends Base {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amira\\eclipse-workspace\\Automater\\Driver\\chromedriver.exe");
 		Admindriver = new ChromeDriver();
-		Admindriver.get("http://eraadmin2.dev.arabiansystems.com/Requests/Index");
+	//	Admindriver.get("http://eraadmin2.dev.arabiansystems.com/Requests/Index");
+		Admindriver.get("http://admin.emiratesroadsideassistance.com/Requests/Index");
 
 		Admindriver.manage().window().maximize();
 
@@ -72,19 +73,40 @@ public class OpenAdminAndGetJobOrderIdRequestIDTest extends Base {
 //				.sendKeys(RequestId);
 		///////////////////// search with mobile number
 		///////////////////// //////////////////////////////////
+		Thread.sleep(3000);
+		Admindriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+		
+		Admindriver.findElement(By.xpath("//*[@id='checkbox1']")).click();
+		Thread.sleep(3000);
+		
+		System.out.println("/////////////////////////////////////////////////////////////////checkbox////");
+
+
 		Admindriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Admindriver
 				.findElement(By.xpath(
 						"/html/body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/form/div[1]/div[5]/div/input"))
 				.sendKeys(MobileNumber);
-		///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		Admindriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		Thread.sleep(3000);
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		
+			Admindriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		WebElement myelement = Admindriver.findElement(
 				By.xpath("/html/body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/form/div[2]/div/button"));
-		JavascriptExecutor jse2 = (JavascriptExecutor) Admindriver;
-		jse2.executeScript("arguments[0].scrollIntoView()", myelement);
+//		JavascriptExecutor jse2 = (JavascriptExecutor) Admindriver;
+//		jse2.executeScript("arguments[0].scrollIntoView()", myelement);
+		Thread.sleep(3000);
+
+		myelement.click();
+		Thread.sleep(3000);
+		
+
+		Thread.sleep(3000);
 
 		Admindriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String JoborderId = Admindriver
