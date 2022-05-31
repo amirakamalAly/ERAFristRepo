@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.ERA.base.Base;
 import com.ERA.screens.addBatteryRequestTestScreen;
+import com.ERA.screens.addNormalTowingRequest;
 
 
 public class dismisscautionBatteryRequestTest  extends Base {
@@ -68,53 +69,14 @@ public class dismisscautionBatteryRequestTest  extends Base {
 		backarrow.clcikBackarrow();
 
 	}
-		@Test(priority =8)
-	public void confirmbackome()
+	
 
-	{
-			addBatteryRequestTestScreen confirmbackome = new addBatteryRequestTestScreen();
-		confirmbackome.dissmisscaution();
-
-	}	
-
-		@Test(priority =9)
-		public void ConfirmSummery2()
+		@Test(priority = 8)
+		public void dissmisscaution()
 
 		{
-			addBatteryRequestTestScreen confrmSummery = new addBatteryRequestTestScreen();
-			confrmSummery.cnfirmSummery();
-			
-
-		}
-		
-
-		@Test(priority =10)
-		public void ConfirmBaymnet2()
-
-		{
-			addBatteryRequestTestScreen confirmSummery = new addBatteryRequestTestScreen();
-			confirmSummery.ConfmBaymnet();
-			
-
-		}
-		
-		@Test(priority =11)
-		public void CancelLink()
-
-		{
-			addBatteryRequestTestScreen cancelLnk = new addBatteryRequestTestScreen();
-			cancelLnk.Cancellink();
-			
-
-		}
-		
-		@Test(priority =12)
-		public void CancelBn()
-
-		{
-			addBatteryRequestTestScreen cancelBn = new addBatteryRequestTestScreen();
-			cancelBn.CancelBn();
-			
+			addNormalTowingRequest confirmbackome = new addNormalTowingRequest();
+			confirmbackome.dissmisscaution();
 
 		}
 

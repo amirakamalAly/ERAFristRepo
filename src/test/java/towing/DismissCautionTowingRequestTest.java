@@ -90,36 +90,5 @@ public class DismissCautionTowingRequestTest extends Base {
 
 	}
 
-	@Test(priority = 10)
-	public void ConfirmTowingRequest()
-
-	{
-		addNormalTowingRequest Confirm = new addNormalTowingRequest();
-		Confirm.confirmTowingRequest();
-
-	}
-
-	@Test(priority = 11)
-	public void ConfirmPaymentTowingRequest()
-
-	{
-		addNormalTowingRequest Confirm = new addNormalTowingRequest();
-		Confirm.confirmPaymrntTowingRequest();
-
-	}
-
-	@Test(priority = 12)
-	public void CancelTowingRequest()
-
-	{
-		addNormalTowingRequest Confirm = new addNormalTowingRequest();
-		Confirm.confirmCancelTowingRequest();
-	}
-
-	@Test(priority = 13)
-	public void ClickCancelTowingRequest() {
-		addNormalTowingRequest ConfirmBn = new addNormalTowingRequest();
-		ConfirmBn.ClickCancelTowingRequest();
-
-	}
+	
 }

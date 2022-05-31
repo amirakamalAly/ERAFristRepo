@@ -4,33 +4,68 @@
 	<listeners>
 		<listener class-name="com.ERA.listeners.ERAListener" />
 	</listeners>
-
-	<test thread-count="5" name="Test">
-
 		<!-- emulator parameter -->
 		<parameter name="deviceName" value="emulator-5554"></parameter>
 		<parameter name="platformVersion" value="9"></parameter>
 		<parameter name="platformName" value="Android"></parameter>
 		<parameter name="skipServerInstallationpro" value="true"></parameter>
 		<parameter name="noSignpro" value="false"></parameter>
-		<!-- device parameter -->
-		<!-- <parameter name ="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter> 
-			<parameter name ="platformVersion" value="11"></parameter> <parameter name 
-			="deviceName" value="OPPO Reno2 F"></parameter> -->
+
+	<test thread-count="5" name="Test">
+
+	
+	
+	
+		<classes>
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
+			<class name="towing.addNormalTowingRequestTest"></class>
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestTest"></class>
+			<class name="driverApi.API_Driver_Startjob_Test"></class>
+			<class name="driverApi.API_Driver_savemissingfieldvalue_Test"></class>
+			<class name="driverApi.API_Driver_vehiclepickedup_Test"></class>
+			<class name="driverApi.API_Driver_completejob_Test"></class>
+			<class name="towing.DismissTowingRatesheetTest"></class>
+			<class name="common.RequestHistoryTest"></class>
+			<class name="common.RatesheetTest"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="TowinglCaution">
+		<classes>
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
+			<class name="towing.cautionTowingRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DissmissTowingCaution">
+		<classes>
+			<class name="common.allowLocationPermissionTest"></class>
+
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
+			<class name="towing.DismissCautionTowingRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="profile">
 		<classes>
 			<class name="common.SkipupdateTest"></class>
 			<class name="common.allowLocationPermissionTest"></class>
 			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
 			<class name="common.MenuTest" />
-			
 			<class name="profile.Profile_DeleteImageTest" />
 			<class name="profile.Profile_TakeCameraImageTest" />
-			
 			<class name="profile.Profile_GalleryImageTest" />
 			<class name="profile.Profile_InvalidEmailFormatTest" />
 			<class name="profile.Profile_InvalidNameAndEmailTest" />
 			<class name="profile.ProfileTest" />
-
 		</classes>
-	</test> <!-- Test -->
+	</test>
+
+
+
+
 </suite> <!-- Suite -->

@@ -38,7 +38,12 @@ public class API_Driver_completejob_Test extends Base{
 		boolean Success = path.get("success");
 		
 		Assert.assertEquals(Success, true);
-
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		
 	}

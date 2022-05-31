@@ -4,80 +4,101 @@
 	<listeners>
 		<listener class-name="com.ERA.listeners.ERAListener" />
 	</listeners>
-
 	<parameter name="deviceName" value="emulator-5554"></parameter>
-	<parameter name="platformVersion" value="9"></parameter>
+	<parameter name="platformVersion" value="10"></parameter> 
 	<parameter name="platformName" value="Android"></parameter>
 	<parameter name="skipServerInstallationpro" value="true"></parameter>
 	<parameter name="noSignpro" value="false"></parameter>
-<test thread-count="5" name="profile">
+
+	<!--  <parameter name="udiddevice" value="TGKVHUK7LVOZS8E6"></parameter> 
+		<parameter name="platformVersion" value="11"></parameter> <parameter name="deviceName" 
+		value="OPPO Reno2 F"></parameter>-->
 
 
-		<classes>
-			<class name="common.SkipupdateTest"></class>
-			<class name="common.allowLocationPermissionTest"></class>
-			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
-			<class name="common.MenuTest" />
-
-			<class name="profile.Profile_DeleteImageTest" />
-			<class name="profile.Profile_TakeCameraImageTest" />
-
-			<class name="profile.Profile_GalleryImageTest" />
-			<class name="profile.Profile_InvalidEmailFormatTest" />
-			<class name="profile.Profile_InvalidNameAndEmailTest" />
-			<class name="profile.ProfileTest" />
-
-		</classes>
-	</test>
 	<test thread-count="5" name="Battery">
 		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
 			<class name="common.allowLocationPermissionTest"></class>
 			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
 			<class name="Battery.addNormalBatteryRequestTest"></class>
-			<class
-				name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
 			<class name="driverApi.API_Driver_Startjob_Test"></class>
-			<!-- <class name="driverApi.API_Driver_savemissingfieldvalue_Test"></class> -->
-			<class name="driverApi.API_Driver_vehiclepickedup_Test">
+			<class name="driverApi.API_Driver_savemissingfieldvalue_Test"></class>
+			<class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
 				<methods>
 					<include name="vehiclepickedup" />
 					<exclude name="verifyqrcode" />
 				</methods>
 			</class>
-			<class
-				name="driverApi.API_Driver_FuelAndBattery_completejob_Test"></class>
-			 <class name="towing.DismissTowingRatesheetTest"></class>
+			<class name="driverApi.API_Driver_FuelAndBattery_completejob_Test"></class>
+			<class name="towing.DismissTowingRatesheetTest"></class>
 			<class name="common.RequestHistoryTest"></class>
 			<class name="common.RatesheetTest"></class>
 		</classes>
 	</test>
+	<test thread-count="5" name="BatteryCaution">
+		<classes>
+			<!-- 	<class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Battery.cautionBatteryRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DissmissBatteryCaution">
+		<classes>
+			<!-- 	<class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Battery.dismisscautionBatteryRequestTest"></class>
+		</classes>
+	</test>
+
 	<test thread-count="5" name="Fuel">
 		<classes>
+			<!-- 		<class name="common.SkipupdateTest"></class>-->
 			<class name="common.allowLocationPermissionTest"></class>
 			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
 			<class name="Fuel.addNormalFuelRequestTest"></class>
-			<class
-				name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
 			<class name="driverApi.API_Driver_Startjob_Test"></class>
 			<class name="driverApi.API_Driver_savemissingfieldvalue_Test"></class>
-			<class name="driverApi.API_Driver_vehiclepickedup_Test">
+			<class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
 				<methods>
 					<include name="vehiclepickedup" />
 					<exclude name="verifyqrcode" />
 				</methods>
 			</class>
-			<class
-				name="driverApi.API_Driver_FuelAndBattery_completejob_Test"></class>
+			<class name="driverApi.API_Driver_FuelAndBattery_completejob_Test"></class>
 			<class name="towing.DismissTowingRatesheetTest"></class>
 			<class name="common.RequestHistoryTest"></class>
 			<class name="common.RatesheetTest"></class>
 		</classes>
 	</test>
 
-	<test thread-count="5" name="towing">
+	<test thread-count="5" name="fuelCaution">
 		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
 			<class name="common.allowLocationPermissionTest"></class>
 			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Fuel.cautionFuelRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DissmissFuelCaution">
+		<classes>
+			<!-- 	<class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Fuel.dismisscautionFuelRequestTest"></class>
+		</classes>
+	</test>
+	<test thread-count="1" name="towing">
+		<classes>
+			<!-- 	<class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
 			<class name="towing.addNormalTowingRequestTest"></class>
 			<class name="fleetAndAdmin.OpenFleetAndAssignRequestTest"></class>
 			<class name="driverApi.API_Driver_Startjob_Test"></class>
@@ -89,6 +110,99 @@
 			<class name="common.RatesheetTest"></class>
 		</classes>
 	</test>
-	
+	<test thread-count="5" name="TowinglCaution">
+		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
+			<class name="towing.cautionTowingRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="DissmissTowingCaution">
+		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="towing.validPickUPLocationTest"></class>
+			<class name="towing.DismissCautionTowingRequestTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="profile">
+		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="common.MenuTest" />
+			<class name="profile.Profile_DeleteImageTest" />
+			<class name="profile.Profile_TakeCameraImageTest" />
+			<class name="profile.Profile_GalleryImageTest" />
+			<class name="profile.Profile_InvalidEmailFormatTest" />
+			<class name="profile.Profile_InvalidNameAndEmailTest" />
+			<class name="profile.ProfileTest" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="CancelFueltPickupStatus">
+		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Fuel.addNormalFuelRequestTest"></class>
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
+			<class name="driverApi.API_Driver_Startjob_Test"></class>
+			<class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+
+				<methods>
+					<include name="vehiclepickedup" />
+					<exclude name="verifyqrcode" />
+				</methods>
+			</class>
+
+
+			<class name="common.DragTrackingsheetTest"></class>
+			<class name="common.CancelTrackingsheetTest">
+				<methods>
+					<exclude name="confirmCancelTrackingSheet" />
+				</methods>
+			</class>
+			<!-- <class name="common.AssertOutstandingValueTest"></class>-->
+
+
+		</classes>
+	</test>
+	<test thread-count="5" name="CancelBatterytPickupStatus">
+		<classes>
+			<!-- <class name="common.SkipupdateTest"></class>-->
+			<class name="common.allowLocationPermissionTest"></class>
+			<class name="login.ClickloginbuttonfromHomescreenTest"></class>
+			<class name="Battery.addNormalBatteryRequestTest"></class>
+			<class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest"></class>
+			<class name="driverApi.API_Driver_Startjob_Test"></class>
+			<class name="driverApi.API_Driver_savemissingfieldvalue_Test"></class>
+			<class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+
+				<methods>
+					<include name="vehiclepickedup" />
+					<exclude name="verifyqrcode" />
+				</methods>
+			</class>
+
+			<class name="common.DragTrackingsheetTest"></class>
+			<class name="common.CancelTrackingsheetTest">
+				<methods>
+					<exclude name="confirmCancelTrackingSheet" />
+				</methods>
+			</class>
+			<!--	<class name="common.AssertOutstandingValueTest"></class>-->
+
+
+		</classes>
+	</test>
+
+
 </suite>
 	

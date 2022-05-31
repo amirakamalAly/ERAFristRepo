@@ -85,10 +85,18 @@ public class TowingRateButtomsheetScreen extends Base {
 		// TODO Auto-generated method stub
 		String s = allstars.getText();
 		System.out.println(s);
-		allstars.setValue("10.0");
+		//allstars.setValue("10.0");
 		Thread.sleep(2000);
 //		allstars.click();
 //		Thread.sleep(2000);
+	}
+	@AndroidFindBy(id = "com.eci.era:id/doneRequestBtn")
+	private MobileElement doneBtn;
+
+	public void doneRequestBtn() {
+		// TODO Auto-generated method stub
+		doneBtn.click();
+		
 	}
 
 }

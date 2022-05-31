@@ -13,14 +13,14 @@ public class DismissTowingRatesheetTest extends Base {
 //		TowingRateButtomsheetScreen XIcon = new TowingRateButtomsheetScreen();
 //		XIcon.Clickdismiss();
 //	}
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void clickratingBarButton()
 
 	{
 		TowingRateButtomsheetScreen bar = new TowingRateButtomsheetScreen();
 		bar.clickratingBar();
 	}
-	@Test(priority = 3)
+	@Test(priority =2)
 	public void submitRateButton()
 
 	{
@@ -29,25 +29,25 @@ public class DismissTowingRatesheetTest extends Base {
 	}
 	
 
-	@Test(priority = 4)
+	@Test(priority = 3)
 	public void assertError()
 	{
 		TowingRateButtomsheetScreen assertErrormessage = new TowingRateButtomsheetScreen();
 		assertErrormessage.errorMessage();
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 4)
 	public void SelectReason()
 	{		TowingRateButtomsheetScreen Reason = new TowingRateButtomsheetScreen();
 	Reason.SelectReason();
 }
-	@Test(priority = 6)
+	@Test(priority = 5)
 	public void IssuesTextAssert()
 	{
 		TowingRateButtomsheetScreen IssuesTextAssert = new TowingRateButtomsheetScreen();
 		IssuesTextAssert.driverIssuesQuestion();
 	}
-	@Test(priority = 7)
+	@Test(priority = 6)
 	public void allstarts() throws InterruptedException
 	{
 		TowingRateButtomsheetScreen IssuesTextAssert = new TowingRateButtomsheetScreen();
@@ -60,7 +60,7 @@ public class DismissTowingRatesheetTest extends Base {
 //		TowingRateButtomsheetScreen submitRateButton = new TowingRateButtomsheetScreen();
 //		submitRateButton.ClickButton();
 //	}
-	@Test(priority = 8)
+	@Test(priority = 7)
 	public void clickismissRate()
 
 	{

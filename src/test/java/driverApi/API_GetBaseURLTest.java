@@ -29,4 +29,14 @@ public class API_GetBaseURLTest extends Base {
 		return driverBaseURL;
 	}
 
+	public String centraldispatcherBaseUrl() throws IOException {
+
+		File propFile = new File("src\\main\\config.properties");
+		inputStream = new FileInputStream(propFile);
+		prop = new Properties();
+		prop.load(inputStream);
+		String driverBaseURL = prop.getProperty("centraldispatcherBaseUrl");
+		return driverBaseURL;
+	}
+
 }

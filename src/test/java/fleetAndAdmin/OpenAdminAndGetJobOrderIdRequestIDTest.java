@@ -31,8 +31,8 @@ public class OpenAdminAndGetJobOrderIdRequestIDTest extends Base {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amira\\eclipse-workspace\\Automater\\Driver\\chromedriver.exe");
 		Admindriver = new ChromeDriver();
-	//	Admindriver.get("http://eraadmin2.dev.arabiansystems.com/Requests/Index");
-		Admindriver.get("http://admin.emiratesroadsideassistance.com/Requests/Index");
+		Admindriver.get("http://eraadmin2.dev.arabiansystems.com/Requests/Index");
+	//	Admindriver.get("http://admin.emiratesroadsideassistance.com/Requests/Index");
 
 		Admindriver.manage().window().maximize();
 
@@ -63,7 +63,7 @@ public class OpenAdminAndGetJobOrderIdRequestIDTest extends Base {
 
 			throw new NoSuchElementException("kunne ikke finde ");
 		}
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 
 		System.out.println("/////////////////////////////////////////////////////////////////////" + MobileNumber);
 //		Admindriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -106,7 +106,6 @@ public class OpenAdminAndGetJobOrderIdRequestIDTest extends Base {
 		Thread.sleep(3000);
 		
 
-		Thread.sleep(3000);
 
 		Admindriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String JoborderId = Admindriver

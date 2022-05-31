@@ -13,66 +13,1185 @@
     <classes>
       <class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest">
         <methods>
-          <include name="OpenFleetURL" invocation-numbers="0"/>
+          <include name="OpenFleetURL"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest -->
-      <class name="driverApi.API_Driver_FuelAndBattery_completejob_Test">
+      <class name="login.ClickloginbuttonfromHomescreenTest">
         <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
           <include name="beforeMethod"/>
-          <include name="completejob" invocation-numbers="0"/>
+          <include name="clickContinue"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
         </methods>
-      </class> <!-- driverApi.API_Driver_FuelAndBattery_completejob_Test -->
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
       <class name="common.RatesheetTest">
         <methods>
           <include name="ratedriver"/>
-          <include name="beforeMethod"/>
-          <include name="IssuesTextAssert"/>
           <include name="assertError"/>
-          <include name="SelectReason"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="allstarts"/>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="submit5RateButton"/>
           <include name="submitRateButton"/>
+          <include name="doneRequestBtn"/>
+          <include name="clickratingBarButton"/>
+          <include name="beforeMethod"/>
+          <include name="IssuesTextAssert"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
         </methods>
       </class> <!-- common.RatesheetTest -->
-      <class name="towing.DismissTowingRatesheetTest">
+      <class name="driverApi.API_Driver_savemissingfieldvalue_Test">
         <methods>
-          <include name="clickratingBarButton"/>
-          <include name="IssuesTextAssert"/>
-          <include name="assertError"/>
           <include name="beforeMethod"/>
-          <include name="SelectReason"/>
-          <include name="submitRateButton"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="clickismissRate"/>
-          <include name="allstarts"/>
+          <include name="savemissingfieldvalue"/>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
         </methods>
+      </class> <!-- driverApi.API_Driver_savemissingfieldvalue_Test -->
+      <class name="common.RequestHistoryTest">
+        <methods>
+          <include name="ClickFristItemRequestHistory"/>
+          <include name="callriver"/>
+          <include name="beforeMethod"/>
+          <include name="scrollitemetails"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="MenuRequestHistory"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- common.RequestHistoryTest -->
+      <class name="towing.DismissTowingRatesheetTest">
+        <methods>
+          <include name="assertError"/>
+          <include name="submitRateButton"/>
+          <include name="afterMethod"/>
+          <include name="clickismissRate"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="clickratingBarButton"/>
+          <include name="IssuesTextAssert"/>
+          <include name="beforeMethod"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
+        </methods>
       </class> <!-- towing.DismissTowingRatesheetTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="driverApi.API_Driver_FuelAndBattery_completejob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="completejob"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_completejob_Test -->
       <class name="driverApi.API_Driver_Startjob_Test">
         <methods>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
-          <include name="driverLogin" invocation-numbers="0"/>
+          <include name="driverLogin"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_Startjob_Test -->
+      <class name="Battery.addNormalBatteryRequestTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ConfirmBaymnet"/>
+          <include name="SelectBattery"/>
+          <include name="afterSuite"/>
+          <include name="ConfirmSummery"/>
+          <include name="MoveMap"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="DragServiceSheet"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Battery.addNormalBatteryRequestTest -->
+      <class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+        <methods>
+          <include name="vehiclepickedup"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test -->
+    </classes>
+  </test> <!-- Battery(failed) -->
+  <test thread-count="5" name="BatteryCaution(failed)">
+    <classes>
+      <class name="Battery.cautionBatteryRequestTest">
+        <methods>
+          <include name="MoveMap"/>
+          <include name="afterMethod"/>
+          <include name="clickBackarrow1"/>
+          <include name="clickBackarrrow2"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="confirmbackome"/>
+          <include name="SelectBattery"/>
+          <include name="beforeMethod"/>
+          <include name="DragServiceSheet"/>
+          <include name="ConfirmSummery"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Battery.cautionBatteryRequestTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+    </classes>
+  </test> <!-- BatteryCaution(failed) -->
+  <test thread-count="5" name="DissmissBatteryCaution(failed)">
+    <classes>
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="Battery.dismisscautionBatteryRequestTest">
+        <methods>
+          <include name="dissmisscaution"/>
+          <include name="MoveMap"/>
+          <include name="DragServiceSheet"/>
+          <include name="afterMethod"/>
+          <include name="clickBackarrow1"/>
+          <include name="afterTest"/>
+          <include name="clickBackarrrow2"/>
+          <include name="beforeSuite"/>
+          <include name="SelectBattery"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="ConfirmSummery"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Battery.dismisscautionBatteryRequestTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+    </classes>
+  </test> <!-- DissmissBatteryCaution(failed) -->
+  <test thread-count="5" name="Fuel(failed)">
+    <classes>
+      <class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest">
+        <methods>
+          <include name="OpenFleetURL"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="Fuel.addNormalFuelRequestTest">
+        <methods>
+          <include name="ConfirmpaymentButton"/>
+          <include name="SelectCash"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="selectFuelService"/>
+          <include name="ConfirmfuelType"/>
+          <include name="beforeMethod"/>
+          <include name="ConfirmCashPayment"/>
+          <include name="MoveMap"/>
+          <include name="SelectFuelType"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="Dragsheet"/>
+        </methods>
+      </class> <!-- Fuel.addNormalFuelRequestTest -->
+      <class name="common.RatesheetTest">
+        <methods>
+          <include name="ratedriver"/>
+          <include name="assertError"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="submit5RateButton"/>
+          <include name="submitRateButton"/>
+          <include name="doneRequestBtn"/>
+          <include name="clickratingBarButton"/>
+          <include name="beforeMethod"/>
+          <include name="IssuesTextAssert"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
+        </methods>
+      </class> <!-- common.RatesheetTest -->
+      <class name="driverApi.API_Driver_savemissingfieldvalue_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="savemissingfieldvalue"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_savemissingfieldvalue_Test -->
+      <class name="common.RequestHistoryTest">
+        <methods>
+          <include name="ClickFristItemRequestHistory"/>
+          <include name="callriver"/>
+          <include name="beforeMethod"/>
+          <include name="scrollitemetails"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="MenuRequestHistory"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- common.RequestHistoryTest -->
+      <class name="towing.DismissTowingRatesheetTest">
+        <methods>
+          <include name="assertError"/>
+          <include name="submitRateButton"/>
+          <include name="afterMethod"/>
+          <include name="clickismissRate"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="clickratingBarButton"/>
+          <include name="IssuesTextAssert"/>
+          <include name="beforeMethod"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
+        </methods>
+      </class> <!-- towing.DismissTowingRatesheetTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="driverApi.API_Driver_FuelAndBattery_completejob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="completejob"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_completejob_Test -->
+      <class name="driverApi.API_Driver_Startjob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="driverLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_Startjob_Test -->
+      <class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+        <methods>
+          <include name="vehiclepickedup"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test -->
+    </classes>
+  </test> <!-- Fuel(failed) -->
+  <test thread-count="5" name="fuelCaution(failed)">
+    <classes>
+      <class name="Fuel.cautionFuelRequestTest">
+        <methods>
+          <include name="selectFuelService"/>
+          <include name="ConfirmpaymentButton"/>
+          <include name="ConfirmfuelType"/>
+          <include name="SelectFuelType"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="MoveMap"/>
+          <include name="confirmbackome"/>
+          <include name="beforeMethod"/>
+          <include name="clickBackarrrow2"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="clickBackarrrow4"/>
+          <include name="clickBackarrow1"/>
+          <include name="clickBackarrrow3"/>
+          <include name="Dragsheet"/>
+        </methods>
+      </class> <!-- Fuel.cautionFuelRequestTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+    </classes>
+  </test> <!-- fuelCaution(failed) -->
+  <test thread-count="5" name="DissmissFuelCaution(failed)">
+    <classes>
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="Fuel.dismisscautionFuelRequestTest">
+        <methods>
+          <include name="SelectFuelType"/>
+          <include name="ConfirmfuelType"/>
+          <include name="selectFuelService"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="clickBackarrrow4"/>
+          <include name="Dragsheet"/>
+          <include name="beforeMethod"/>
+          <include name="dissmisscaution"/>
+          <include name="ConfirmpaymentButton"/>
+          <include name="clickBackarrow1"/>
+          <include name="clickBackarrrow3"/>
+          <include name="clickBackarrrow2"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="MoveMap"/>
+        </methods>
+      </class> <!-- Fuel.dismisscautionFuelRequestTest -->
+    </classes>
+  </test> <!-- DissmissFuelCaution(failed) -->
+  <test thread-count="5" name="towing(failed)">
+    <classes>
+      <class name="fleetAndAdmin.OpenFleetAndAssignRequestTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="OpenFleetURL"/>
+        </methods>
+      </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestTest -->
+      <class name="towing.validPickUPLocationTest">
+        <methods>
+          <include name="ClickSearchresultItem"/>
+          <include name="beforeMethod"/>
+          <include name="SendPickupLocation"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="Addingvalidpickup"/>
+        </methods>
+      </class> <!-- towing.validPickUPLocationTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.RatesheetTest">
+        <methods>
+          <include name="ratedriver"/>
+          <include name="assertError"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="submit5RateButton"/>
+          <include name="submitRateButton"/>
+          <include name="doneRequestBtn"/>
+          <include name="clickratingBarButton"/>
+          <include name="beforeMethod"/>
+          <include name="IssuesTextAssert"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
+        </methods>
+      </class> <!-- common.RatesheetTest -->
+      <class name="driverApi.API_Driver_savemissingfieldvalue_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="savemissingfieldvalue"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_savemissingfieldvalue_Test -->
+      <class name="driverApi.API_Driver_completejob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="completejob"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_completejob_Test -->
+      <class name="common.RequestHistoryTest">
+        <methods>
+          <include name="ClickFristItemRequestHistory"/>
+          <include name="callriver"/>
+          <include name="beforeMethod"/>
+          <include name="scrollitemetails"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="MenuRequestHistory"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- common.RequestHistoryTest -->
+      <class name="towing.DismissTowingRatesheetTest">
+        <methods>
+          <include name="assertError"/>
+          <include name="submitRateButton"/>
+          <include name="afterMethod"/>
+          <include name="clickismissRate"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="clickratingBarButton"/>
+          <include name="IssuesTextAssert"/>
+          <include name="beforeMethod"/>
+          <include name="SelectReason"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="allstarts"/>
+        </methods>
+      </class> <!-- towing.DismissTowingRatesheetTest -->
+      <class name="driverApi.API_Driver_vehiclepickedup_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyqrcode"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="vehiclepickedup"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_vehiclepickedup_Test -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="towing.addNormalTowingRequestTest">
+        <methods>
+          <include name="ClickSearchItem"/>
+          <include name="SendDestLocation"/>
+          <include name="AddingDestination"/>
+          <include name="afterMethod"/>
+          <include name="ConfirmDestination"/>
+          <include name="ConfirmPaymentTowingRequest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ConfirmTowingRequest"/>
+          <include name="selectTowingService"/>
+          <include name="ClickSearchDest"/>
+          <include name="beforeMethod"/>
+          <include name="selectNormalTowing"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- towing.addNormalTowingRequestTest -->
+      <class name="driverApi.API_Driver_Startjob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="driverLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- driverApi.API_Driver_Startjob_Test -->
     </classes>
-  </test> <!-- Battery(failed) -->
+  </test> <!-- towing(failed) -->
+  <test thread-count="5" name="TowinglCaution(failed)">
+    <classes>
+      <class name="towing.validPickUPLocationTest">
+        <methods>
+          <include name="ClickSearchresultItem"/>
+          <include name="beforeMethod"/>
+          <include name="SendPickupLocation"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="Addingvalidpickup"/>
+        </methods>
+      </class> <!-- towing.validPickUPLocationTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="towing.cautionTowingRequestTest">
+        <methods>
+          <include name="ClickSearchDest"/>
+          <include name="clcikBackarrow"/>
+          <include name="selectNormalTowing"/>
+          <include name="afterMethod"/>
+          <include name="selectTowingService"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="SendDestLocation"/>
+          <include name="beforeMethod"/>
+          <include name="AddingDestination"/>
+          <include name="ConfirmDestination"/>
+          <include name="afterSuite"/>
+          <include name="confirmbackome"/>
+          <include name="beforeTest"/>
+          <include name="ClickSearchItem"/>
+        </methods>
+      </class> <!-- towing.cautionTowingRequestTest -->
+    </classes>
+  </test> <!-- TowinglCaution(failed) -->
+  <test thread-count="5" name="DissmissTowingCaution(failed)">
+    <classes>
+      <class name="towing.validPickUPLocationTest">
+        <methods>
+          <include name="ClickSearchresultItem"/>
+          <include name="beforeMethod"/>
+          <include name="SendPickupLocation"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="Addingvalidpickup"/>
+        </methods>
+      </class> <!-- towing.validPickUPLocationTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="towing.DismissCautionTowingRequestTest">
+        <methods>
+          <include name="selectTowingService"/>
+          <include name="clcikBackarrow"/>
+          <include name="afterMethod"/>
+          <include name="selectNormalTowing"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ConfirmDestination"/>
+          <include name="ClickSearchDest"/>
+          <include name="ClickSearchItem"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="AddingDestination"/>
+          <include name="dissmisscaution"/>
+          <include name="SendDestLocation"/>
+        </methods>
+      </class> <!-- towing.DismissCautionTowingRequestTest -->
+    </classes>
+  </test> <!-- DissmissTowingCaution(failed) -->
+  <test thread-count="5" name="profile(failed)">
+    <classes>
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="profile.ProfileTest">
+        <methods>
+          <include name="dissmissPopup"/>
+          <include name="EditNamewithvalidآName"/>
+          <include name="SaveButton"/>
+          <include name="afterMethod"/>
+          <include name="ClickMenu"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="EditEmailwithvalidEmail"/>
+          <include name="clickprofiletabFromMenu"/>
+          <include name="afterSuite"/>
+          <include name="scrollitems"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- profile.ProfileTest -->
+      <class name="profile.Profile_GalleryImageTest">
+        <methods>
+          <include name="ClickMenu"/>
+          <include name="SaveButton"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="dissmissPopup"/>
+          <include name="GalleryImage"/>
+          <include name="beforeMethod"/>
+          <include name="scrollitems"/>
+          <include name="SelectFolder"/>
+          <include name="afterSuite"/>
+          <include name="clickprofiletabFromMenu"/>
+          <include name="beforeTest"/>
+          <include name="ImageOtions"/>
+          <include name="confirmImage"/>
+        </methods>
+      </class> <!-- profile.Profile_GalleryImageTest -->
+      <class name="profile.Profile_DeleteImageTest">
+        <methods>
+          <include name="ClickMenu"/>
+          <include name="clickprofiletabFromMenu"/>
+          <include name="ImageOtions"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="scrollitems"/>
+          <include name="beforeSuite"/>
+          <include name="DeleteImage"/>
+          <include name="beforeMethod"/>
+          <include name="SaveButton"/>
+          <include name="dissmissPopup"/>
+          <include name="afterSuite"/>
+          <include name="AllowPermissionImageTake"/>
+          <include name="beforeTest"/>
+          <include name="AllowPermissionaccessFiles"/>
+        </methods>
+      </class> <!-- profile.Profile_DeleteImageTest -->
+      <class name="profile.Profile_InvalidNameAndEmailTest">
+        <methods>
+          <include name="ValidateInvalidEmail"/>
+          <include name="ValidateInvalidName"/>
+          <include name="EditNamewithvalidآName"/>
+          <include name="SaveButton"/>
+          <include name="afterMethod"/>
+          <include name="ClickMenu"/>
+          <include name="EditNamewithvalidNumber"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="EditEmailwithvalidNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickprofiletabFromMenu"/>
+          <include name="SaveButton2"/>
+          <include name="afterSuite"/>
+          <include name="scrollitems"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- profile.Profile_InvalidNameAndEmailTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="profile.Profile_InvalidEmailFormatTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="scrollitems"/>
+          <include name="SaveButton"/>
+          <include name="ClickMenu"/>
+          <include name="EditEmailwithvalidNumber"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ValidateInvalidEmailFormat"/>
+          <include name="clickprofiletabFromMenu"/>
+        </methods>
+      </class> <!-- profile.Profile_InvalidEmailFormatTest -->
+      <class name="common.MenuTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- common.MenuTest -->
+      <class name="profile.Profile_TakeCameraImageTest">
+        <methods>
+          <include name="clickprofiletabFromMenu"/>
+          <include name="confirmImage"/>
+          <include name="CaptureImage"/>
+          <include name="afterMethod"/>
+          <include name="camera"/>
+          <include name="scrollitems"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="dissmissPopup"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SaveButton"/>
+          <include name="ImageOtionscenterIcon"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- profile.Profile_TakeCameraImageTest -->
+    </classes>
+  </test> <!-- profile(failed) -->
+  <test thread-count="5" name="CancelFueltPickupStatus(failed)">
+    <classes>
+      <class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest">
+        <methods>
+          <include name="OpenFleetURL"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="Fuel.addNormalFuelRequestTest">
+        <methods>
+          <include name="ConfirmpaymentButton"/>
+          <include name="SelectCash"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="selectFuelService"/>
+          <include name="ConfirmfuelType"/>
+          <include name="beforeMethod"/>
+          <include name="ConfirmCashPayment"/>
+          <include name="MoveMap"/>
+          <include name="SelectFuelType"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="Dragsheet"/>
+        </methods>
+      </class> <!-- Fuel.addNormalFuelRequestTest -->
+      <class name="common.DragTrackingsheetTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="dargTrackingSheet"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.DragTrackingsheetTest -->
+      <class name="common.CancelTrackingsheetTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AssertOutstandingText"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="CancelTrackingSheet"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.CancelTrackingsheetTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="driverApi.API_Driver_Startjob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="driverLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_Startjob_Test -->
+      <class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+        <methods>
+          <include name="vehiclepickedup"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test -->
+    </classes>
+  </test> <!-- CancelFueltPickupStatus(failed) -->
+  <test thread-count="5" name="CancelBatterytPickupStatus(failed)">
+    <classes>
+      <class name="fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest">
+        <methods>
+          <include name="OpenFleetURL"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- fleetAndAdmin.OpenFleetAndAssignRequestFuelAndBatteryTest -->
+      <class name="login.ClickloginbuttonfromHomescreenTest">
+        <methods>
+          <include name="Searchforcounrty"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="SelectCountyCode"/>
+          <include name="beforeSuite"/>
+          <include name="getotp"/>
+          <include name="addMobileNumber"/>
+          <include name="beforeMethod"/>
+          <include name="clickContinue"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="SelectEgypt"/>
+          <include name="clcikLogin"/>
+        </methods>
+      </class> <!-- login.ClickloginbuttonfromHomescreenTest -->
+      <class name="driverApi.API_Driver_savemissingfieldvalue_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="savemissingfieldvalue"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_savemissingfieldvalue_Test -->
+      <class name="common.DragTrackingsheetTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="dargTrackingSheet"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.DragTrackingsheetTest -->
+      <class name="common.CancelTrackingsheetTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AssertOutstandingText"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="CancelTrackingSheet"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.CancelTrackingsheetTest -->
+      <class name="common.allowLocationPermissionTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="clcallowLocationPermissionTestikLogin"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- common.allowLocationPermissionTest -->
+      <class name="driverApi.API_Driver_Startjob_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="driverLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_Startjob_Test -->
+      <class name="Battery.addNormalBatteryRequestTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ConfirmBaymnet"/>
+          <include name="SelectBattery"/>
+          <include name="afterSuite"/>
+          <include name="ConfirmSummery"/>
+          <include name="MoveMap"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="DragServiceSheet"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Battery.addNormalBatteryRequestTest -->
+      <class name="driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test">
+        <methods>
+          <include name="vehiclepickedup"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- driverApi.API_Driver_FuelAndBattery_vehiclepickedup_Test -->
+    </classes>
+  </test> <!-- CancelBatterytPickupStatus(failed) -->
 </suite> <!-- Failed suite [Suite] -->

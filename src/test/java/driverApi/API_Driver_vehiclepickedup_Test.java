@@ -60,6 +60,12 @@ public class API_Driver_vehiclepickedup_Test extends Base{
 		JsonPath path = new JsonPath(responsebody1);
 		boolean Success = path.get("success");
 		Assert.assertEquals(Success, true);
-		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
+	
 }

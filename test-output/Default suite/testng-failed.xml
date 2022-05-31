@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ERA.testcases.API_GetDeliveryCostTest">
+      <class name="common.CancelTrackingsheetTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="GeteliveryCost"/>
+          <include name="AssertOutstandingText"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="confirmCancelTrackingSheet"/>
+          <include name="CancelTrackingSheet"/>
           <include name="beforeSuite"/>
-          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.ERA.testcases.API_GetDeliveryCostTest -->
+      </class> <!-- common.CancelTrackingsheetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

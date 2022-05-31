@@ -3,8 +3,8 @@ package Fuel;
 import org.testng.annotations.Test;
 
 import com.ERA.base.Base;
-import com.ERA.screens.CancelFuelRequestScreen;
 import com.ERA.screens.addNormalFuelRequestTestScreen;
+import com.ERA.screens.addNormalTowingRequest;
 
 
 public class dismisscautionFuelRequestTest  extends Base {
@@ -97,64 +97,13 @@ public class dismisscautionFuelRequestTest  extends Base {
 		backarrow.clcikBackarrow();
 
 	}
-	@Test(priority = 10)
-	public void confirmbackome()
-
-	{
-		addNormalFuelRequestTestScreen confirmbackome = new addNormalFuelRequestTestScreen();
-		confirmbackome.dissmisscaution();
-		
-	}
 	@Test(priority = 11)
-	public void ConfirmfuelType2()
+	public void dissmisscaution()
 
 	{
-		addNormalFuelRequestTestScreen confirmFueltype = new addNormalFuelRequestTestScreen();
-		confirmFueltype.ConfirmfuelType();
+		addNormalTowingRequest confirmbackome = new addNormalTowingRequest();
+		confirmbackome.dissmisscaution();
 
 	}
-	@Test(priority = 12)
-	public void ConfirmpaymentButton2()
 
-	{
-		addNormalFuelRequestTestScreen ConfirmpaymentButton = new addNormalFuelRequestTestScreen();
-		ConfirmpaymentButton.ConfirmpaymentButton();
-
-	} 
-	
-	@Test(priority = 13)
-	public void SelectCash()
-
-	{
-		addNormalFuelRequestTestScreen SelectCash = new addNormalFuelRequestTestScreen();
-		SelectCash.SelectCash();
-
-	}
-	
-	@Test(priority = 14)
-	public void ConfirmCashPayment()
-
-	{
-		addNormalFuelRequestTestScreen ConfirmCashPayment = new addNormalFuelRequestTestScreen();
-		ConfirmCashPayment.ConfirmCashPayment();
-
-	}
-	
-	@Test(priority = 15)
-	public void CancelFuelRequest()
-
-	{
-		CancelFuelRequestScreen cancellink = new CancelFuelRequestScreen();
-		cancellink.confirmCancelFuelRequest();
-
-	}
-	
-	@Test(priority = 16)
-	public void CancelBnFuelRequest()
-
-	{
-		CancelFuelRequestScreen cancelBn = new CancelFuelRequestScreen();
-		cancelBn.ClickCancelFuelRequest();
-
-	}
 }

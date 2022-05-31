@@ -23,27 +23,27 @@ public class API_Driver_Login_Test extends Base{
 ////////////////////////////////Get Request///////////////////////////////////	
 		
 	////////////////dev///////////////////////
-//		RestAssured.baseURI =driverBaseURL + "/api/v1/user";
-//		RequestSpecification httpRequest = RestAssured.given();
-//		Response res = httpRequest
-//				.queryParam("login_id", "0501234562")
-//				.queryParam("gx", "30.239421666666665")
-//				.queryParam("password", "123456")
-//				.queryParam("gy", "31.483515000000004")
-//				.queryParam("device_id", "3920bb4aaafb213f")
-//				.queryParam("fcm_key", "eqZPPdoiTOS_UnBDsRxLoD%3AAPA91bEnMZf1NksCH-HlkkAXaKO_o1vGQ2ssBLLC4ens7xVi3ZbeRYbPehPANKOyWW8mR65kh7xKUfWoFJX5j8egn81w4nVfgl55z6MwDcj2r4CaFhuu_FuDj1UCtbiejXf2vWeV8Arg")
-//				.get("/login");
-/////////////////////live/////////////////////////
 		RestAssured.baseURI =driverBaseURL + "/api/v1/user";
 		RequestSpecification httpRequest = RestAssured.given();
 		Response res = httpRequest
-				.queryParam("login_id", "0553838888")
+				.queryParam("login_id", "0501234563")
 				.queryParam("gx", "30.239421666666665")
 				.queryParam("password", "123456")
 				.queryParam("gy", "31.483515000000004")
 				.queryParam("device_id", "3920bb4aaafb213f")
-				.queryParam("fcm_key", "fY0xVzqvTRa_SUgK9G-GmG%3AAPA91bG-MshGa6m4CaD1s0K44pCF3Eb2ST_OKZcZWTqAavc_XhPG5BCFTz-FxlTUwxnrSG8dXHSiwUCazw25c3NRlJBxiVOa6c2oqZuSdA8d2OYR0MUQp_dV2xj0o-C78LYmIZGyOPqT")
+				.queryParam("fcm_key", "eqZPPdoiTOS_UnBDsRxLoD%3AAPA91bEnMZf1NksCH-HlkkAXaKO_o1vGQ2ssBLLC4ens7xVi3ZbeRYbPehPANKOyWW8mR65kh7xKUfWoFJX5j8egn81w4nVfgl55z6MwDcj2r4CaFhuu_FuDj1UCtbiejXf2vWeV8Arg")
 				.get("/login");
+/////////////////////live/////////////////////////
+//		RestAssured.baseURI =driverBaseURL + "/api/v1/user";
+//		RequestSpecification httpRequest = RestAssured.given();
+//		Response res = httpRequest
+//				.queryParam("login_id", "0553838888")
+//				.queryParam("gx", "30.239421666666665")
+//				.queryParam("password", "123456")
+//				.queryParam("gy", "31.483515000000004")
+//				.queryParam("device_id", "3920bb4aaafb213f")
+//				.queryParam("fcm_key", "fY0xVzqvTRa_SUgK9G-GmG%3AAPA91bG-MshGa6m4CaD1s0K44pCF3Eb2ST_OKZcZWTqAavc_XhPG5BCFTz-FxlTUwxnrSG8dXHSiwUCazw25c3NRlJBxiVOa6c2oqZuSdA8d2OYR0MUQp_dV2xj0o-C78LYmIZGyOPqT")
+//				.get("/login");
 
 ////////////////////////////////Response ///////////////////////////////////
 		String responsebody1 = res.getBody().asString();

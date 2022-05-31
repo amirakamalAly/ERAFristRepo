@@ -23,6 +23,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -33,6 +34,7 @@ import com.ERA.utils.ExcelUtility;
 import com.ERA.utils.JobOrderIdUtility;
 import com.ERA.utils.LocationExcelUtility;
 import com.ERA.utils.RequestUtility;
+import com.ERA.utils.UpdateLocationUtility;
 import com.ERA.utils.access_tokenUtility;
 import com.ERA.utils.profileUitilty;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -263,12 +265,37 @@ public class Base {
 		data[0][2] = Email;
 		return data;
 	}
-//	@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})
+	
+//	@DataProvider(name = "LocationdataProivder")
+//	public Object[][] getlocation() throws IOException {
+//		Object longitude = null;
+//		Object latitude = null;
+//		Object ww[][]=UpdateLocationUtility.getMapTestData1();
+//		
+//		
+//	
+//	
+//		System.out.println("/////////////////");
+//				
+//				System.out.println(latitude);
+//				
+//				System.out.println("/////////////////");
+//				
+//				System.out.println(longitude);
+//				System.out.println("/////////////////");
+//				
+//				ww[0][0] = latitude;
+//				ww[0][1] = longitude;
+//				System.out.println(latitude);
+//				System.out.println(longitude);
+//		return ww;
+//	}
+	//@Parameters({"deviceName","platformName","platformVersion","udiddevice","skipServerInstallationpro","noSignpro"})
 	@Parameters({ "deviceName", "platformName", "platformVersion", "skipServerInstallationpro", "noSignpro" })
 	@BeforeTest
 //	public void beforeClass(String deviceName,String platformName,String platformVersion,String udiddevice ,boolean noSignpro, boolean skipServerInstallationpro) throws Exception {
-	public void beforeTest(String deviceName, String platformName, String platformVersion, boolean noSignpro,
-			boolean skipServerInstallationpro) throws Exception {
+
+	public void beforeTest(String deviceName, String platformName, String platformVersion, boolean noSignpro,	boolean skipServerInstallationpro) throws Exception {
 		File propFile = new File("src\\main\\config.properties");
 		inputStream = new FileInputStream(propFile);
 		prop = new Properties();
@@ -287,8 +314,8 @@ public class Base {
 		caps.setCapability("appActivity", "com.eci.era.splash.presentation.view.SplashActivity");
 		caps.setCapability("enforceAppInstall", true);
 
-		// used for mobile device
-		// caps.setCapability("udid", udiddevice);
+//		// used for mobile device
+//caps.setCapability("udid", udiddevice);
 		//////////////////////////////////////////
 
 		caps.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
@@ -298,9 +325,8 @@ public class Base {
 
 	}
 
-//	@AfterSuite
-//	public void afterClass() {
-//
-////driver.quit();
-//	}
+	@AfterTest
+	public void afterTest() {
+driver.quit();
+	}
 }
